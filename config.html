@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Configuration</title>
+    <link rel="stylesheet" href="config.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Configuration</h1>
+            <p>Manage your extension settings here.</p>
+        </header>
+
+        <main>
+            <section class="settings-group">
+                <h2>General Settings</h2>
+                <div class="setting-item">
+                    <label for="apiUrl">API URL:</label>
+                    <input type="text" id="apiUrl" placeholder="https://api.example.com">
+                </div>
+                <div class="setting-item">
+                    <label>
+                        <input type="checkbox" id="enableLogs"> Enable Logging
+                    </label>
+                </div>
+            </section>
+
+            <button id="saveBtn">Save Configuration</button>
+        </main>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="config.js"></script>
+</body>
+</html>
