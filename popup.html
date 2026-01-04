@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Response Tool</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="popup">
+        <header>
+            <p class="eyebrow">Request Response Tool</p>
+            <h1>Quick Controls</h1>
+        </header>
+        <div class="card">
+            <div class="row">
+                <span>Status</span>
+                <label class="switch">
+                    <input type="checkbox" id="popupEnabled">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="stats">
+                <div>
+                    <p class="label">Rules</p>
+                    <p class="stat" id="popupRules">0</p>
+                </div>
+                <div>
+                    <p class="label">Scripts</p>
+                    <p class="stat" id="popupScripts">0</p>
+                </div>
+            </div>
+        </div>
+        <button id="openDashboard" class="primary">Open Dashboard</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

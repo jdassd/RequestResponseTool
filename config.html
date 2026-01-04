@@ -3,36 +3,391 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extension Configuration</title>
+    <title>Request Response Tool</title>
     <link rel="stylesheet" href="config.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Configuration</h1>
-            <p>Manage your extension settings here.</p>
+    <div class="page">
+        <header class="hero">
+            <div>
+                <p class="eyebrow">Request Response Tool</p>
+                <h1>Shape traffic. Bend headers. Mock anything.</h1>
+                <p class="lede">Create layered request rules with precision. Redirect, block, rewrite headers, intercept bodies, and inject scripts without leaving your browser.</p>
+            </div>
+            <div class="hero-card">
+                <div>
+                    <p class="label">Extension Status</p>
+                    <div class="toggle-row">
+                        <label class="switch">
+                            <input type="checkbox" id="globalEnabled">
+                            <span class="slider"></span>
+                        </label>
+                        <span id="globalStatus">Enabled</span>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div>
+                        <p class="label">Rules</p>
+                        <p class="stat" id="ruleCount">0</p>
+                    </div>
+                    <div>
+                        <p class="label">Scripts</p>
+                        <p class="stat" id="scriptCount">0</p>
+                    </div>
+                </div>
+            </div>
         </header>
 
-        <main>
-            <section class="settings-group">
-                <h2>General Settings</h2>
-                <div class="setting-item">
-                    <label for="apiUrl">API URL:</label>
-                    <input type="text" id="apiUrl" placeholder="https://api.example.com">
+        <section class="panel" id="rulesPanel">
+            <div class="panel-header">
+                <div>
+                    <h2>Rules Library</h2>
+                    <p>Drag to reprioritize. Toggle to activate. Everything is stored locally.</p>
                 </div>
-                <div class="setting-item">
-                    <label>
-                        <input type="checkbox" id="enableLogs"> Enable Logging
-                    </label>
+                <button class="primary" id="newRuleBtn">New Rule</button>
+            </div>
+            <div class="rule-list" id="ruleList"></div>
+        </section>
+
+        <section class="panel" id="editorPanel">
+            <div class="panel-header">
+                <div>
+                    <h2>Rule Editor</h2>
+                    <p>Build a request rule. Choose a match strategy and action.</p>
                 </div>
-            </section>
+                <div class="chip" id="editingBadge">Creating</div>
+            </div>
 
-            <button id="saveBtn">Save Configuration</button>
-        </main>
+            <div class="editor-grid">
+                <div class="field">
+                    <label for="ruleName">Rule Name</label>
+                    <input type="text" id="ruleName" placeholder="My staging redirect">
+                </div>
+                <div class="field">
+                    <label for="ruleType">Rule Type</label>
+                    <select id="ruleType">
+                        <option value="redirect">Redirect Request</option>
+                        <option value="block">Block Request</option>
+                        <option value="headers">Modify Headers</option>
+                        <option value="mock">Mock Response</option>
+                        <option value="intercept">Intercept Request/Response</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="rulePriority">Priority</label>
+                    <input type="number" id="rulePriority" min="1" value="1">
+                </div>
+                <div class="field">
+                    <label for="ruleEnabled">Active</label>
+                    <select id="ruleEnabled">
+                        <option value="true">Enabled</option>
+                        <option value="false">Disabled</option>
+                    </select>
+                </div>
+            </div>
 
-        <div id="status"></div>
+            <div class="subpanel">
+                <h3>Match</h3>
+                <div class="editor-grid">
+                    <div class="field">
+                        <label for="matchType">Match Type</label>
+                        <select id="matchType">
+                            <option value="string">String Match</option>
+                            <option value="wildcard">Wildcard</option>
+                            <option value="regex">Regex</option>
+                        </select>
+                    </div>
+                    <div class="field span-3">
+                        <label for="matchValue">Match Value</label>
+                        <input type="text" id="matchValue" placeholder="https://api.example.com/*">
+                    </div>
+                </div>
+            </div>
+
+            <div class="subpanel" id="redirectFields">
+                <h3>Redirect Target</h3>
+                <div class="field">
+                    <label for="redirectUrl">Destination URL</label>
+                    <input type="text" id="redirectUrl" placeholder="http://localhost:3000/app.js">
+                </div>
+            </div>
+
+            <div class="subpanel" id="blockFields">
+                <h3>Block Options</h3>
+                <p class="hint">Blocked requests will fail with a connection error.</p>
+            </div>
+
+            <div class="subpanel" id="headersFields">
+                <h3>Header Modifications</h3>
+                <div class="headers-section">
+                    <div class="headers-header">
+                        <p>Request Headers</p>
+                        <button class="ghost" id="addRequestHeader">Add</button>
+                    </div>
+                    <div class="headers-list" id="requestHeadersList"></div>
+                </div>
+                <div class="headers-section">
+                    <div class="headers-header">
+                        <p>Response Headers</p>
+                        <button class="ghost" id="addResponseHeader">Add</button>
+                    </div>
+                    <div class="headers-list" id="responseHeadersList"></div>
+                </div>
+            </div>
+
+            <div class="subpanel" id="mockFields">
+                <h3>Mock Response</h3>
+                <div class="editor-grid">
+                    <div class="field">
+                        <label for="mockStatus">Status Code</label>
+                        <input type="number" id="mockStatus" value="200" min="100" max="599">
+                    </div>
+                    <div class="field span-3">
+                        <label for="mockContentType">Content-Type</label>
+                        <input type="text" id="mockContentType" placeholder="application/json">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="mockBody">Body</label>
+                    <textarea id="mockBody" rows="6" placeholder='{"ok": true}'></textarea>
+                    <p class="hint">Mock responses are served as data URLs in MV3, status code is stored for reference.</p>
+                </div>
+            </div>
+
+            <div class="subpanel" id="interceptFields">
+                <h3>Intercept Request + Response</h3>
+                <div class="split">
+                    <div class="subpanel">
+                        <h4>Request</h4>
+                        <div class="editor-grid">
+                            <div class="field">
+                                <label for="interceptRequestMode">Mode</label>
+                                <select id="interceptRequestMode">
+                                    <option value="pass">Pass</option>
+                                    <option value="block">Block</option>
+                                    <option value="modify">Modify</option>
+                                </select>
+                            </div>
+                            <div class="field span-3">
+                                <label for="interceptRequestUrl">Override URL (optional)</label>
+                                <input type="text" id="interceptRequestUrl" placeholder="https://api.example.com/v2">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="interceptRequestHeaders">Headers JSON</label>
+                            <textarea id="interceptRequestHeaders" rows="4" placeholder='{"X-Trace":"on","X-Remove":null}'></textarea>
+                        </div>
+                        <div class="field">
+                            <label for="interceptRequestBody">Body (raw or JSON)</label>
+                            <textarea id="interceptRequestBody" rows="4" placeholder='{"env":"staging"}'></textarea>
+                        </div>
+                    </div>
+                    <div class="subpanel">
+                        <h4>Response</h4>
+                        <div class="editor-grid">
+                            <div class="field">
+                                <label for="interceptResponseMode">Mode</label>
+                                <select id="interceptResponseMode">
+                                    <option value="pass">Pass</option>
+                                    <option value="mock">Mock</option>
+                                    <option value="modify">Modify</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="interceptResponseStatus">Status Code</label>
+                                <input type="number" id="interceptResponseStatus" value="200" min="100" max="599">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="interceptResponseHeaders">Headers JSON</label>
+                            <textarea id="interceptResponseHeaders" rows="4" placeholder='{"Content-Type":"application/json"}'></textarea>
+                        </div>
+                        <div class="field">
+                            <label for="interceptResponseBody">Body Template (use {{body}})</label>
+                            <textarea id="interceptResponseBody" rows="4" placeholder='{"data":{{body}}}'></textarea>
+                            <p class="hint">Use {{body}} to inject the original response text.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="ghost" id="resetRule">Reset</button>
+                <button class="primary" id="saveRule">Save Rule</button>
+                <span class="status" id="ruleStatus"></span>
+            </div>
+        </section>
+
+        <section class="panel" id="testerPanel">
+            <div class="panel-header">
+                <div>
+                    <h2>Rule Tester</h2>
+                    <p>Paste a URL and preview which rules would match.</p>
+                </div>
+            </div>
+            <div class="editor-grid">
+                <div class="field span-3">
+                    <label for="testUrl">Test URL</label>
+                    <input type="text" id="testUrl" placeholder="https://api.example.com/v1/users">
+                </div>
+                <div class="field">
+                    <label>&nbsp;</label>
+                    <button class="primary" id="runTest">Run Test</button>
+                </div>
+            </div>
+            <div id="testResults" class="test-results"></div>
+        </section>
+
+        <section class="panel" id="scriptPanel">
+            <div class="panel-header">
+                <div>
+                    <h2>Script Injection</h2>
+                    <p>Inject small JS/CSS snippets at precise timing.</p>
+                </div>
+                <button class="primary" id="newScriptBtn">New Script</button>
+            </div>
+            <div class="rule-list" id="scriptList"></div>
+
+            <div class="subpanel">
+                <h3>Script Editor</h3>
+                <div class="editor-grid">
+                    <div class="field">
+                        <label for="scriptName">Script Name</label>
+                        <input type="text" id="scriptName" placeholder="Add debug overlay">
+                    </div>
+                    <div class="field">
+                        <label for="scriptRunAt">Run At</label>
+                        <select id="scriptRunAt">
+                            <option value="document_start">Document Start</option>
+                            <option value="document_end">DOM Ready</option>
+                            <option value="document_idle">Document Idle</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="scriptEnabled">Active</label>
+                        <select id="scriptEnabled">
+                            <option value="true">Enabled</option>
+                            <option value="false">Disabled</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="subpanel">
+                    <h3>Match</h3>
+                    <div class="editor-grid">
+                        <div class="field">
+                            <label for="scriptMatchType">Match Type</label>
+                            <select id="scriptMatchType">
+                                <option value="string">String Match</option>
+                                <option value="wildcard">Wildcard</option>
+                                <option value="regex">Regex</option>
+                            </select>
+                        </div>
+                        <div class="field span-3">
+                            <label for="scriptMatchValue">Match Value</label>
+                            <input type="text" id="scriptMatchValue" placeholder="*://*.example.com/*">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="scriptJs">JavaScript</label>
+                    <textarea id="scriptJs" rows="6" placeholder="console.log('Injected!');"></textarea>
+                </div>
+                <div class="field">
+                    <label for="scriptCss">CSS</label>
+                    <textarea id="scriptCss" rows="5" placeholder="body { outline: 4px solid hotpink; }"></textarea>
+                </div>
+                <div class="actions">
+                    <button class="ghost" id="resetScript">Reset</button>
+                    <button class="primary" id="saveScript">Save Script</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="batchPanel">
+            <div class="panel-header">
+                <div>
+                    <h2>Batch Request Runner</h2>
+                    <p>Send multi-threaded requests with CSV/XLSX data.</p>
+                </div>
+            </div>
+            <div class="editor-grid">
+                <div class="field span-3">
+                    <label for="batchUrl">Request URL Template</label>
+                    <input type="text" id="batchUrl" placeholder="https://api.example.com/users/{{id}}">
+                </div>
+                <div class="field">
+                    <label for="batchMethod">Method</label>
+                    <select id="batchMethod">
+                        <option value="GET">GET</option>
+                        <option value="POST">POST</option>
+                        <option value="PUT">PUT</option>
+                        <option value="PATCH">PATCH</option>
+                        <option value="DELETE">DELETE</option>
+                    </select>
+                </div>
+                <div class="field span-3">
+                    <label for="batchHeaders">Headers JSON Template</label>
+                    <textarea id="batchHeaders" rows="3" placeholder='{"Authorization":"Bearer {{token}}"}'></textarea>
+                </div>
+                <div class="field span-3">
+                    <label for="batchBody">Body Template</label>
+                    <textarea id="batchBody" rows="4" placeholder='{"email":"{{email}}"}'></textarea>
+                </div>
+                <div class="field">
+                    <label for="batchConcurrency">Concurrency</label>
+                    <input type="number" id="batchConcurrency" value="4" min="1" max="50">
+                </div>
+                <div class="field">
+                    <label for="batchTimeout">Timeout (ms)</label>
+                    <input type="number" id="batchTimeout" value="15000" min="1000">
+                </div>
+            </div>
+            <div class="actions">
+                <label class="ghost file-btn">
+                    Load CSV / XLSX / JSON
+                    <input type="file" id="batchFile" accept=".csv,.xlsx,.xls,.json">
+                </label>
+                <button class="primary" id="batchStart">Start</button>
+                <button class="ghost" id="batchStop">Stop</button>
+                <span class="status" id="batchStatus"></span>
+            </div>
+            <div class="batch-metrics" id="batchMetrics"></div>
+            <div class="batch-results" id="batchResults"></div>
+        </section>
+
+        <section class="panel" id="logsPanel">
+            <div class="panel-header">
+                <div>
+                    <h2>Match Logs</h2>
+                    <p>Recent rule hits from declarative rules.</p>
+                </div>
+                <button class="ghost" id="clearLogs">Clear Logs</button>
+            </div>
+            <div class="log-list" id="logList"></div>
+        </section>
+
+        <section class="panel" id="importExport">
+            <div class="panel-header">
+                <div>
+                    <h2>Import / Export</h2>
+                    <p>Move rules between machines or share with your team.</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="ghost" id="exportBtn">Export JSON</button>
+                <label class="ghost file-btn">
+                    Import JSON
+                    <input type="file" id="importInput" accept="application/json">
+                </label>
+                <span id="importStatus" class="hint"></span>
+            </div>
+        </section>
     </div>
 
+    <script src="xlsx.full.min.js"></script>
     <script src="config.js"></script>
 </body>
 </html>
