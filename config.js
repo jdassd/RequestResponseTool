@@ -1,1 +1,1162 @@
-﻿਍潣獮⁴呓呁彅䕋⁙‽爧瑲獟慴整㬧挊湯瑳䰠䝏当䕋⁙‽爧瑲江杯❳਻挊湯瑳䐠䙅啁呌卟䅔䕔㴠笠 †攠慮汢摥›牴敵ਬ††畲敬㩳嬠ⱝ †猠牣灩獴›嵛紊਻挊湯瑳猠慴整㴠笠 †搠瑡㩡䐠䙅啁呌卟䅔䕔ਬ††潬獧›嵛ਬ††摥瑩湩剧汵䥥㩤渠汵ⱬ †攠楤楴杮捓楲瑰摉›畮汬ਬ††慢捴㩨笠 †††爠睯㩳嬠ⱝ †††爠湵楮杮›慦獬ⱥ †††愠潢瑲›慦獬ⱥ †††爠獥汵獴›嵛 †素紊਻挊湯瑳攠敬敭瑮⁳‽੻††汧扯污湅扡敬㩤搠捯浵湥⹴敧䕴敬敭瑮祂摉✨汧扯污湅扡敬❤Ⱙ †朠潬慢卬慴畴㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨汧扯污瑓瑡獵⤧ਬ††畲敬潃湵㩴搠捯浵湥⹴敧䕴敬敭瑮祂摉✨畲敬潃湵❴Ⱙ †猠牣灩䍴畯瑮›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧牣灩䍴畯瑮⤧ਬ††畲敬楌瑳›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤爧汵䱥獩❴Ⱙ †渠睥畒敬瑂㩮搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敮剷汵䉥湴⤧ਬ††摥瑩湩䉧摡敧›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤攧楤楴杮慂杤❥Ⱙ †爠汵乥浡㩥搠捯浵湥⹴敧䕴敬敭瑮祂摉✨畲敬慎敭⤧ਬ††畲敬祔数›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤爧汵呥灹❥Ⱙ †爠汵健楲牯瑩㩹搠捯浵湥⹴敧䕴敬敭瑮祂摉✨畲敬牐潩楲祴⤧ਬ††畲敬湅扡敬㩤搠捯浵湥⹴敧䕴敬敭瑮祂摉✨畲敬湅扡敬❤Ⱙ †洠瑡档祔数›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤洧瑡档祔数⤧ਬ††慭捴器污敵›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤洧瑡档慖畬❥Ⱙ †爠摥物捥䙴敩摬㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敲楤敲瑣楆汥獤⤧ਬ††汢捯䙫敩摬㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨汢捯䙫敩摬❳Ⱙ †栠慥敤獲楆汥獤›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤栧慥敤獲楆汥獤⤧ਬ††潭正楆汥獤›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤洧捯䙫敩摬❳Ⱙ †椠瑮牥散瑰楆汥獤›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤椧瑮牥散瑰楆汥獤⤧ਬ††敲楤敲瑣牕㩬搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敲楤敲瑣牕❬Ⱙ †爠煥敵瑳效摡牥䱳獩㩴搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敲畱獥䡴慥敤獲楌瑳⤧ਬ††敲灳湯敳效摡牥䱳獩㩴搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敲灳湯敳效摡牥䱳獩❴Ⱙ †愠摤敒畱獥䡴慥敤㩲搠捯浵湥⹴敧䕴敬敭瑮祂摉✨摡剤煥敵瑳效摡牥⤧ਬ††摡剤獥潰獮䡥慥敤㩲搠捯浵湥⹴敧䕴敬敭瑮祂摉✨摡剤獥潰獮䡥慥敤❲Ⱙ †洠捯卫慴畴㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨潭正瑓瑡獵⤧ਬ††潭正潃瑮湥呴灹㩥搠捯浵湥⹴敧䕴敬敭瑮祂摉✨潭正潃瑮湥呴灹❥Ⱙ †洠捯䉫摯㩹搠捯浵湥⹴敧䕴敬敭瑮祂摉✨潭正潂祤⤧ਬ††湩整捲灥剴煥敵瑳潍敤›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤椧瑮牥散瑰敒畱獥䵴摯❥Ⱙ †椠瑮牥散瑰敒畱獥啴汲›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤椧瑮牥散瑰敒畱獥啴汲⤧ਬ††湩整捲灥剴煥敵瑳效摡牥㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨湩整捲灥剴煥敵瑳效摡牥❳Ⱙ †椠瑮牥散瑰敒畱獥䉴摯㩹搠捯浵湥⹴敧䕴敬敭瑮祂摉✨湩整捲灥剴煥敵瑳潂祤⤧ਬ††湩整捲灥剴獥潰獮䵥摯㩥搠捯浵湥⹴敧䕴敬敭瑮祂摉✨湩整捲灥剴獥潰獮䵥摯❥Ⱙ †椠瑮牥散瑰敒灳湯敳瑓瑡獵›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤椧瑮牥散瑰敒灳湯敳瑓瑡獵⤧ਬ††湩整捲灥剴獥潰獮䡥慥敤獲›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤椧瑮牥散瑰敒灳湯敳效摡牥❳Ⱙ †椠瑮牥散瑰敒灳湯敳潂祤›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤椧瑮牥散瑰敒灳湯敳潂祤⤧ਬ††敲敳剴汵㩥搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敲敳剴汵❥Ⱙ †猠癡剥汵㩥搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慳敶畒敬⤧ਬ††畲敬瑓瑡獵›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤爧汵卥慴畴❳Ⱙ †琠獥啴汲›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤琧獥啴汲⤧ਬ††畲呮獥㩴搠捯浵湥⹴敧䕴敬敭瑮祂摉✨畲呮獥❴Ⱙ †琠獥剴獥汵獴›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤琧獥剴獥汵獴⤧ਬ††捳楲瑰楌瑳›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧牣灩䱴獩❴Ⱙ †渠睥捓楲瑰瑂㩮搠捯浵湥⹴敧䕴敬敭瑮祂摉✨敮卷牣灩䉴湴⤧ਬ††捳楲瑰慎敭›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧牣灩乴浡❥Ⱙ †猠牣灩剴湵瑁›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧牣灩剴湵瑁⤧ਬ††捳楲瑰湅扡敬㩤搠捯浵湥⹴敧䕴敬敭瑮祂摉✨捳楲瑰湅扡敬❤Ⱙ †猠牣灩䵴瑡档祔数›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧牣灩䵴瑡档祔数⤧ਬ††捳楲瑰慍捴器污敵›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧牣灩䵴瑡档慖畬❥Ⱙ †猠牣灩䩴㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨捳楲瑰獊⤧ਬ††捳楲瑰獃㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨捳楲瑰獃❳Ⱙ †爠獥瑥捓楲瑰›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤爧獥瑥捓楲瑰⤧ਬ††慳敶捓楲瑰›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤猧癡卥牣灩❴Ⱙ †戠瑡档牕㩬搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴啨汲⤧ਬ††慢捴䵨瑥潨㩤搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴䵨瑥潨❤Ⱙ †戠瑡档效摡牥㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴䡨慥敤獲⤧ਬ††慢捴䉨摯㩹搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴䉨摯❹Ⱙ †戠瑡档潃据牵敲据㩹搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴䍨湯畣牲湥祣⤧ਬ††慢捴周浩潥瑵›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤戧瑡档楔敭畯❴Ⱙ †戠瑡档楆敬›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤戧瑡档楆敬⤧ਬ††慢捴卨慴瑲›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤戧瑡档瑓牡❴Ⱙ †戠瑡档瑓灯›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤戧瑡档瑓灯⤧ਬ††慢捴卨慴畴㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴卨慴畴❳Ⱙ †戠瑡档敍牴捩㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨慢捴䵨瑥楲獣⤧ਬ††慢捴剨獥汵獴›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤戧瑡档敒畳瑬❳Ⱙ †氠杯楌瑳›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤氧杯楌瑳⤧ਬ††汣慥䱲杯㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨汣慥䱲杯❳Ⱙ †攠灸牯䉴湴›潤畣敭瑮朮瑥汅浥湥䉴䥹⡤攧灸牯䉴湴⤧ਬ††浩潰瑲湉異㩴搠捯浵湥⹴敧䕴敬敭瑮祂摉✨浩潰瑲湉異❴Ⱙ †椠灭牯却慴畴㩳搠捯浵湥⹴敧䕴敬敭瑮祂摉✨浩潰瑲瑓瑡獵⤧紊਻昊湵瑣潩⁮慳敶瑓瑡⡥ ੻††敲畴湲渠睥倠潲業敳⠨敲潳癬⥥㴠‾੻††††档潲敭献潴慲敧氮捯污献瑥笨嬠呓呁彅䕋嵙›瑳瑡⹥慤慴素‬敲潳癬⥥਻††⥽਻੽昊湵瑣潩⁮潬摡瑓瑡⡥ ੻††敲畴湲渠睥倠潲業敳⠨敲潳癬⥥㴠‾੻††††档潲敭献潴慲敧氮捯污朮瑥嬨呓呁彅䕋ⱙ䰠䝏当䕋嵙‬爨獥汵⥴㴠‾੻††††††瑳瑡⹥慤慴㴠爠獥汵孴呓呁彅䕋嵙簠⁼䕄䅆䱕彔呓呁㭅 †††††猠慴整氮杯⁳‽敲畳瑬䱛䝏当䕋嵙簠⁼嵛਻††††††敲潳癬⡥㬩 †††素㬩 †素㬩紊ਊ畦据楴湯猠癡䱥杯⡳潬獧 ੻††敲畴湲渠睥倠潲業敳⠨敲潳癬⥥㴠‾੻††††档潲敭献潴慲敧氮捯污献瑥笨嬠佌升䭟奅㩝氠杯⁳ⱽ爠獥汯敶㬩 †素㬩紊ਊ畦据楴湯猠潨卷慴畴⡳慴杲瑥‬敭獳条⥥笠 †椠⁦ℨ慴杲瑥 ੻††††敲畴湲਻††੽††慴杲瑥琮硥䍴湯整瑮㴠洠獥慳敧਻੽昊湵瑣潩⁮灵慤整汇扯污瑓瑡獵⤨笠 †攠敬敭瑮⹳汧扯污湅扡敬⹤档捥敫⁤‽℡瑳瑡⹥慤慴攮慮汢摥਻††汥浥湥獴朮潬慢卬慴畴⹳整瑸潃瑮湥⁴‽瑳瑡⹥慤慴攮慮汢摥㼠✠湅扡敬❤㨠✠楄慳汢摥㬧 †攠敬敭瑮⹳畲敬潃湵⹴整瑸潃瑮湥⁴‽瑓楲杮猨慴整搮瑡⹡畲敬⹳敬杮桴㬩 †攠敬敭瑮⹳捳楲瑰潃湵⹴整瑸潃瑮湥⁴‽瑓楲杮猨慴整搮瑡⹡捳楲瑰⹳敬杮桴㬩紊ਊ畦据楴湯猠潨䙷敩摬䙳牯祔数琨灹⥥笠 †攠敬敭瑮⹳敲楤敲瑣楆汥獤献祴敬搮獩汰祡㴠琠灹⁥㴽‽爧摥物捥❴㼠✠汢捯❫㨠✠潮敮㬧 †攠敬敭瑮⹳汢捯䙫敩摬⹳瑳汹⹥楤灳慬⁹‽祴数㴠㴽✠汢捯❫㼠✠汢捯❫㨠✠潮敮㬧 †攠敬敭瑮⹳敨摡牥䙳敩摬⹳瑳汹⹥楤灳慬⁹‽祴数㴠㴽✠敨摡牥❳㼠✠汢捯❫㨠✠潮敮㬧 †攠敬敭瑮⹳潭正楆汥獤献祴敬搮獩汰祡㴠琠灹⁥㴽‽洧捯❫㼠✠汢捯❫㨠✠潮敮㬧 †攠敬敭瑮⹳湩整捲灥䙴敩摬⹳瑳汹⹥楤灳慬⁹‽祴数㴠㴽✠湩整捲灥❴㼠✠汢捯❫㨠✠潮敮㬧紊ਊ畦据楴湯挠敲瑡䡥慥敤割睯琨牡敧䱴獩ⱴ搠瑡⁡‽絻 ੻††潣獮⁴潲⁷‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †爠睯挮慬獳慎敭㴠✠敨摡牥爭睯㬧ਊ††潣獮⁴敨摡牥湉異⁴‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨湩異❴㬩 †栠慥敤䥲灮瑵瀮慬散潨摬牥㴠✠效摡牥㬧 †栠慥敤䥲灮瑵瘮污敵㴠搠瑡⹡敨摡牥簠⁼✧਻ †挠湯瑳漠数慲楴湯敓敬瑣㴠搠捯浵湥⹴牣慥整汅浥湥⡴猧汥捥❴㬩 †嬠猧瑥Ⱗ✠敲潭敶Ⱗ✠灡数摮崧昮牯慅档⠨灯牥瑡潩⥮㴠‾੻††††潣獮⁴灯楴湯㴠搠捯浵湥⹴牣慥整汅浥湥⡴漧瑰潩❮㬩 †††漠瑰潩⹮慶畬⁥‽灯牥瑡潩㭮 †††漠瑰潩⹮整瑸潃瑮湥⁴‽灯牥瑡潩⹮潴灕数䍲獡⡥㬩 †††椠⁦漨数慲楴湯㴠㴽⠠慤慴漮数慲楴湯簠⁼猧瑥⤧ ੻††††††灯楴湯献汥捥整⁤‽牴敵਻††††੽††††灯牥瑡潩卮汥捥⹴灡数摮桃汩⡤灯楴湯㬩 †素㬩ਊ††潣獮⁴慶畬䥥灮瑵㴠搠捯浵湥⹴牣慥整汅浥湥⡴椧灮瑵⤧਻††慶畬䥥灮瑵瀮慬散潨摬牥㴠✠慖畬❥਻††慶畬䥥灮瑵瘮污敵㴠搠瑡⹡慶畬⁥籼✠㬧ਊ††潣獮⁴敲潭敶瑂⁮‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨畢瑴湯⤧਻††敲潭敶瑂⹮汣獡乳浡⁥‽朧潨瑳㬧 †爠浥癯䉥湴琮硥䍴湯整瑮㴠✠敒潭敶㬧 †爠浥癯䉥湴愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ⠠ 㸽爠睯爮浥癯⡥⤩਻ †爠睯愮灰湥䍤楨摬栨慥敤䥲灮瑵㬩 †爠睯愮灰湥䍤楨摬漨数慲楴湯敓敬瑣㬩 †爠睯愮灰湥䍤楨摬瘨污敵湉異⥴਻††潲⹷灡数摮桃汩⡤敲潭敶瑂⥮਻ †琠牡敧䱴獩⹴灡数摮桃汩⡤潲⥷਻੽昊湵瑣潩⁮潣汬捥䡴慥敤獲氨獩⥴笠 †挠湯瑳爠睯⁳‽楬瑳焮敵祲敓敬瑣牯汁⡬⸧敨摡牥爭睯⤧਻††潣獮⁴敨摡牥⁳‽嵛਻††潲獷昮牯慅档⠨潲⥷㴠‾੻††††潣獮⁴湩異獴㴠爠睯焮敵祲敓敬瑣牯汁⡬椧灮瑵‬敳敬瑣⤧਻††††潣獮⁴敨摡牥㴠椠灮瑵孳崰瘮污敵琮楲⡭㬩 †††挠湯瑳漠数慲楴湯㴠椠灮瑵孳崱瘮污敵਻††††潣獮⁴慶畬⁥‽湩異獴㉛⹝慶畬⹥牴浩⤨਻††††晩⠠校慥敤⥲笠 †††††爠瑥牵㭮 †††素 †††栠慥敤獲瀮獵⡨⁻敨摡牥‬灯牥瑡潩Ɱ瘠污敵›慶畬⁥籼甠摮晥湩摥素㬩 †素㬩 †爠瑥牵⁮敨摡牥㭳紊ਊ畦据楴湯瀠牡敳獊湯慖畬⡥整瑸 ੻††晩⠠琡硥⁴籼℠整瑸琮楲⡭⤩笠 †††爠瑥牵⁮畮汬਻††੽††敲畴湲䨠体⹎慰獲⡥整瑸㬩紊ਊ畦据楴湯洠瑡档獥牕⡬牵ⱬ洠瑡档 ੻††晩⠠洡瑡档簠⁼洡瑡档瘮污敵 ੻††††敲畴湲映污敳਻††੽††晩⠠慭捴⹨祴数㴠㴽✠敲敧❸ ੻††††牴⁹੻††††††敲畴湲渠睥删来硅⡰慭捴⹨慶畬⥥琮獥⡴牵⥬਻††††⁽慣捴⁨攨牲牯 ੻††††††敲畴湲映污敳਻††††੽††੽††晩⠠慭捴⹨祴数㴠㴽✠楷摬慣摲⤧笠 †††挠湯瑳攠捳灡摥㴠洠瑡档瘮污敵爮灥慬散⼨⹛師笤⡽簩屛屝嵜术‬尧⑜✦㬩 †††挠湯瑳爠来硥㴠渠睥删来硅⡰帧‧‫獥慣数⹤敲汰捡⡥尯⼪Ⱨ✠⨮⤧⬠✠✤㬩 †††爠瑥牵⁮敲敧⹸整瑳用汲㬩 †素 †爠瑥牵⁮牵⹬湩汣摵獥洨瑡档瘮污敵㬩紊ਊ畦据楴湯爠獥瑥畒敬摅瑩牯⤨笠 †猠慴整攮楤楴杮畒敬摉㴠渠汵㭬 †攠敬敭瑮⹳摥瑩湩䉧摡敧琮硥䍴湯整瑮㴠✠牃慥楴杮㬧 †攠敬敭瑮⹳畲敬慎敭瘮污敵㴠✠㬧 †攠敬敭瑮⹳畲敬祔数瘮污敵㴠✠敲楤敲瑣㬧 †攠敬敭瑮⹳畲敬牐潩楲祴瘮污敵㴠ㄠ਻††汥浥湥獴爮汵䕥慮汢摥瘮污敵㴠✠牴敵㬧 †攠敬敭瑮⹳慭捴周灹⹥慶畬⁥‽猧牴湩❧਻††汥浥湥獴洮瑡档慖畬⹥慶畬⁥‽✧਻††汥浥湥獴爮摥物捥啴汲瘮污敵㴠✠㬧 †攠敬敭瑮⹳潭正瑓瑡獵瘮污敵㴠㈠〰਻††汥浥湥獴洮捯䍫湯整瑮祔数瘮污敵㴠✠灡汰捩瑡潩⽮獪湯㬧 †攠敬敭瑮⹳潭正潂祤瘮污敵㴠✠㬧 †攠敬敭瑮⹳湩整捲灥剴煥敵瑳潍敤瘮污敵㴠✠慰獳㬧 †攠敬敭瑮⹳湩整捲灥剴煥敵瑳牕⹬慶畬⁥‽✧਻††汥浥湥獴椮瑮牥散瑰敒畱獥䡴慥敤獲瘮污敵㴠✠㬧 †攠敬敭瑮⹳湩整捲灥剴煥敵瑳潂祤瘮污敵㴠✠㬧 †攠敬敭瑮⹳湩整捲灥剴獥潰獮䵥摯⹥慶畬⁥‽瀧獡❳਻††汥浥湥獴椮瑮牥散瑰敒灳湯敳瑓瑡獵瘮污敵㴠㈠〰਻††汥浥湥獴椮瑮牥散瑰敒灳湯敳效摡牥⹳慶畬⁥‽✧਻††汥浥湥獴椮瑮牥散瑰敒灳湯敳潂祤瘮污敵㴠✠㬧 †攠敬敭瑮⹳敲畱獥䡴慥敤獲楌瑳椮湮牥呈䱍㴠✠㬧 †攠敬敭瑮⹳敲灳湯敳效摡牥䱳獩⹴湩敮䡲䵔⁌‽✧਻††桳睯瑓瑡獵攨敬敭瑮⹳畲敬瑓瑡獵‬✧㬩 †猠潨䙷敩摬䙳牯祔数✨敲楤敲瑣⤧਻੽昊湵瑣潩⁮敲敳却牣灩䕴楤潴⡲ ੻††瑳瑡⹥摥瑩湩卧牣灩䥴⁤‽畮汬਻††汥浥湥獴献牣灩乴浡⹥慶畬⁥‽✧਻††汥浥湥獴献牣灩剴湵瑁瘮污敵㴠✠潤畣敭瑮獟慴瑲㬧 †攠敬敭瑮⹳捳楲瑰湅扡敬⹤慶畬⁥‽琧畲❥਻††汥浥湥獴献牣灩䵴瑡档祔数瘮污敵㴠✠瑳楲杮㬧 †攠敬敭瑮⹳捳楲瑰慍捴器污敵瘮污敵㴠✠㬧 †攠敬敭瑮⹳捳楲瑰獊瘮污敵㴠✠㬧 †攠敬敭瑮⹳捳楲瑰獃⹳慶畬⁥‽✧਻ൽ昊湵瑣潩⁮敲摮牥畒敬楌瑳⤨笠 †攠敬敭瑮⹳畲敬楌瑳椮湮牥呈䱍㴠✠㬧 †椠⁦ℨ瑳瑡⹥慤慴爮汵獥氮湥瑧⥨笠 †††挠湯瑳攠灭祴㴠搠捯浵湥⹴牣慥整汅浥湥⡴瀧⤧਻††††浥瑰⹹汣獡乳浡⁥‽栧湩❴਻††††浥瑰⹹整瑸潃瑮湥⁴‽丧⁯畲敬⁳敹⹴䌠敲瑡⁥潹牵映物瑳爠汵⁥潴戠来湩猠慨楰杮琠慲晦捩✮਻††††汥浥湥獴爮汵䱥獩⹴灡数摮桃汩⡤浥瑰⥹਻††††敲畴湲਻††੽ †猠慴整搮瑡⹡畲敬⹳潦䕲捡⡨爨汵⥥㴠‾੻††††潣獮⁴慣摲㴠搠捯浵湥⹴牣慥整汅浥湥⡴搧癩⤧਻††††慣摲挮慬獳慎敭㴠✠畲敬挭牡❤਻††††慣摲搮慲杧扡敬㴠琠畲㭥 †††挠牡⹤慤慴敳⹴畲敬摉㴠爠汵⹥摩਻ †††挠湯瑳椠普⁯‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††挠湯瑳琠瑩敬㴠搠捯浵湥⹴牣慥整汅浥湥⡴栧✳㬩 †††琠瑩敬琮硥䍴湯整瑮㴠爠汵⹥慮敭簠⁼唧瑮瑩敬⁤畒敬㬧 †††挠湯瑳洠瑥⁡‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††洠瑥⹡汣獡乳浡⁥‽爧汵ⵥ敭慴㬧 †††洠瑥⹡湩敮䡲䵔⁌‽੠††††††猼慰㹮笤畲敬琮灹絥⼼灳湡ਾ††††††猼慰㹮牐潩楲祴␠牻汵⹥牰潩楲祴簠⁼紱⼼灳湡ਾ††††††猼慰㹮笤畲敬洮瑡档⸿祴数簠⁼猧牴湩❧㱽猯慰㹮 †††††㰠灳湡␾牻汵⹥慭捴㽨瘮污敵簠⁼✧㱽猯慰㹮 †††怠਻††††湩潦愮灰湥䍤楨摬琨瑩敬㬩 †††椠普⹯灡数摮桃汩⡤敭慴㬩ਊ††††潣獮⁴捡楴湯⁳‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††愠瑣潩獮挮慬獳慎敭㴠✠慣摲愭瑣潩獮㬧ਊ††††潣獮⁴潴杧敬㴠搠捯浵湥⹴牣慥整汅浥湥⡴氧扡汥⤧਻††††潴杧敬挮慬獳慎敭㴠✠睳瑩档㬧 †††挠湯瑳琠杯汧䥥灮瑵㴠搠捯浵湥⹴牣慥整汅浥湥⡴椧灮瑵⤧਻††††潴杧敬湉異⹴祴数㴠✠档捥扫硯㬧 †††琠杯汧䥥灮瑵挮敨正摥㴠℠爡汵⹥湥扡敬㭤 †††挠湯瑳猠楬敤⁲‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨灳湡⤧਻††††汳摩牥挮慬獳慎敭㴠✠汳摩牥㬧 †††琠杯汧⹥灡数摮桃汩⡤潴杧敬湉異⥴਻††††潴杧敬愮灰湥䍤楨摬猨楬敤⥲਻††††潴杧敬湉異⹴摡䕤敶瑮楌瑳湥牥✨档湡敧Ⱗ愠祳据⠠ 㸽笠 †††††爠汵⹥湥扡敬⁤‽潴杧敬湉異⹴档捥敫㭤 †††††愠慷瑩猠癡卥慴整⤨਻††††††敲摮牥畒敬楌瑳⤨਻††††††灵慤整汇扯污瑓瑡獵⤨਻††††⥽਻ †††挠湯瑳攠楤䉴湴㴠搠捯浵湥⹴牣慥整汅浥湥⡴戧瑵潴❮㬩 †††攠楤䉴湴挮慬獳慎敭㴠✠桧獯❴਻††††摥瑩瑂⹮整瑸潃瑮湥⁴‽䔧楤❴਻††††摥瑩瑂⹮摡䕤敶瑮楌瑳湥牥✨汣捩❫‬⤨㴠‾潬摡畒敬湉潴摅瑩牯爨汵⥥㬩ਊ††††潣獮⁴敤敬整瑂⁮‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨畢瑴湯⤧਻††††敤敬整瑂⹮汣獡乳浡⁥‽朧潨瑳㬧 †††搠汥瑥䉥湴琮硥䍴湯整瑮㴠✠敄敬整㬧 †††搠汥瑥䉥湴愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ愠祳据⠠ 㸽笠 †††††猠慴整搮瑡⹡畲敬⁳‽瑳瑡⹥慤慴爮汵獥昮汩整⡲椨整⥭㴠‾瑩浥椮⁤㴡‽畲敬椮⥤਻††††††睡楡⁴慳敶瑓瑡⡥㬩 †††††爠湥敤割汵䱥獩⡴㬩 †††††甠摰瑡䝥潬慢卬慴畴⡳㬩 †††素㬩ਊ††††捡楴湯⹳灡数摮桃汩⡤潴杧敬㬩 †††愠瑣潩獮愮灰湥䍤楨摬攨楤䉴湴㬩 †††愠瑣潩獮愮灰湥䍤楨摬搨汥瑥䉥湴㬩ਊ††††慣摲愮灰湥䍤楨摬椨普⥯਻††††慣摲愮灰湥䍤楨摬愨瑣潩獮㬩ਊ††††瑡慴档牄条慈摮敬獲挨牡⥤਻††††汥浥湥獴爮汵䱥獩⹴灡数摮桃汩⡤慣摲㬩 †素㬩紊ਊ畦据楴湯愠瑴捡䑨慲䡧湡汤牥⡳慣摲 ੻††慣摲愮摤癅湥䱴獩整敮⡲搧慲獧慴瑲Ⱗ⠠ 㸽笠 †††挠牡⹤汣獡䱳獩⹴摡⡤搧慲杧湩❧㬩 †素㬩 †挠牡⹤摡䕤敶瑮楌瑳湥牥✨牤条湥❤‬獡湹⁣⤨㴠‾੻††††慣摲挮慬獳楌瑳爮浥癯⡥搧慲杧湩❧㬩 †††挠湯瑳椠獤㴠䄠牲祡昮潲⡭汥浥湥獴爮汵䱥獩⹴畱牥卹汥捥潴䅲汬✨爮汵ⵥ慣摲⤧਩††††††洮灡⠨瑩浥 㸽丠浵敢⡲瑩浥搮瑡獡瑥爮汵䥥⥤਩††††††昮汩整⡲椨⥤㴠‾両浵敢⹲獩慎⡎摩⤩਻††††瑳瑡⹥慤慴爮汵獥献牯⡴愨‬⥢㴠‾摩⹳湩敤佸⡦⹡摩 ‭摩⹳湩敤佸⡦⹢摩⤩਻††††瑳瑡⹥慤慴爮汵獥昮牯慅档⠨畲敬‬湩敤⥸㴠‾੻††††††畲敬瀮楲牯瑩⁹‽湩敤⁸‫㬱 †††素㬩 †††愠慷瑩猠癡卥慴整⤨਻††††敲摮牥畒敬楌瑳⤨਻††⥽਻੽昊湵瑣潩⁮敧䑴慲䅧瑦牥汅浥湥⡴潣瑮楡敮Ⱳ礠 ੻††潣獮⁴牤条慧汢䕥敬敭瑮⁳‽⹛⸮潣瑮楡敮⹲畱牥卹汥捥潴䅲汬✨爮汵ⵥ慣摲渺瑯⸨牤条楧杮✩崩਻ †爠瑥牵⁮牤条慧汢䕥敬敭瑮⹳敲畤散⠨汣獯獥ⱴ挠楨摬 㸽笠 †††挠湯瑳戠硯㴠挠楨摬朮瑥潂湵楤杮汃敩瑮敒瑣⤨਻††††潣獮⁴景獦瑥㴠礠ⴠ戠硯琮灯ⴠ戠硯栮楥桧⁴ 㬲 †††椠⁦漨晦敳⁴‼‰☦漠晦敳⁴‾汣獯獥⹴景獦瑥 ੻††††††敲畴湲笠漠晦敳ⱴ攠敬敭瑮›档汩⁤㭽 †††素 †††爠瑥牵⁮汣獯獥㭴 †素‬⁻景獦瑥›畎扭牥丮䝅呁噉彅义䥆䥎奔‬汥浥湥㩴渠汵⁬⥽攮敬敭瑮਻੽昊湵瑣潩⁮潬摡畒敬湉潴摅瑩牯爨汵⥥笠 †猠慴整攮楤楴杮畒敬摉㴠爠汵⹥摩਻††汥浥湥獴攮楤楴杮慂杤⹥整瑸潃瑮湥⁴‽䔧楤楴杮㬧 †攠敬敭瑮⹳畲敬慎敭瘮污敵㴠爠汵⹥慮敭簠⁼✧਻††汥浥湥獴爮汵呥灹⹥慶畬⁥‽畲敬琮灹㭥 †攠敬敭瑮⹳畲敬牐潩楲祴瘮污敵㴠爠汵⹥牰潩楲祴簠⁼㬱 †攠敬敭瑮⹳畲敬湅扡敬⹤慶畬⁥‽畲敬攮慮汢摥㼠✠牴敵‧›昧污敳㬧 †攠敬敭瑮⹳慭捴周灹⹥慶畬⁥‽畲敬洮瑡档⸿祴数簠⁼猧牴湩❧਻††汥浥湥獴洮瑡档慖畬⹥慶畬⁥‽畲敬洮瑡档⸿慶畬⁥籼✠㬧 †攠敬敭瑮⹳敲楤敲瑣牕⹬慶畬⁥‽畲敬愮瑣潩㽮爮摥物捥啴汲簠⁼✧਻††汥浥湥獴洮捯卫慴畴⹳慶畬⁥‽畲敬愮瑣潩㽮洮捯㽫献慴畴䍳摯⁥籼㈠〰਻††汥浥湥獴洮捯䍫湯整瑮祔数瘮污敵㴠爠汵⹥捡楴湯⸿潭正⸿潣瑮湥呴灹⁥籼✠灡汰捩瑡潩⽮獪湯㬧 †攠敬敭瑮⹳潭正潂祤瘮污敵㴠爠汵⹥捡楴湯⸿潭正⸿潢祤簠⁼✧਻ †攠敬敭瑮⹳湩整捲灥剴煥敵瑳潍敤瘮污敵㴠爠汵⹥捡楴湯⸿敲畱獥㽴洮摯⁥籼✠慰獳㬧 †攠敬敭瑮⹳湩整捲灥剴煥敵瑳牕⹬慶畬⁥‽畲敬愮瑣潩㽮爮煥敵瑳⸿牵⁬籼✠㬧 †攠敬敭瑮⹳湩整捲灥剴煥敵瑳效摡牥⹳慶畬⁥‽畲敬愮瑣潩㽮爮煥敵瑳⸿敨摡牥ੳ††††‿半乏献牴湩楧祦爨汵⹥捡楴湯爮煥敵瑳栮慥敤獲‬畮汬‬⤲ †††㨠✠㬧 †攠敬敭瑮⹳湩整捲灥剴煥敵瑳潂祤瘮污敵㴠爠汵⹥捡楴湯⸿敲畱獥㽴戮摯⁹籼✠㬧 †攠敬敭瑮⹳湩整捲灥剴獥潰獮䵥摯⹥慶畬⁥‽畲敬愮瑣潩㽮爮獥潰獮㽥洮摯⁥籼✠慰獳㬧 †攠敬敭瑮⹳湩整捲灥剴獥潰獮卥慴畴⹳慶畬⁥‽畲敬愮瑣潩㽮爮獥潰獮㽥献慴畴䍳摯⁥籼㈠〰਻††汥浥湥獴椮瑮牥散瑰敒灳湯敳效摡牥⹳慶畬⁥‽畲敬愮瑣潩㽮爮獥潰獮㽥栮慥敤獲 †††㼠䨠体⹎瑳楲杮晩⡹畲敬愮瑣潩⹮敲灳湯敳栮慥敤獲‬畮汬‬⤲ †††㨠✠㬧 †攠敬敭瑮⹳湩整捲灥剴獥潰獮䉥摯⹹慶畬⁥‽畲敬愮瑣潩㽮爮獥潰獮㽥戮摯⁹籼✠㬧ਊ††汥浥湥獴爮煥敵瑳效摡牥䱳獩⹴湩敮䡲䵔⁌‽✧਻††汥浥湥獴爮獥潰獮䡥慥敤獲楌瑳椮湮牥呈䱍㴠✠㬧ਊ††爨汵⹥捡楴湯⸿敲畱獥䡴慥敤獲簠⁼嵛⸩潦䕲捡⡨栨慥敤⥲㴠‾牣慥整效摡牥潒⡷汥浥湥獴爮煥敵瑳效摡牥䱳獩ⱴ栠慥敤⥲㬩 †⠠畲敬愮瑣潩㽮爮獥潰獮䡥慥敤獲簠⁼嵛⸩潦䕲捡⡨栨慥敤⥲㴠‾牣慥整效摡牥潒⡷汥浥湥獴爮獥潰獮䡥慥敤獲楌瑳‬敨摡牥⤩਻ †猠潨䙷敩摬䙳牯祔数爨汵⹥祴数㬩紊ਊ畦据楴湯爠湥敤卲牣灩䱴獩⡴ ੻††汥浥湥獴献牣灩䱴獩⹴湩敮䡲䵔⁌‽✧਻††晩⠠猡慴整搮瑡⹡捳楲瑰⹳敬杮桴 ੻††††潣獮⁴浥瑰⁹‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨❰㬩 †††攠灭祴挮慬獳慎敭㴠✠楨瑮㬧 †††攠灭祴琮硥䍴湯整瑮㴠✠潎猠牣灩獴礠瑥‮摁⁤⁡捳楲瑰琠⁯湩敪瑣䨠⽓千⹓㬧 †††攠敬敭瑮⹳捳楲瑰楌瑳愮灰湥䍤楨摬攨灭祴㬩 †††爠瑥牵㭮 †素ਊ††瑳瑡⹥慤慴献牣灩獴昮牯慅档⠨捳楲瑰 㸽笠 †††挠湯瑳挠牡⁤‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††挠牡⹤汣獡乳浡⁥‽爧汵ⵥ慣摲㬧 †††挠湯瑳椠普⁯‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††挠湯瑳琠瑩敬㴠搠捯浵湥⹴牣慥整汅浥湥⡴栧✳㬩 †††琠瑩敬琮硥䍴湯整瑮㴠猠牣灩⹴慮敭簠⁼唧瑮瑩敬⁤捓楲瑰㬧 †††挠湯瑳洠瑥⁡‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††洠瑥⹡汣獡乳浡⁥‽爧汵ⵥ敭慴㬧 †††洠瑥⹡湩敮䡲䵔⁌‽੠††††††猼慰㹮笤捳楲瑰爮湵瑁㱽猯慰㹮 †††††㰠灳湡␾獻牣灩⹴慭捴㽨琮灹⁥籼✠瑳楲杮紧⼼灳湡ਾ††††††猼慰㹮笤捳楲瑰洮瑡档⸿慶畬⁥籼✠紧⼼灳湡ਾ††††㭠 †††椠普⹯灡数摮桃汩⡤楴汴⥥਻††††湩潦愮灰湥䍤楨摬洨瑥⥡਻ †††挠湯瑳愠瑣潩獮㴠搠捯浵湥⹴牣慥整汅浥湥⡴搧癩⤧਻††††捡楴湯⹳汣獡乳浡⁥‽挧牡ⵤ捡楴湯❳਻ †††挠湯瑳琠杯汧⁥‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨慬敢❬㬩 †††琠杯汧⹥汣獡乳浡⁥‽猧楷捴❨਻††††潣獮⁴潴杧敬湉異⁴‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨湩異❴㬩 †††琠杯汧䥥灮瑵琮灹⁥‽挧敨正潢❸਻††††潴杧敬湉異⹴档捥敫⁤‽℡捳楲瑰攮慮汢摥਻††††潣獮⁴汳摩牥㴠搠捯浵湥⹴牣慥整汅浥湥⡴猧慰❮㬩 †††猠楬敤⹲汣獡乳浡⁥‽猧楬敤❲਻††††潴杧敬愮灰湥䍤楨摬琨杯汧䥥灮瑵㬩 †††琠杯汧⹥灡数摮桃汩⡤汳摩牥㬩 †††琠杯汧䥥灮瑵愮摤癅湥䱴獩整敮⡲挧慨杮❥‬獡湹⁣⤨㴠‾੻††††††捳楲瑰攮慮汢摥㴠琠杯汧䥥灮瑵挮敨正摥਻††††††睡楡⁴慳敶瑓瑡⡥㬩 †††††爠湥敤卲牣灩䱴獩⡴㬩 †††††甠摰瑡䝥潬慢卬慴畴⡳㬩 †††素㬩ਊ††††潣獮⁴摥瑩瑂⁮‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨畢瑴湯⤧਻††††摥瑩瑂⹮汣獡乳浡⁥‽朧潨瑳㬧 †††攠楤䉴湴琮硥䍴湯整瑮㴠✠摅瑩㬧 †††攠楤䉴湴愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ⠠ 㸽氠慯卤牣灩䥴瑮䕯楤潴⡲捳楲瑰⤩਻ †††挠湯瑳搠汥瑥䉥湴㴠搠捯浵湥⹴牣慥整汅浥湥⡴戧瑵潴❮㬩 †††搠汥瑥䉥湴挮慬獳慎敭㴠✠桧獯❴਻††††敤敬整瑂⹮整瑸潃瑮湥⁴‽䐧汥瑥❥਻††††敤敬整瑂⹮摡䕤敶瑮楌瑳湥牥✨汣捩❫‬獡湹⁣⤨㴠‾੻††††††瑳瑡⹥慤慴献牣灩獴㴠猠慴整搮瑡⹡捳楲瑰⹳楦瑬牥⠨瑩浥 㸽椠整⹭摩℠㴽猠牣灩⹴摩㬩 †††††愠慷瑩猠癡卥慴整⤨਻††††††敲摮牥捓楲瑰楌瑳⤨਻††††††灵慤整汇扯污瑓瑡獵⤨਻††††⥽਻ †††愠瑣潩獮愮灰湥䍤楨摬琨杯汧⥥਻††††捡楴湯⹳灡数摮桃汩⡤摥瑩瑂⥮਻††††捡楴湯⹳灡数摮桃汩⡤敤敬整瑂⥮਻ †††挠牡⹤灡数摮桃汩⡤湩潦㬩 †††挠牡⹤灡数摮桃汩⡤捡楴湯⥳਻ †††攠敬敭瑮⹳捳楲瑰楌瑳愮灰湥䍤楨摬挨牡⥤਻††⥽਻੽昊湵瑣潩⁮潬摡捓楲瑰湉潴摅瑩牯猨牣灩⥴笠 †猠慴整攮楤楴杮捓楲瑰摉㴠猠牣灩⹴摩਻††汥浥湥獴献牣灩乴浡⹥慶畬⁥‽捳楲瑰渮浡⁥籼✠㬧 †攠敬敭瑮⹳捳楲瑰畒䅮⹴慶畬⁥‽捳楲瑰爮湵瑁簠⁼搧捯浵湥彴瑳牡❴਻††汥浥湥獴献牣灩䕴慮汢摥瘮污敵㴠猠牣灩⹴湥扡敬⁤‿琧畲❥㨠✠慦獬❥਻††汥浥湥獴献牣灩䵴瑡档祔数瘮污敵㴠猠牣灩⹴慭捴㽨琮灹⁥籼✠瑳楲杮㬧 †攠敬敭瑮⹳捳楲瑰慍捴器污敵瘮污敵㴠猠牣灩⹴慭捴㽨瘮污敵簠⁼✧਻††汥浥湥獴献牣灩䩴⹳慶畬⁥‽捳楲瑰樮⁳籼✠㬧 †攠敬敭瑮⹳捳楲瑰獃⹳慶畬⁥‽捳楲瑰挮獳簠⁼✧਻ൽ昊湵瑣潩⁮敲摮牥潌獧⤨笠 †攠敬敭瑮⹳潬䱧獩⹴湩敮䡲䵔⁌‽✧਻††晩⠠猡慴整氮杯⹳敬杮桴 ੻††††潣獮⁴浥瑰⁹‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨❰㬩 †††攠灭祴挮慬獳慎敭㴠✠楨瑮㬧 †††攠灭祴琮硥䍴湯整瑮㴠✠潎氠杯⁳敹⹴吠楲杧牥愠爠汵⁥潴猠敥洠瑡档獥✮਻††††汥浥湥獴氮杯楌瑳愮灰湥䍤楨摬攨灭祴㬩 †††爠瑥牵㭮 †素ਊ††瑳瑡⹥潬獧昮牯慅档⠨潬⥧㴠‾੻††††潣獮⁴瑩浥㴠搠捯浵湥⹴牣慥整汅浥湥⡴搧癩⤧਻††††瑩浥挮慬獳慎敭㴠✠潬ⵧ瑩浥㬧 †††挠湯瑳琠瑩敬㴠搠捯浵湥⹴牣慥整汅浥湥⡴猧牴湯❧㬩 †††琠瑩敬琮硥䍴湯整瑮㴠怠笤潬⹧畲敬慎敭簠⁼刧汵❥⁽꒡␠汻杯琮灹⁥籼✠湵湫睯❮恽਻††††潣獮⁴牵⁬‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨灳湡⤧਻††††牵⹬整瑸潃瑮湥⁴‽潬⹧牵⁬籼✠㬧 †††挠湯瑳琠浩⁥‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨灳湡⤧਻††††楴敭琮硥䍴湯整瑮㴠氠杯琮浩⁥‿敮⁷慄整氨杯琮浩⥥琮䱯捯污卥牴湩⡧ ›✧਻††††瑩浥愮灰湥䍤楨摬琨瑩敬㬩 †††椠整⹭灡数摮桃汩⡤牵⥬਻††††瑩浥愮灰湥䍤楨摬琨浩⥥਻††††汥浥湥獴氮杯楌瑳愮灰湥䍤楨摬椨整⥭਻††⥽਻੽昊湵瑣潩⁮畲剮汵呥獥⡴ ੻††潣獮⁴牵⁬‽汥浥湥獴琮獥啴汲瘮污敵琮楲⡭㬩 †攠敬敭瑮⹳整瑳敒畳瑬⹳湩敮䡲䵔⁌‽✧਻††晩⠠甡汲 ੻††††桳睯瑓瑡獵攨敬敭瑮⹳畲敬瑓瑡獵‬倧敬獡⁥湥整⁲⁡整瑳唠䱒✮㬩 †††爠瑥牵㭮 †素ਊ††潣獮⁴慭捴敨⁳‽瑳瑡⹥慤慴爮汵獥 †††⸠楦瑬牥⠨畲敬 㸽洠瑡档獥牕⡬牵ⱬ爠汵⹥慭捴⥨਩††††献牯⡴愨‬⥢㴠‾愨瀮楲牯瑩⁹籼ㄠ ‭戨瀮楲牯瑩⁹籼ㄠ⤩਻ †椠⁦ℨ慭捴敨⹳敬杮桴 ੻††††潣獮⁴潲⁷‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††爠睯挮慬獳慎敭㴠✠整瑳爭睯㬧 †††爠睯琮硥䍴湯整瑮㴠✠潎洠瑡档湩⁧畲敬⹳㬧 †††攠敬敭瑮⹳整瑳敒畳瑬⹳灡数摮桃汩⡤潲⥷਻††††敲畴湲਻††੽ †洠瑡档獥昮牯慅档⠨畲敬‬湩敤⥸㴠‾੻††††潣獮⁴潲⁷‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††爠睯挮慬獳慎敭㴠✠整瑳爭睯㬧 †††爠睯椮湮牥呈䱍㴠怠猼慰㹮␣楻摮硥⬠ㄠ⁽笤畲敬渮浡⁥籼✠湕楴汴摥紧⠠笤畲敬琮灹絥㰩猯慰㹮猼慰㹮牐潩楲祴␠牻汵⹥牰潩楲祴簠⁼紱⼼灳湡怾਻††††汥浥湥獴琮獥剴獥汵獴愮灰湥䍤楨摬爨睯㬩 †素㬩紊ਊ畦据楴湯朠瑥敎瑸畒敬摉⤨笠 †挠湯瑳椠獤㴠猠慴整搮瑡⹡畲敬⹳慭⡰爨汵⥥㴠‾畲敬椮⁤籼〠㬩 †爠瑥牵⁮摩⹳敬杮桴㼠䴠瑡⹨慭⡸⸮椮獤 ‫‱›㬱紊ਊ畦据楴湯朠瑥敎瑸捓楲瑰摉⤨笠 †爠瑥牵⁮獠牣灩⵴笤慄整渮睯⤨恽਻੽昊湵瑣潩⁮灵慤整畒敬䙳牯祔数⤨笠 †猠潨䙷敩摬䙳牯祔数攨敬敭瑮⹳畲敬祔数瘮污敵㬩紊ਊ畦据楴湯瘠污摩瑡剥汵⡥畲敬 ੻††晩⠠爡汵⹥慭捴⹨慶畬⥥笠 †††爠瑥牵⁮䴧瑡档瘠污敵椠⁳敲畱物摥✮਻††੽††晩⠠畲敬洮瑡档琮灹⁥㴽‽爧来硥⤧笠 †††琠祲笠 †††††渠睥删来硅⡰畲敬洮瑡档瘮污敵㬩 †††素挠瑡档⠠牥潲⥲笠 †††††爠瑥牵⁮刧来硥瀠瑡整湲椠⁳湩慶楬⹤㬧 †††素 †素 †椠⁦爨汵⹥祴数㴠㴽✠敲楤敲瑣‧☦℠畲敬愮瑣潩⹮敲楤敲瑣牕⥬笠 †††爠瑥牵⁮刧摥物捥⁴剕⁌獩爠煥極敲⹤㬧 †素 †爠瑥牵⁮✧਻੽愊祳据映湵瑣潩⁮慨摮敬慓敶畒敬⤨笠 †猠潨卷慴畴⡳汥浥湥獴爮汵卥慴畴ⱳ✠⤧਻ †挠湯瑳爠汵⁥‽੻††††摩›瑳瑡⹥摥瑩湩剧汵䥥⁤籼朠瑥敎瑸畒敬摉⤨ਬ††††慮敭›汥浥湥獴爮汵乥浡⹥慶畬⹥牴浩⤨簠⁼唧瑮瑩敬⁤畒敬Ⱗ †††琠灹㩥攠敬敭瑮⹳畲敬祔数瘮污敵ਬ††††牰潩楲祴›畎扭牥攨敬敭瑮⹳畲敬牐潩楲祴瘮污敵 籼ㄠਬ††††湥扡敬㩤攠敬敭瑮⹳畲敬湅扡敬⹤慶畬⁥㴽‽琧畲❥ਬ††††慭捴㩨笠 †††††琠灹㩥攠敬敭瑮⹳慭捴周灹⹥慶畬ⱥ †††††瘠污敵›汥浥湥獴洮瑡档慖畬⹥慶畬⹥牴浩⤨ †††素ਬ††††捡楴湯›絻 †素਻ †椠⁦爨汵⹥祴数㴠㴽✠敲楤敲瑣⤧笠 †††爠汵⹥捡楴湯爮摥物捥啴汲㴠攠敬敭瑮⹳敲楤敲瑣牕⹬慶畬⹥牴浩⤨਻††੽ †椠⁦爨汵⹥祴数㴠㴽✠敨摡牥❳ ੻††††畲敬愮瑣潩⹮敲畱獥䡴慥敤獲㴠挠汯敬瑣效摡牥⡳汥浥湥獴爮煥敵瑳效摡牥䱳獩⥴਻††††畲敬愮瑣潩⹮敲灳湯敳效摡牥⁳‽潣汬捥䡴慥敤獲攨敬敭瑮⹳敲灳湯敳效摡牥䱳獩⥴਻††੽ †椠⁦爨汵⹥祴数㴠㴽✠潭正⤧笠 †††爠汵⹥捡楴湯洮捯⁫‽੻††††††瑳瑡獵潃敤›畎扭牥攨敬敭瑮⹳潭正瑓瑡獵瘮污敵 籼㈠〰ਬ††††††潣瑮湥呴灹㩥攠敬敭瑮⹳潭正潃瑮湥呴灹⹥慶畬⹥牴浩⤨簠⁼愧灰楬慣楴湯樯潳❮ਬ††††††潢祤›汥浥湥獴洮捯䉫摯⹹慶畬੥††††㭽 †素ਊ††晩⠠畲敬琮灹⁥㴽‽椧瑮牥散瑰⤧笠 †††氠瑥爠煥敵瑳效摡牥⁳‽畮汬਻††††敬⁴敲灳湯敳效摡牥⁳‽畮汬਻††††牴⁹੻††††††敲畱獥䡴慥敤獲㴠瀠牡敳獊湯慖畬⡥汥浥湥獴椮瑮牥散瑰敒畱獥䡴慥敤獲瘮污敵㬩 †††††爠獥潰獮䡥慥敤獲㴠瀠牡敳獊湯慖畬⡥汥浥湥獴椮瑮牥散瑰敒灳湯敳效摡牥⹳慶畬⥥਻††††⁽慣捴⁨攨牲牯 ੻††††††桳睯瑓瑡獵攨敬敭瑮⹳畲敬瑓瑡獵‬䤧瑮牥散瑰栠慥敤獲䨠体⁎獩椠癮污摩✮㬩 †††††爠瑥牵㭮 †††素ਊ††††畲敬愮瑣潩⹮敲畱獥⁴‽੻††††††潭敤›汥浥湥獴椮瑮牥散瑰敒畱獥䵴摯⹥慶畬ⱥ †††††甠汲›汥浥湥獴椮瑮牥散瑰敒畱獥啴汲瘮污敵琮楲⡭ 籼甠摮晥湩摥ਬ††††††敨摡牥㩳爠煥敵瑳效摡牥⁳籼甠摮晥湩摥ਬ††††††潢祤›汥浥湥獴椮瑮牥散瑰敒畱獥䉴摯⹹慶畬⁥籼甠摮晥湩摥 †††素਻††††畲敬愮瑣潩⹮敲灳湯敳㴠笠 †††††洠摯㩥攠敬敭瑮⹳湩整捲灥剴獥潰獮䵥摯⹥慶畬ⱥ †††††猠慴畴䍳摯㩥丠浵敢⡲汥浥湥獴椮瑮牥散瑰敒灳湯敳瑓瑡獵瘮污敵 籼㈠〰ਬ††††††敨摡牥㩳爠獥潰獮䡥慥敤獲簠⁼湵敤楦敮Ɽ †††††戠摯㩹攠敬敭瑮⹳湩整捲灥剴獥潰獮䉥摯⹹慶畬⁥籼甠摮晥湩摥 †††素਻††੽ †挠湯瑳瘠污摩瑡潩䕮牲牯㴠瘠污摩瑡剥汵⡥畲敬㬩 †椠⁦瘨污摩瑡潩䕮牲牯 ੻††††桳睯瑓瑡獵攨敬敭瑮⹳畲敬瑓瑡獵‬慶楬慤楴湯牅潲⥲਻††††敲畴湲਻††੽ †椠⁦猨慴整攮楤楴杮畒敬摉 ੻††††潣獮⁴湩敤⁸‽瑳瑡⹥慤慴爮汵獥昮湩䥤摮硥⠨瑩浥 㸽椠整⹭摩㴠㴽猠慴整攮楤楴杮畒敬摉㬩 †††椠⁦椨摮硥℠㴽ⴠ⤱笠 †††††猠慴整搮瑡⹡畲敬孳湩敤嵸㴠爠汵㭥 †††素 †素攠獬⁥੻††††瑳瑡⹥慤慴爮汵獥瀮獵⡨畲敬㬩 †素ਊ††睡楡⁴慳敶瑓瑡⡥㬩 †爠湥敤割汵䱥獩⡴㬩 †甠摰瑡䝥潬慢卬慴畴⡳㬩 †爠獥瑥畒敬摅瑩牯⤨਻ൽ愊祳据映湵瑣潩⁮慨摮敬慓敶捓楲瑰⤨笠 †挠湯瑳猠牣灩⁴‽੻††††摩›瑳瑡⹥摥瑩湩卧牣灩䥴⁤籼朠瑥敎瑸捓楲瑰摉⤨ਬ††††慮敭›汥浥湥獴献牣灩乴浡⹥慶畬⹥牴浩⤨簠⁼唧瑮瑩敬⁤捓楲瑰Ⱗ †††爠湵瑁›汥浥湥獴献牣灩剴湵瑁瘮污敵ਬ††††湥扡敬㩤攠敬敭瑮⹳捳楲瑰湅扡敬⹤慶畬⁥㴽‽琧畲❥ਬ††††慭捴㩨笠 †††††琠灹㩥攠敬敭瑮⹳捳楲瑰慍捴周灹⹥慶畬ⱥ †††††瘠污敵›汥浥湥獴献牣灩䵴瑡档慖畬⹥慶畬⹥牴浩⤨ †††素ਬ††††獪›汥浥湥獴献牣灩䩴⹳慶畬ⱥ †††挠獳›汥浥湥獴献牣灩䍴獳瘮污敵 †素਻ †椠⁦猨慴整攮楤楴杮捓楲瑰摉 ੻††††潣獮⁴湩敤⁸‽瑳瑡⹥慤慴献牣灩獴昮湩䥤摮硥⠨瑩浥 㸽椠整⹭摩㴠㴽猠慴整攮楤楴杮捓楲瑰摉㬩 †††椠⁦椨摮硥℠㴽ⴠ⤱笠 †††††猠慴整搮瑡⹡捳楲瑰孳湩敤嵸㴠猠牣灩㭴 †††素 †素攠獬⁥੻††††瑳瑡⹥慤慴献牣灩獴瀮獵⡨捳楲瑰㬩 †素ਊ††睡楡⁴慳敶瑓瑡⡥㬩 †爠湥敤卲牣灩䱴獩⡴㬩 †甠摰瑡䝥潬慢卬慴畴⡳㬩 †爠獥瑥捓楲瑰摅瑩牯⤨਻੽愊祳据映湵瑣潩⁮慨摮敬硅潰瑲⤨笠 †挠湯瑳搠瑡⁡‽半乏献牴湩楧祦猨慴整搮瑡ⱡ渠汵ⱬ㈠㬩 †挠湯瑳戠潬⁢‽敮⁷求扯嬨慤慴ⱝ笠琠灹㩥✠灡汰捩瑡潩⽮獪湯‧⥽਻††潣獮⁴牵⁬‽剕⹌牣慥整扏敪瑣剕⡌汢扯㬩 †挠湯瑳愠据潨⁲‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨❡㬩 †愠据潨⹲牨晥㴠甠汲਻††湡档牯搮睯汮慯⁤‽爧煥敵瑳爭獥潰獮ⵥ潴汯樮潳❮਻††潤畣敭瑮戮摯⹹灡数摮桃汩⡤湡档牯㬩 †愠据潨⹲汣捩⡫㬩 †愠据潨⹲敲潭敶⤨਻††剕⹌敲潶敫扏敪瑣剕⡌牵⥬਻੽愊祳据映湵瑣潩⁮慨摮敬浉潰瑲攨敶瑮 ੻††潣獮⁴楦敬㴠攠敶瑮琮牡敧⹴楦敬孳崰਻††晩⠠昡汩⥥笠 †††爠瑥牵㭮 †素 †琠祲笠 †††挠湯瑳琠硥⁴‽睡楡⁴楦敬琮硥⡴㬩 †††挠湯瑳瀠牡敳⁤‽半乏瀮牡敳琨硥⥴਻††††瑳瑡⹥慤慴㴠笠 †††††攠慮汢摥›慰獲摥攮慮汢摥℠㴽映污敳ਬ††††††畲敬㩳䄠牲祡椮䅳牲祡瀨牡敳⹤畲敬⥳㼠瀠牡敳⹤畲敬⁳›嵛ਬ††††††捳楲瑰㩳䄠牲祡椮䅳牲祡瀨牡敳⹤捳楲瑰⥳㼠瀠牡敳⹤捳楲瑰⁳›嵛 †††素਻††††睡楡⁴慳敶瑓瑡⡥㬩 †††爠湥敤割汵䱥獩⡴㬩 †††爠湥敤卲牣灩䱴獩⡴㬩 †††甠摰瑡䝥潬慢卬慴畴⡳㬩 †††猠潨卷慴畴⡳汥浥湥獴椮灭牯却慴畴ⱳ✠浉潰瑲猠捵散獳畦⹬⤧਻††⁽慣捴⁨攨牲牯 ੻††††桳睯瑓瑡獵攨敬敭瑮⹳浩潰瑲瑓瑡獵‬䤧灭牯⁴慦汩摥‮湉慶楬⁤半乏✮㬩 †素映湩污祬笠 †††攠敶瑮琮牡敧⹴慶畬⁥‽✧਻††††敳呴浩潥瑵⠨ 㸽笠 †††††猠潨卷慴畴⡳汥浥湥獴椮灭牯却慴畴ⱳ✠⤧਻††††ⱽ㈠〰⤰਻††੽੽昊湵瑣潩⁮慰獲䍥癳琨硥⥴笠 †挠湯瑳爠睯⁳‽嵛਻††敬⁴畣牲湥⁴‽✧਻††敬⁴湩畑瑯獥㴠映污敳਻††敬⁴潲⁷‽嵛਻ †映牯⠠敬⁴⁩‽㬰椠㰠琠硥⹴敬杮桴※⁩㴫ㄠ ੻††††潣獮⁴档牡㴠琠硥孴嵩਻††††潣獮⁴敮瑸㴠琠硥孴⁩‫崱਻ †††椠⁦挨慨⁲㴽‽∧⤧笠 †††††椠⁦椨兮潵整⁳☦渠硥⁴㴽‽∧⤧笠 †††††††挠牵敲瑮⬠‽∧㬧 †††††††椠⬠‽㬱 †††††素攠獬⁥੻††††††††湩畑瑯獥㴠℠湩畑瑯獥਻††††††੽††††⁽汥敳椠⁦挨慨⁲㴽‽Ⱗ‧☦℠湩畑瑯獥 ੻††††††潲⹷異桳挨牵敲瑮㬩 †††††挠牵敲瑮㴠✠㬧 †††素攠獬⁥晩⠠挨慨⁲㴽‽尧❮簠⁼档牡㴠㴽✠牜⤧☠…椡兮潵整⥳笠 †††††椠⁦挨慨⁲㴽‽尧❲☠…敮瑸㴠㴽✠湜⤧笠 †††††††椠⬠‽㬱 †††††素 †††††爠睯瀮獵⡨畣牲湥⥴਻††††††畣牲湥⁴‽✧਻††††††晩⠠潲⹷敬杮桴㸠ㄠ簠⁼潲孷崰 ੻††††††††潲獷瀮獵⡨潲⥷਻††††††੽††††††潲⁷‽嵛਻††††⁽汥敳笠 †††††挠牵敲瑮⬠‽档牡਻††††੽††੽††晩⠠畣牲湥⁴籼爠睯氮湥瑧⥨笠 †††爠睯瀮獵⡨畣牲湥⥴਻††††潲獷瀮獵⡨潲⥷਻††੽ †椠⁦ℨ潲獷氮湥瑧⥨笠 †††爠瑥牵⁮嵛਻††੽ †挠湯瑳栠慥敤獲㴠爠睯⹳桳晩⡴⸩慭⡰栨慥敤⥲㴠‾敨摡牥琮楲⡭⤩਻††敲畴湲爠睯⹳慭⡰瘨污敵⥳㴠‾੻††††潣獮⁴湥牴⁹‽絻਻††††敨摡牥⹳潦䕲捡⡨栨慥敤Ⱳ椠摮硥 㸽笠 †††††攠瑮祲桛慥敤嵲㴠瘠污敵孳湩敤嵸℠㴽甠摮晥湩摥㼠瘠污敵孳湩敤嵸㨠✠㬧 †††素㬩 †††爠瑥牵⁮湥牴㭹 †素㬩紊ਊ獡湹⁣畦据楴湯瀠牡敳慂捴䙨汩⡥楦敬 ੻††潣獮⁴慮敭㴠映汩⹥慮敭琮䱯睯牥慃敳⤨਻††晩⠠慮敭攮摮坳瑩⡨⸧獣❶⤩笠 †††挠湯瑳琠硥⁴‽睡楡⁴楦敬琮硥⡴㬩 †††爠瑥牵⁮慰獲䍥癳琨硥⥴਻††੽††晩⠠慮敭攮摮坳瑩⡨⸧獪湯⤧ ੻††††潣獮⁴整瑸㴠愠慷瑩映汩⹥整瑸⤨਻††††潣獮⁴慰獲摥㴠䨠体⹎慰獲⡥整瑸㬩 †††爠瑥牵⁮牁慲⹹獩牁慲⡹慰獲摥 ‿慰獲摥㨠嬠㭝 †素 †椠⁦渨浡⹥湥獤楗桴✨砮獬❸ 籼渠浡⹥湥獤楗桴✨砮獬⤧ ੻††††潣獮⁴畢晦牥㴠愠慷瑩映汩⹥牡慲䉹晵敦⡲㬩 †††挠湯瑳眠牯扫潯⁫‽䱘塓爮慥⡤畢晦牥‬⁻祴数›愧牲祡‧⥽਻††††潣獮⁴桳敥乴浡⁥‽潷歲潢歯匮敨瑥慎敭孳崰਻††††潣獮⁴桳敥⁴‽潷歲潢歯匮敨瑥孳桳敥乴浡嵥਻††††敲畴湲堠卌⹘瑵汩⹳桳敥彴潴機潳⡮桳敥ⱴ笠搠晥慶㩬✠‧⥽਻††੽††敲畴湲嬠㭝紊ਊ畦据楴湯愠灰祬敔灭慬整琨硥ⱴ爠睯‬湩敤⥸笠 †椠⁦ℨ整瑸 ੻††††敲畴湲✠㬧 †素 †爠瑥牵⁮瑓楲杮琨硥⥴爮灥慬散⼨筜筜⸨㼪尩屽⽽Ⱨ⠠慭捴ⱨ欠祥 㸽笠 †††挠湯瑳琠楲浭摥㴠欠祥琮楲⡭㬩 †††椠⁦琨楲浭摥㴠㴽✠湩敤❸ ੻††††††敲畴湲匠牴湩⡧湩敤⁸‫⤱਻††††੽††††敲畴湲爠睯瑛楲浭摥⁝㴡‽湵敤楦敮⁤‿瑓楲杮爨睯瑛楲浭摥⥝㨠✠㬧 †素㬩紊ਊ獡湹⁣畦据楴湯猠湥䉤瑡档敒畱獥⡴潲ⱷ椠摮硥 ੻††潣獮⁴牵⁬‽灡汰呹浥汰瑡⡥汥浥湥獴戮瑡档牕⹬慶畬⹥牴浩⤨‬潲ⱷ椠摮硥㬩 †椠⁦ℨ牵⥬笠 †††琠牨睯渠睥䔠牲牯✨楍獳湩⁧剕⹌⤧਻††੽ †氠瑥栠慥敤獲㴠笠㭽 †椠⁦攨敬敭瑮⹳慢捴䡨慥敤獲瘮污敵琮楲⡭⤩笠 †††挠湯瑳栠慥敤呲硥⁴‽灡汰呹浥汰瑡⡥汥浥湥獴戮瑡档效摡牥⹳慶畬ⱥ爠睯‬湩敤⥸਻††††敨摡牥⁳‽半乏瀮牡敳栨慥敤呲硥⥴਻††੽ †挠湯瑳洠瑥潨⁤‽汥浥湥獴戮瑡档敍桴摯瘮污敵਻††敬⁴潢祤㴠愠灰祬敔灭慬整攨敬敭瑮⹳慢捴䉨摯⹹慶畬ⱥ爠睯‬湩敤⥸਻††晩⠠敭桴摯㴠㴽✠䕇❔簠⁼敭桴摯㴠㴽✠䕈䑁⤧笠 †††戠摯⁹‽湵敤楦敮㭤 †素ਊ††潣獮⁴潣瑮潲汬牥㴠渠睥䄠潢瑲潃瑮潲汬牥⤨਻††潣獮⁴楴敭畯⁴‽畎扭牥攨敬敭瑮⹳慢捴周浩潥瑵瘮污敵 籼ㄠ〵〰਻††潣獮⁴楴敭⁲‽敳呴浩潥瑵⠨ 㸽挠湯牴汯敬⹲扡牯⡴Ⱙ琠浩潥瑵㬩 †挠湯瑳猠慴瑲㴠瀠牥潦浲湡散渮睯⤨਻ †琠祲笠 †††挠湯瑳爠獥潰獮⁥‽睡楡⁴敦捴⡨牵ⱬ笠 †††††洠瑥潨Ɽ †††††栠慥敤獲ਬ††††††潢祤›潢祤簠⁼湵敤楦敮Ɽ †††††猠杩慮㩬挠湯牴汯敬⹲楳湧污 †††素㬩 †††挠湯瑳琠硥⁴‽睡楡⁴敲灳湯敳琮硥⡴㬩 †††挠湯瑳搠牵瑡潩⁮‽慍桴爮畯摮瀨牥潦浲湡散渮睯⤨ⴠ猠慴瑲㬩 †††爠瑥牵⁮੻††††††歯›敲灳湯敳漮Ⱬ †††††猠慴畴㩳爠獥潰獮⹥瑳瑡獵ਬ††††††畤慲楴湯ਬ††††††牰癥敩㩷琠硥⹴汳捩⡥ⰰ㈠〰਩††††㭽 †素映湩污祬笠 †††挠敬牡楔敭畯⡴楴敭⥲਻††੽੽昊湵瑣潩⁮敲摮牥慂捴剨獥汵獴⤨笠 †攠敬敭瑮⹳慢捴剨獥汵獴椮湮牥呈䱍㴠✠㬧 †挠湯瑳爠捥湥⁴‽瑳瑡⹥慢捴⹨敲畳瑬⹳汳捩⡥ⰰ㈠⤰਻††敲散瑮昮牯慅档⠨敲畳瑬 㸽笠 †††挠湯瑳挠牡⁤‽潤畣敭瑮挮敲瑡䕥敬敭瑮✨楤❶㬩 †††挠牡⹤汣獡乳浡⁥‽戧瑡档挭牡❤਻††††慣摲椮湮牥呈䱍㴠怠 †††††㰠瑳潲杮⌾笤敲畳瑬椮摮硥⬠ㄠ⁽笤敲畳瑬献慴畴味硥絴⼼瑳潲杮ਾ††††††猼慰㹮笤敲畳瑬甮汲㱽猯慰㹮 †††††㰠灳湡␾牻獥汵⹴畤慲楴湯浽⁳꒡␠牻獥汵⹴瑳瑡獵㱽猯慰㹮 †††††㰠灳湡␾牻獥汵⹴牰癥敩絷⼼灳湡ਾ††††㭠 †††攠敬敭瑮⹳慢捴剨獥汵獴愮灰湥䍤楨摬挨牡⥤਻††⥽਻੽昊湵瑣潩⁮敲摮牥慂捴䵨瑥楲獣琨瑯污‬潣灭敬整Ɽ猠捵散獳‬慦汩摥 ੻††汥浥湥獴戮瑡档敍牴捩⹳整瑸潃瑮湥⁴‽呠瑯污␠瑻瑯污⁽꒡䌠浯汰瑥摥␠捻浯汰瑥摥⁽꒡匠捵散獳␠獻捵散獳⁽꒡䘠楡敬⁤笤慦汩摥恽਻ൽ愊祳据映湵瑣潩⁮畲䉮瑡档⤨笠 †椠⁦猨慴整戮瑡档爮湵楮杮 ੻††††敲畴湲਻††੽ †椠⁦ℨ瑳瑡⹥慢捴⹨潲獷氮湥瑧⥨笠 †††猠潨卷慴畴⡳汥浥湥獴戮瑡档瑓瑡獵‬倧敬獡⁥潬摡愠䌠噓堯卌⽘半乏映汩⁥楦獲⹴⤧਻††††敲畴湲਻††੽ †猠潨卷慴畴⡳汥浥湥獴戮瑡档瑓瑡獵‬刧湵楮杮⸮✮㬩 †猠慴整戮瑡档爮湵楮杮㴠琠畲㭥 †猠慴整戮瑡档愮潢瑲㴠映污敳਻††瑳瑡⹥慢捴⹨敲畳瑬⁳‽嵛਻ †挠湯瑳挠湯畣牲湥祣㴠䴠瑡⹨慭⡸ⰱ丠浵敢⡲汥浥湥獴戮瑡档潃据牵敲据⹹慶畬⥥簠⁼⤱਻††潣獮⁴潴慴⁬‽瑳瑡⹥慢捴⹨潲獷氮湥瑧㭨 †氠瑥挠浯汰瑥摥㴠〠਻††敬⁴畳捣獥⁳‽㬰 †氠瑥映楡敬⁤‽㬰 †氠瑥椠摮硥㴠〠਻ †爠湥敤䉲瑡档敍牴捩⡳潴慴ⱬ挠浯汰瑥摥‬畳捣獥ⱳ映楡敬⥤਻††敲摮牥慂捴剨獥汵獴⤨਻ †挠湯瑳眠牯敫⁲‽獡湹⁣⤨㴠‾੻††††桷汩⁥ℨ瑳瑡⹥慢捴⹨扡牯⥴笠 †††††挠湯瑳挠牵敲瑮湉敤⁸‽湩敤㭸 †††††椠⁦挨牵敲瑮湉敤⁸㴾琠瑯污 ੻††††††††牢慥㭫 †††††素 †††††椠摮硥⬠‽㬱 †††††挠湯瑳爠睯㴠猠慴整戮瑡档爮睯孳畣牲湥䥴摮硥㭝 †††††琠祲笠 †††††††挠湯瑳爠獥汵⁴‽睡楡⁴敳摮慂捴剨煥敵瑳爨睯‬畣牲湥䥴摮硥㬩 †††††††挠浯汰瑥摥⬠‽㬱 †††††††椠⁦爨獥汵⹴歯 ੻††††††††††畳捣獥⁳㴫ㄠ਻††††††††⁽汥敳笠 †††††††††映楡敬⁤㴫ㄠ਻††††††††੽††††††††瑳瑡⹥慢捴⹨敲畳瑬⹳湵桳晩⡴੻††††††††††湩敤㩸挠牵敲瑮湉敤ⱸ †††††††††猠慴畴味硥㩴爠獥汵⹴歯㼠✠䭏‧›䘧楡敬❤ਬ††††††††††牵㩬愠灰祬敔灭慬整攨敬敭瑮⹳慢捴啨汲瘮污敵琮楲⡭Ⱙ爠睯‬畣牲湥䥴摮硥Ⱙ †††††††††搠牵瑡潩㩮爠獥汵⹴畤慲楴湯ਬ††††††††††瑳瑡獵›敲畳瑬献慴畴ⱳ †††††††††瀠敲楶睥›敲畳瑬瀮敲楶睥 †††††††素㬩 †††††素挠瑡档⠠牥潲⥲笠 †††††††挠浯汰瑥摥⬠‽㬱 †††††††映楡敬⁤㴫ㄠ਻††††††††瑳瑡⹥慢捴⹨敲畳瑬⹳湵桳晩⡴੻††††††††††湩敤㩸挠牵敲瑮湉敤ⱸ †††††††††猠慴畴味硥㩴✠牅潲❲ਬ††††††††††牵㩬愠灰祬敔灭慬整攨敬敭瑮⹳慢捴啨汲瘮污敵琮楲⡭Ⱙ爠睯‬畣牲湥䥴摮硥Ⱙ †††††††††搠牵瑡潩㩮〠ਬ††††††††††瑳瑡獵›䔧剒Ⱗ †††††††††瀠敲楶睥›牥潲⹲敭獳条⁥籼✠湕湫睯⁮牥潲❲ †††††††素㬩 †††††素 †††††爠湥敤䉲瑡档敍牴捩⡳潴慴ⱬ挠浯汰瑥摥‬畳捣獥ⱳ映楡敬⥤਻††††††敲摮牥慂捴剨獥汵獴⤨਻††††੽††㭽ਊ††睡楡⁴牐浯獩⹥污⡬牁慲⹹牦浯笨氠湥瑧㩨挠湯畣牲湥祣素‬潷歲牥⤩਻ †猠慴整戮瑡档爮湵楮杮㴠映污敳਻††桳睯瑓瑡獵攨敬敭瑮⹳慢捴卨慴畴ⱳ猠慴整戮瑡档愮潢瑲㼠✠瑓灯数⹤‧›䌧浯汰瑥摥✮㬩紊ਊ獡湹⁣畦据楴湯栠湡汤䉥瑡档楆敬攨敶瑮 ੻††潣獮⁴楦敬㴠攠敶瑮琮牡敧⹴楦敬孳崰਻††晩⠠昡汩⥥笠 †††爠瑥牵㭮 †素 †琠祲笠 †††猠慴整戮瑡档爮睯⁳‽睡楡⁴慰獲䉥瑡档楆敬昨汩⥥਻††††桳睯瑓瑡獵攨敬敭瑮⹳慢捴卨慴畴ⱳ怠潌摡摥␠獻慴整戮瑡档爮睯⹳敬杮桴⁽潲獷怮㬩 †素挠瑡档⠠牥潲⥲笠 †††猠潨卷慴畴⡳汥浥湥獴戮瑡档瑓瑡獵‬䘧楡敬⁤潴瀠牡敳映汩⹥⤧਻††੽੽愊祳据映湵瑣潩⁮湩瑩慩楬敺⤨笠 †愠慷瑩氠慯卤慴整⤨਻††灵慤整汇扯污瑓瑡獵⤨਻††敲摮牥畒敬楌瑳⤨਻††敲摮牥捓楲瑰楌瑳⤨਻††敲摮牥潌獧⤨਻††敲敳剴汵䕥楤潴⡲㬩 †爠獥瑥捓楲瑰摅瑩牯⤨਻††灵慤整畒敬䙳牯祔数⤨਻ †攠敬敭瑮⹳畲敬楌瑳愮摤癅湥䱴獩整敮⡲搧慲潧敶❲‬攨敶瑮 㸽笠 †††攠敶瑮瀮敲敶瑮敄慦汵⡴㬩 †††挠湯瑳搠慲杧湩⁧‽汥浥湥獴爮汵䱥獩⹴畱牥卹汥捥潴⡲⸧牤条楧杮⤧਻††††晩⠠搡慲杧湩⥧笠 †††††爠瑥牵㭮 †††素 †††挠湯瑳愠瑦牥汅浥湥⁴‽敧䑴慲䅧瑦牥汅浥湥⡴汥浥湥獴爮汵䱥獩ⱴ攠敶瑮挮楬湥奴㬩 †††椠⁦ℨ晡整䕲敬敭瑮 ੻††††††汥浥湥獴爮汵䱥獩⹴灡数摮桃汩⡤牤条楧杮㬩 †††素攠獬⁥晩⠠晡整䕲敬敭瑮℠㴽搠慲杧湩⥧笠 †††††攠敬敭瑮⹳畲敬楌瑳椮獮牥䉴晥牯⡥牤条楧杮‬晡整䕲敬敭瑮㬩 †††素 †素㬩紊ਊ潤畣敭瑮愮摤癅湥䱴獩整敮⡲䐧䵏潃瑮湥䱴慯敤❤‬湩瑩慩楬敺㬩ਊ汥浥湥獴朮潬慢䕬慮汢摥愮摤癅湥䱴獩整敮⡲挧慨杮❥‬獡湹⁣⤨㴠‾੻††瑳瑡⹥慤慴攮慮汢摥㴠攠敬敭瑮⹳汧扯污湅扡敬⹤档捥敫㭤 †愠慷瑩猠癡卥慴整⤨਻††灵慤整汇扯污瑓瑡獵⤨਻⥽਻攊敬敭瑮⹳敮剷汵䉥湴愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ⠠ 㸽笠 †爠獥瑥畒敬摅瑩牯⤨਻⥽਻攊敬敭瑮⹳畲敬祔数愮摤癅湥䱴獩整敮⡲挧慨杮❥‬灵慤整畒敬䙳牯祔数㬩ਊ汥浥湥獴愮摤敒畱獥䡴慥敤⹲摡䕤敶瑮楌瑳湥牥✨汣捩❫‬⤨㴠‾牣慥整效摡牥潒⡷汥浥湥獴爮煥敵瑳效摡牥䱳獩⥴㬩ਊ汥浥湥獴愮摤敒灳湯敳效摡牥愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ⠠ 㸽挠敲瑡䡥慥敤割睯攨敬敭瑮⹳敲灳湯敳效摡牥䱳獩⥴㬩ਊ汥浥湥獴爮獥瑥畒敬愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ爠獥瑥畒敬摅瑩牯㬩ਊ汥浥湥獴献癡剥汵⹥摡䕤敶瑮楌瑳湥牥✨汣捩❫‬慨摮敬慓敶畒敬㬩ਊ汥浥湥獴爮湵敔瑳愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ爠湵畒敬敔瑳㬩ਊ汥浥湥獴渮睥捓楲瑰瑂⹮摡䕤敶瑮楌瑳湥牥✨汣捩❫‬敲敳却牣灩䕴楤潴⥲਻攊敬敭瑮⹳敲敳却牣灩⹴摡䕤敶瑮楌瑳湥牥✨汣捩❫‬敲敳却牣灩䕴楤潴⥲਻攊敬敭瑮⹳慳敶捓楲瑰愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ栠湡汤卥癡卥牣灩⥴਻攊敬敭瑮⹳慢捴䙨汩⹥摡䕤敶瑮楌瑳湥牥✨档湡敧Ⱗ栠湡汤䉥瑡档楆敬㬩ਊ汥浥湥獴戮瑡档瑓牡⹴摡䕤敶瑮楌瑳湥牥✨汣捩❫‬畲䉮瑡档㬩ਊ汥浥湥獴戮瑡档瑓灯愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ⠠ 㸽笠 †猠慴整戮瑡档愮潢瑲㴠琠畲㭥 †猠潨卷慴畴⡳汥浥湥獴戮瑡档瑓瑡獵‬匧潴灰湩⹧⸮⤧਻⥽਻攊敬敭瑮⹳汣慥䱲杯⹳摡䕤敶瑮楌瑳湥牥✨汣捩❫‬獡湹⁣⤨㴠‾੻††瑳瑡⹥潬獧㴠嬠㭝 †愠慷瑩猠癡䱥杯⡳嵛㬩 †爠湥敤䱲杯⡳㬩紊㬩ਊ汥浥湥獴攮灸牯䉴湴愮摤癅湥䱴獩整敮⡲挧楬正Ⱗ栠湡汤䕥灸牯⥴਻攊敬敭瑮⹳浩潰瑲湉異⹴摡䕤敶瑮楌瑳湥牥✨档湡敧Ⱗ栠湡汤䥥灭牯⥴਻挊牨浯⹥瑳牯条⹥湯桃湡敧⹤摡䱤獩整敮⡲挨慨杮獥‬牡慥 㸽笠 †椠⁦愨敲⁡㴡‽氧捯污⤧笠 †††爠瑥牵㭮 †素 †椠⁦挨慨杮獥卛䅔䕔䭟奅⥝笠 †††猠慴整搮瑡⁡‽档湡敧孳呓呁彅䕋嵙渮睥慖畬⁥籼䐠䙅啁呌卟䅔䕔਻††††灵慤整汇扯污瑓瑡獵⤨਻††††敲摮牥畒敬楌瑳⤨਻††††敲摮牥捓楲瑰楌瑳⤨਻††੽††晩⠠档湡敧孳佌升䭟奅⥝笠 †††猠慴整氮杯⁳‽档湡敧孳佌升䭟奅⹝敮噷污敵簠⁼嵛਻††††敲摮牥潌獧⤨਻††੽⥽഻
+﻿
+const STATE_KEY = 'rrt_state';
+const LOGS_KEY = 'rrt_logs';
+const LANG_KEY = 'rrt_lang';
+
+const DEFAULT_STATE = {
+    enabled: true,
+    rules: [],
+    scripts: []
+};
+
+const state = {
+    data: DEFAULT_STATE,
+    logs: [],
+    editingRuleId: null,
+    editingScriptId: null,
+    batch: {
+        rows: [],
+        running: false,
+        abort: false,
+        results: []
+    }
+};
+
+let currentLang = 'zh_CN';
+let messages = {};
+
+const elements = {
+    globalEnabled: document.getElementById('globalEnabled'),
+    globalStatus: document.getElementById('globalStatus'),
+    ruleCount: document.getElementById('ruleCount'),
+    scriptCount: document.getElementById('scriptCount'),
+    ruleList: document.getElementById('ruleList'),
+    newRuleBtn: document.getElementById('newRuleBtn'),
+    editingBadge: document.getElementById('editingBadge'),
+    ruleName: document.getElementById('ruleName'),
+    ruleType: document.getElementById('ruleType'),
+    rulePriority: document.getElementById('rulePriority'),
+    ruleEnabled: document.getElementById('ruleEnabled'),
+    matchType: document.getElementById('matchType'),
+    matchValue: document.getElementById('matchValue'),
+    redirectFields: document.getElementById('redirectFields'),
+    blockFields: document.getElementById('blockFields'),
+    headersFields: document.getElementById('headersFields'),
+    mockFields: document.getElementById('mockFields'),
+    interceptFields: document.getElementById('interceptFields'),
+    redirectUrl: document.getElementById('redirectUrl'),
+    requestHeadersList: document.getElementById('requestHeadersList'),
+    responseHeadersList: document.getElementById('responseHeadersList'),
+    addRequestHeader: document.getElementById('addRequestHeader'),
+    addResponseHeader: document.getElementById('addResponseHeader'),
+    mockStatus: document.getElementById('mockStatus'),
+    mockContentType: document.getElementById('mockContentType'),
+    mockBody: document.getElementById('mockBody'),
+    interceptRequestMode: document.getElementById('interceptRequestMode'),
+    interceptRequestUrl: document.getElementById('interceptRequestUrl'),
+    interceptRequestHeaders: document.getElementById('interceptRequestHeaders'),
+    interceptRequestBody: document.getElementById('interceptRequestBody'),
+    interceptResponseMode: document.getElementById('interceptResponseMode'),
+    interceptResponseStatus: document.getElementById('interceptResponseStatus'),
+    interceptResponseHeaders: document.getElementById('interceptResponseHeaders'),
+    interceptResponseBody: document.getElementById('interceptResponseBody'),
+    resetRule: document.getElementById('resetRule'),
+    saveRule: document.getElementById('saveRule'),
+    ruleStatus: document.getElementById('ruleStatus'),
+    testUrl: document.getElementById('testUrl'),
+    runTest: document.getElementById('runTest'),
+    testResults: document.getElementById('testResults'),
+    scriptList: document.getElementById('scriptList'),
+    newScriptBtn: document.getElementById('newScriptBtn'),
+    scriptName: document.getElementById('scriptName'),
+    scriptRunAt: document.getElementById('scriptRunAt'),
+    scriptEnabled: document.getElementById('scriptEnabled'),
+    scriptMatchType: document.getElementById('scriptMatchType'),
+    scriptMatchValue: document.getElementById('scriptMatchValue'),
+    scriptJs: document.getElementById('scriptJs'),
+    scriptCss: document.getElementById('scriptCss'),
+    resetScript: document.getElementById('resetScript'),
+    saveScript: document.getElementById('saveScript'),
+    batchUrl: document.getElementById('batchUrl'),
+    batchMethod: document.getElementById('batchMethod'),
+    batchHeaders: document.getElementById('batchHeaders'),
+    batchBody: document.getElementById('batchBody'),
+    batchConcurrency: document.getElementById('batchConcurrency'),
+    batchTimeout: document.getElementById('batchTimeout'),
+    batchFile: document.getElementById('batchFile'),
+    batchStart: document.getElementById('batchStart'),
+    batchStop: document.getElementById('batchStop'),
+    batchStatus: document.getElementById('batchStatus'),
+    batchMetrics: document.getElementById('batchMetrics'),
+    batchResults: document.getElementById('batchResults'),
+    logList: document.getElementById('logList'),
+    clearLogs: document.getElementById('clearLogs'),
+    exportBtn: document.getElementById('exportBtn'),
+    importInput: document.getElementById('importInput'),
+    importStatus: document.getElementById('importStatus'),
+    langToggle: document.getElementById('langToggle')
+};
+
+function msg(key, vars) {
+    const entry = messages[key];
+    let text = entry ? entry.message : key;
+    if (vars) {
+        Object.keys(vars).forEach((name) => {
+            text = text.replace(new RegExp(`\\{${name}\\}`, 'g'), vars[name]);
+        });
+    }
+    return text;
+}
+
+async function loadMessages(lang) {
+    const url = chrome.runtime.getURL(`_locales/${lang}/messages.json`);
+    const response = await fetch(url);
+    return response.json();
+}
+
+async function setLanguage(lang) {
+    currentLang = lang;
+    await chrome.storage.local.set({ [LANG_KEY]: lang });
+    messages = await loadMessages(lang);
+    applyI18n();
+    updateGlobalStatus();
+    renderRuleList();
+    renderScriptList();
+    renderLogs();
+    updateEditingBadge();
+    renderBatchMetricsSnapshot();
+}
+
+function applyI18n() {
+    document.title = msg('app_name');
+    document.documentElement.lang = currentLang === 'en' ? 'en' : 'zh-CN';
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+        el.textContent = msg(el.dataset.i18n);
+    });
+    document.querySelectorAll('[data-placeholder]').forEach((el) => {
+        el.placeholder = msg(el.dataset.placeholder);
+    });
+}
+
+function updateEditingBadge() {
+    const label = state.editingRuleId ? msg('editor_badge_editing') : msg('editor_badge_creating');
+    elements.editingBadge.textContent = label;
+}
+
+function saveState() {
+    return new Promise((resolve) => {
+        chrome.storage.local.set({ [STATE_KEY]: state.data }, resolve);
+    });
+}
+
+function loadState() {
+    return new Promise((resolve) => {
+        chrome.storage.local.get([STATE_KEY, LOGS_KEY, LANG_KEY], (result) => {
+            state.data = result[STATE_KEY] || DEFAULT_STATE;
+            state.logs = result[LOGS_KEY] || [];
+            currentLang = result[LANG_KEY] || 'zh_CN';
+            resolve();
+        });
+    });
+}
+
+function saveLogs(logs) {
+    return new Promise((resolve) => {
+        chrome.storage.local.set({ [LOGS_KEY]: logs }, resolve);
+    });
+}
+
+function showStatus(target, message) {
+    if (!target) {
+        return;
+    }
+    target.textContent = message;
+}
+
+function updateGlobalStatus() {
+    elements.globalEnabled.checked = !!state.data.enabled;
+    elements.globalStatus.textContent = state.data.enabled ? msg('status_enabled') : msg('status_disabled');
+    elements.ruleCount.textContent = String(state.data.rules.length);
+    elements.scriptCount.textContent = String(state.data.scripts.length);
+}
+
+function showFieldsForType(type) {
+    elements.redirectFields.style.display = type === 'redirect' ? 'block' : 'none';
+    elements.blockFields.style.display = type === 'block' ? 'block' : 'none';
+    elements.headersFields.style.display = type === 'headers' ? 'block' : 'none';
+    elements.mockFields.style.display = type === 'mock' ? 'block' : 'none';
+    elements.interceptFields.style.display = type === 'intercept' ? 'block' : 'none';
+}
+
+function createHeaderRow(targetList, data = {}) {
+    const row = document.createElement('div');
+    row.className = 'header-row';
+
+    const headerInput = document.createElement('input');
+    headerInput.placeholder = msg('header_placeholder');
+    headerInput.value = data.header || '';
+
+    const operationSelect = document.createElement('select');
+    ['set', 'remove', 'append'].forEach((operation) => {
+        const option = document.createElement('option');
+        option.value = operation;
+        option.textContent = operation.toUpperCase();
+        if (operation === (data.operation || 'set')) {
+            option.selected = true;
+        }
+        operationSelect.appendChild(option);
+    });
+
+    const valueInput = document.createElement('input');
+    valueInput.placeholder = msg('value_placeholder');
+    valueInput.value = data.value || '';
+
+    const removeBtn = document.createElement('button');
+    removeBtn.className = 'ghost';
+    removeBtn.textContent = msg('action_remove');
+    removeBtn.addEventListener('click', () => row.remove());
+
+    row.appendChild(headerInput);
+    row.appendChild(operationSelect);
+    row.appendChild(valueInput);
+    row.appendChild(removeBtn);
+
+    targetList.appendChild(row);
+}
+
+function collectHeaders(list) {
+    const rows = list.querySelectorAll('.header-row');
+    const headers = [];
+    rows.forEach((row) => {
+        const inputs = row.querySelectorAll('input, select');
+        const header = inputs[0].value.trim();
+        const operation = inputs[1].value;
+        const value = inputs[2].value.trim();
+        if (!header) {
+            return;
+        }
+        headers.push({ header, operation, value: value || undefined });
+    });
+    return headers;
+}
+
+function parseJsonValue(text) {
+    if (!text || !text.trim()) {
+        return null;
+    }
+    return JSON.parse(text);
+}
+
+function matchesUrl(url, match) {
+    if (!match || !match.value) {
+        return false;
+    }
+    if (match.type === 'regex') {
+        try {
+            return new RegExp(match.value).test(url);
+        } catch (error) {
+            return false;
+        }
+    }
+    if (match.type === 'wildcard') {
+        const escaped = match.value.replace(/[.+^${}()|[\\]\\]/g, '\\$&');
+        const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
+        return regex.test(url);
+    }
+    return url.includes(match.value);
+}
+
+function resetRuleEditor() {
+    state.editingRuleId = null;
+    updateEditingBadge();
+    elements.ruleName.value = '';
+    elements.ruleType.value = 'redirect';
+    elements.rulePriority.value = 1;
+    elements.ruleEnabled.value = 'true';
+    elements.matchType.value = 'string';
+    elements.matchValue.value = '';
+    elements.redirectUrl.value = '';
+    elements.mockStatus.value = 200;
+    elements.mockContentType.value = 'application/json';
+    elements.mockBody.value = '';
+    elements.interceptRequestMode.value = 'pass';
+    elements.interceptRequestUrl.value = '';
+    elements.interceptRequestHeaders.value = '';
+    elements.interceptRequestBody.value = '';
+    elements.interceptResponseMode.value = 'pass';
+    elements.interceptResponseStatus.value = 200;
+    elements.interceptResponseHeaders.value = '';
+    elements.interceptResponseBody.value = '';
+    elements.requestHeadersList.innerHTML = '';
+    elements.responseHeadersList.innerHTML = '';
+    showStatus(elements.ruleStatus, '');
+    showFieldsForType('redirect');
+}
+
+function resetScriptEditor() {
+    state.editingScriptId = null;
+    elements.scriptName.value = '';
+    elements.scriptRunAt.value = 'document_start';
+    elements.scriptEnabled.value = 'true';
+    elements.scriptMatchType.value = 'string';
+    elements.scriptMatchValue.value = '';
+    elements.scriptJs.value = '';
+    elements.scriptCss.value = '';
+}
+function ruleTypeLabel(type) {
+    const map = {
+        redirect: 'rule_type_redirect',
+        block: 'rule_type_block',
+        headers: 'rule_type_headers',
+        mock: 'rule_type_mock',
+        intercept: 'rule_type_intercept'
+    };
+    return msg(map[type] || type);
+}
+
+function matchTypeLabel(type) {
+    const map = {
+        string: 'match_type_string',
+        wildcard: 'match_type_wildcard',
+        regex: 'match_type_regex'
+    };
+    return msg(map[type] || type);
+}
+
+function runAtLabel(value) {
+    const map = {
+        document_start: 'script_runat_start',
+        document_end: 'script_runat_ready',
+        document_idle: 'script_runat_idle'
+    };
+    return msg(map[value] || value);
+}
+
+function renderRuleList() {
+    elements.ruleList.innerHTML = '';
+    if (!state.data.rules.length) {
+        const empty = document.createElement('p');
+        empty.className = 'hint';
+        empty.textContent = msg('empty_rules');
+        elements.ruleList.appendChild(empty);
+        return;
+    }
+
+    state.data.rules.forEach((rule) => {
+        const card = document.createElement('div');
+        card.className = 'rule-card';
+        card.draggable = true;
+        card.dataset.ruleId = rule.id;
+
+        const info = document.createElement('div');
+        const title = document.createElement('h3');
+        title.textContent = rule.name || msg('rule_name_label');
+        const meta = document.createElement('div');
+        meta.className = 'rule-meta';
+        meta.innerHTML = `
+            <span>${ruleTypeLabel(rule.type)}</span>
+            <span>${msg('label_priority')} ${rule.priority || 1}</span>
+            <span>${matchTypeLabel(rule.match?.type || 'string')}</span>
+            <span>${rule.match?.value || ''}</span>
+        `;
+        info.appendChild(title);
+        info.appendChild(meta);
+
+        const actions = document.createElement('div');
+        actions.className = 'card-actions';
+
+        const toggle = document.createElement('label');
+        toggle.className = 'switch';
+        const toggleInput = document.createElement('input');
+        toggleInput.type = 'checkbox';
+        toggleInput.checked = !!rule.enabled;
+        const slider = document.createElement('span');
+        slider.className = 'slider';
+        toggle.appendChild(toggleInput);
+        toggle.appendChild(slider);
+        toggleInput.addEventListener('change', async () => {
+            rule.enabled = toggleInput.checked;
+            await saveState();
+            renderRuleList();
+            updateGlobalStatus();
+        });
+
+        const editBtn = document.createElement('button');
+        editBtn.className = 'ghost';
+        editBtn.textContent = msg('action_edit');
+        editBtn.addEventListener('click', () => {
+            loadRuleIntoEditor(rule);
+            setActiveSection('editor');
+        });
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'ghost';
+        deleteBtn.textContent = msg('action_delete');
+        deleteBtn.addEventListener('click', async () => {
+            state.data.rules = state.data.rules.filter((item) => item.id !== rule.id);
+            await saveState();
+            renderRuleList();
+            updateGlobalStatus();
+        });
+
+        actions.appendChild(toggle);
+        actions.appendChild(editBtn);
+        actions.appendChild(deleteBtn);
+
+        card.appendChild(info);
+        card.appendChild(actions);
+
+        attachDragHandlers(card);
+        elements.ruleList.appendChild(card);
+    });
+}
+
+function attachDragHandlers(card) {
+    card.addEventListener('dragstart', () => {
+        card.classList.add('dragging');
+    });
+    card.addEventListener('dragend', async () => {
+        card.classList.remove('dragging');
+        const ids = Array.from(elements.ruleList.querySelectorAll('.rule-card'))
+            .map((item) => Number(item.dataset.ruleId))
+            .filter((id) => !Number.isNaN(id));
+        state.data.rules.sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
+        state.data.rules.forEach((rule, index) => {
+            rule.priority = index + 1;
+        });
+        await saveState();
+        renderRuleList();
+    });
+}
+
+function getDragAfterElement(container, y) {
+    const draggableElements = [...container.querySelectorAll('.rule-card:not(.dragging)')];
+
+    return draggableElements.reduce((closest, child) => {
+        const box = child.getBoundingClientRect();
+        const offset = y - box.top - box.height / 2;
+        if (offset < 0 && offset > closest.offset) {
+            return { offset, element: child };
+        }
+        return closest;
+    }, { offset: Number.NEGATIVE_INFINITY, element: null }).element;
+}
+
+function loadRuleIntoEditor(rule) {
+    state.editingRuleId = rule.id;
+    updateEditingBadge();
+    elements.ruleName.value = rule.name || '';
+    elements.ruleType.value = rule.type;
+    elements.rulePriority.value = rule.priority || 1;
+    elements.ruleEnabled.value = rule.enabled ? 'true' : 'false';
+    elements.matchType.value = rule.match?.type || 'string';
+    elements.matchValue.value = rule.match?.value || '';
+    elements.redirectUrl.value = rule.action?.redirectUrl || '';
+    elements.mockStatus.value = rule.action?.mock?.statusCode || 200;
+    elements.mockContentType.value = rule.action?.mock?.contentType || 'application/json';
+    elements.mockBody.value = rule.action?.mock?.body || '';
+
+    elements.interceptRequestMode.value = rule.action?.request?.mode || 'pass';
+    elements.interceptRequestUrl.value = rule.action?.request?.url || '';
+    elements.interceptRequestHeaders.value = rule.action?.request?.headers
+        ? JSON.stringify(rule.action.request.headers, null, 2)
+        : '';
+    elements.interceptRequestBody.value = rule.action?.request?.body || '';
+    elements.interceptResponseMode.value = rule.action?.response?.mode || 'pass';
+    elements.interceptResponseStatus.value = rule.action?.response?.statusCode || 200;
+    elements.interceptResponseHeaders.value = rule.action?.response?.headers
+        ? JSON.stringify(rule.action.response.headers, null, 2)
+        : '';
+    elements.interceptResponseBody.value = rule.action?.response?.body || '';
+
+    elements.requestHeadersList.innerHTML = '';
+    elements.responseHeadersList.innerHTML = '';
+
+    (rule.action?.requestHeaders || []).forEach((header) => createHeaderRow(elements.requestHeadersList, header));
+    (rule.action?.responseHeaders || []).forEach((header) => createHeaderRow(elements.responseHeadersList, header));
+
+    showFieldsForType(rule.type);
+}
+
+function renderScriptList() {
+    elements.scriptList.innerHTML = '';
+    if (!state.data.scripts.length) {
+        const empty = document.createElement('p');
+        empty.className = 'hint';
+        empty.textContent = msg('empty_scripts');
+        elements.scriptList.appendChild(empty);
+        return;
+    }
+
+    state.data.scripts.forEach((script) => {
+        const card = document.createElement('div');
+        card.className = 'rule-card';
+        const info = document.createElement('div');
+        const title = document.createElement('h3');
+        title.textContent = script.name || msg('script_name_label');
+        const meta = document.createElement('div');
+        meta.className = 'rule-meta';
+        meta.innerHTML = `
+            <span>${runAtLabel(script.runAt)}</span>
+            <span>${matchTypeLabel(script.match?.type || 'string')}</span>
+            <span>${script.match?.value || ''}</span>
+        `;
+        info.appendChild(title);
+        info.appendChild(meta);
+
+        const actions = document.createElement('div');
+        actions.className = 'card-actions';
+
+        const toggle = document.createElement('label');
+        toggle.className = 'switch';
+        const toggleInput = document.createElement('input');
+        toggleInput.type = 'checkbox';
+        toggleInput.checked = !!script.enabled;
+        const slider = document.createElement('span');
+        slider.className = 'slider';
+        toggle.appendChild(toggleInput);
+        toggle.appendChild(slider);
+        toggleInput.addEventListener('change', async () => {
+            script.enabled = toggleInput.checked;
+            await saveState();
+            renderScriptList();
+            updateGlobalStatus();
+        });
+
+        const editBtn = document.createElement('button');
+        editBtn.className = 'ghost';
+        editBtn.textContent = msg('action_edit');
+        editBtn.addEventListener('click', () => {
+            loadScriptIntoEditor(script);
+            setActiveSection('scripts');
+        });
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.className = 'ghost';
+        deleteBtn.textContent = msg('action_delete');
+        deleteBtn.addEventListener('click', async () => {
+            state.data.scripts = state.data.scripts.filter((item) => item.id !== script.id);
+            await saveState();
+            renderScriptList();
+            updateGlobalStatus();
+        });
+
+        actions.appendChild(toggle);
+        actions.appendChild(editBtn);
+        actions.appendChild(deleteBtn);
+
+        card.appendChild(info);
+        card.appendChild(actions);
+
+        elements.scriptList.appendChild(card);
+    });
+}
+
+function loadScriptIntoEditor(script) {
+    state.editingScriptId = script.id;
+    elements.scriptName.value = script.name || '';
+    elements.scriptRunAt.value = script.runAt || 'document_start';
+    elements.scriptEnabled.value = script.enabled ? 'true' : 'false';
+    elements.scriptMatchType.value = script.match?.type || 'string';
+    elements.scriptMatchValue.value = script.match?.value || '';
+    elements.scriptJs.value = script.js || '';
+    elements.scriptCss.value = script.css || '';
+}
+function renderLogs() {
+    elements.logList.innerHTML = '';
+    if (!state.logs.length) {
+        const empty = document.createElement('p');
+        empty.className = 'hint';
+        empty.textContent = msg('empty_logs');
+        elements.logList.appendChild(empty);
+        return;
+    }
+
+    state.logs.forEach((log) => {
+        const item = document.createElement('div');
+        item.className = 'log-item';
+        const title = document.createElement('strong');
+        title.textContent = `${log.ruleName || msg('rules_title')} · ${ruleTypeLabel(log.type || 'unknown')}`;
+        const url = document.createElement('span');
+        url.textContent = log.url || '';
+        const time = document.createElement('span');
+        time.textContent = log.time ? new Date(log.time).toLocaleString() : '';
+        item.appendChild(title);
+        item.appendChild(url);
+        item.appendChild(time);
+        elements.logList.appendChild(item);
+    });
+}
+
+function runRuleTest() {
+    const url = elements.testUrl.value.trim();
+    elements.testResults.innerHTML = '';
+    if (!url) {
+        showStatus(elements.ruleStatus, msg('test_missing_url'));
+        return;
+    }
+
+    const matches = state.data.rules
+        .filter((rule) => matchesUrl(url, rule.match))
+        .sort((a, b) => (a.priority || 1) - (b.priority || 1));
+
+    if (!matches.length) {
+        const row = document.createElement('div');
+        row.className = 'test-row';
+        row.textContent = msg('test_no_match');
+        elements.testResults.appendChild(row);
+        return;
+    }
+
+    matches.forEach((rule, index) => {
+        const row = document.createElement('div');
+        row.className = 'test-row';
+        row.innerHTML = `<span>#${index + 1} ${rule.name || msg('rule_name_label')} (${ruleTypeLabel(rule.type)})</span><span>${msg('label_priority')} ${rule.priority || 1}</span>`;
+        elements.testResults.appendChild(row);
+    });
+}
+
+function getNextRuleId() {
+    const ids = state.data.rules.map((rule) => rule.id || 0);
+    return ids.length ? Math.max(...ids) + 1 : 1;
+}
+
+function getNextScriptId() {
+    return `script-${Date.now()}`;
+}
+
+function updateRulesForType() {
+    showFieldsForType(elements.ruleType.value);
+}
+
+function validateRule(rule) {
+    if (!rule.match.value) {
+        return msg('rule_status_missing_url');
+    }
+    if (rule.match.type === 'regex') {
+        try {
+            new RegExp(rule.match.value);
+        } catch (error) {
+            return msg('rule_status_regex_invalid');
+        }
+    }
+    if (rule.type === 'redirect' && !rule.action.redirectUrl) {
+        return msg('rule_status_redirect_required');
+    }
+    return '';
+}
+
+async function handleSaveRule() {
+    showStatus(elements.ruleStatus, '');
+
+    const rule = {
+        id: state.editingRuleId || getNextRuleId(),
+        name: elements.ruleName.value.trim() || msg('rule_name_label'),
+        type: elements.ruleType.value,
+        priority: Number(elements.rulePriority.value) || 1,
+        enabled: elements.ruleEnabled.value === 'true',
+        match: {
+            type: elements.matchType.value,
+            value: elements.matchValue.value.trim()
+        },
+        action: {}
+    };
+
+    if (rule.type === 'redirect') {
+        rule.action.redirectUrl = elements.redirectUrl.value.trim();
+    }
+
+    if (rule.type === 'headers') {
+        rule.action.requestHeaders = collectHeaders(elements.requestHeadersList);
+        rule.action.responseHeaders = collectHeaders(elements.responseHeadersList);
+    }
+
+    if (rule.type === 'mock') {
+        rule.action.mock = {
+            statusCode: Number(elements.mockStatus.value) || 200,
+            contentType: elements.mockContentType.value.trim() || 'application/json',
+            body: elements.mockBody.value
+        };
+    }
+
+    if (rule.type === 'intercept') {
+        let requestHeaders = null;
+        let responseHeaders = null;
+        try {
+            requestHeaders = parseJsonValue(elements.interceptRequestHeaders.value);
+            responseHeaders = parseJsonValue(elements.interceptResponseHeaders.value);
+        } catch (error) {
+            showStatus(elements.ruleStatus, msg('intercept_headers_invalid'));
+            return;
+        }
+
+        rule.action.request = {
+            mode: elements.interceptRequestMode.value,
+            url: elements.interceptRequestUrl.value.trim() || undefined,
+            headers: requestHeaders || undefined,
+            body: elements.interceptRequestBody.value || undefined
+        };
+        rule.action.response = {
+            mode: elements.interceptResponseMode.value,
+            statusCode: Number(elements.interceptResponseStatus.value) || 200,
+            headers: responseHeaders || undefined,
+            body: elements.interceptResponseBody.value || undefined
+        };
+    }
+
+    const validationError = validateRule(rule);
+    if (validationError) {
+        showStatus(elements.ruleStatus, validationError);
+        return;
+    }
+
+    if (state.editingRuleId) {
+        const index = state.data.rules.findIndex((item) => item.id === state.editingRuleId);
+        if (index !== -1) {
+            state.data.rules[index] = rule;
+        }
+    } else {
+        state.data.rules.push(rule);
+    }
+
+    await saveState();
+    renderRuleList();
+    updateGlobalStatus();
+    resetRuleEditor();
+}
+
+async function handleSaveScript() {
+    const script = {
+        id: state.editingScriptId || getNextScriptId(),
+        name: elements.scriptName.value.trim() || msg('script_name_label'),
+        runAt: elements.scriptRunAt.value,
+        enabled: elements.scriptEnabled.value === 'true',
+        match: {
+            type: elements.scriptMatchType.value,
+            value: elements.scriptMatchValue.value.trim()
+        },
+        js: elements.scriptJs.value,
+        css: elements.scriptCss.value
+    };
+
+    if (state.editingScriptId) {
+        const index = state.data.scripts.findIndex((item) => item.id === state.editingScriptId);
+        if (index !== -1) {
+            state.data.scripts[index] = script;
+        }
+    } else {
+        state.data.scripts.push(script);
+    }
+
+    await saveState();
+    renderScriptList();
+    updateGlobalStatus();
+    resetScriptEditor();
+}
+
+async function handleExport() {
+    const data = JSON.stringify(state.data, null, 2);
+    const blob = new Blob([data], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = 'request-response-tool.json';
+    document.body.appendChild(anchor);
+    anchor.click();
+    anchor.remove();
+    URL.revokeObjectURL(url);
+}
+
+async function handleImport(event) {
+    const file = event.target.files[0];
+    if (!file) {
+        return;
+    }
+    try {
+        const text = await file.text();
+        const parsed = JSON.parse(text);
+        state.data = {
+            enabled: parsed.enabled !== false,
+            rules: Array.isArray(parsed.rules) ? parsed.rules : [],
+            scripts: Array.isArray(parsed.scripts) ? parsed.scripts : []
+        };
+        await saveState();
+        renderRuleList();
+        renderScriptList();
+        updateGlobalStatus();
+        showStatus(elements.importStatus, msg('import_success'));
+    } catch (error) {
+        showStatus(elements.importStatus, msg('import_fail'));
+    } finally {
+        event.target.value = '';
+        setTimeout(() => {
+            showStatus(elements.importStatus, '');
+        }, 2000);
+    }
+}
+
+function parseCsv(text) {
+    const rows = [];
+    let current = '';
+    let inQuotes = false;
+    let row = [];
+
+    for (let i = 0; i < text.length; i += 1) {
+        const char = text[i];
+        const next = text[i + 1];
+
+        if (char === '"') {
+            if (inQuotes && next === '"') {
+                current += '"';
+                i += 1;
+            } else {
+                inQuotes = !inQuotes;
+            }
+        } else if (char === ',' && !inQuotes) {
+            row.push(current);
+            current = '';
+        } else if ((char === '\n' || char === '\r') && !inQuotes) {
+            if (char === '\r' && next === '\n') {
+                i += 1;
+            }
+            row.push(current);
+            current = '';
+            if (row.length > 1 || row[0]) {
+                rows.push(row);
+            }
+            row = [];
+        } else {
+            current += char;
+        }
+    }
+    if (current || row.length) {
+        row.push(current);
+        rows.push(row);
+    }
+
+    if (!rows.length) {
+        return [];
+    }
+
+    const headers = rows.shift().map((header) => header.trim());
+    return rows.map((values) => {
+        const entry = {};
+        headers.forEach((header, index) => {
+            entry[header] = values[index] !== undefined ? values[index] : '';
+        });
+        return entry;
+    });
+}
+
+async function parseBatchFile(file) {
+    const name = file.name.toLowerCase();
+    if (name.endsWith('.csv')) {
+        const text = await file.text();
+        return parseCsv(text);
+    }
+    if (name.endsWith('.json')) {
+        const text = await file.text();
+        const parsed = JSON.parse(text);
+        return Array.isArray(parsed) ? parsed : [];
+    }
+    if (name.endsWith('.xlsx') || name.endsWith('.xls')) {
+        const buffer = await file.arrayBuffer();
+        const workbook = XLSX.read(buffer, { type: 'array' });
+        const sheetName = workbook.SheetNames[0];
+        const sheet = workbook.Sheets[sheetName];
+        return XLSX.utils.sheet_to_json(sheet, { defval: '' });
+    }
+    return [];
+}
+
+function applyTemplate(text, row, index) {
+    if (!text) {
+        return '';
+    }
+    return String(text).replace(/\{\{(.*?)\}\}/g, (match, key) => {
+        const trimmed = key.trim();
+        if (trimmed === 'index') {
+            return String(index + 1);
+        }
+        return row[trimmed] !== undefined ? String(row[trimmed]) : '';
+    });
+}
+
+async function sendBatchRequest(row, index) {
+    const url = applyTemplate(elements.batchUrl.value.trim(), row, index);
+    if (!url) {
+        throw new Error(msg('batch_missing_url'));
+    }
+
+    let headers = {};
+    if (elements.batchHeaders.value.trim()) {
+        const headerText = applyTemplate(elements.batchHeaders.value, row, index);
+        headers = JSON.parse(headerText);
+    }
+
+    const method = elements.batchMethod.value;
+    let body = applyTemplate(elements.batchBody.value, row, index);
+    if (method === 'GET' || method === 'HEAD') {
+        body = undefined;
+    }
+
+    const controller = new AbortController();
+    const timeout = Number(elements.batchTimeout.value) || 15000;
+    const timer = setTimeout(() => controller.abort(), timeout);
+    const start = performance.now();
+
+    try {
+        const response = await fetch(url, {
+            method,
+            headers,
+            body: body || undefined,
+            signal: controller.signal
+        });
+        const text = await response.text();
+        const duration = Math.round(performance.now() - start);
+        return {
+            ok: response.ok,
+            status: response.status,
+            duration,
+            preview: text.slice(0, 200)
+        };
+    } finally {
+        clearTimeout(timer);
+    }
+}
+function renderBatchResults() {
+    elements.batchResults.innerHTML = '';
+    const recent = state.batch.results.slice(0, 20);
+    recent.forEach((result) => {
+        const card = document.createElement('div');
+        card.className = 'batch-card';
+        card.innerHTML = `
+            <strong>#${result.index + 1} ${result.statusText}</strong>
+            <span>${result.url}</span>
+            <span>${result.duration}ms · ${result.status}</span>
+            <span>${result.preview}</span>
+        `;
+        elements.batchResults.appendChild(card);
+    });
+}
+
+function renderBatchMetrics(total, completed, success, failed) {
+    elements.batchMetrics.textContent = msg('batch_metrics_template', {
+        total,
+        completed,
+        success,
+        failed
+    });
+}
+
+function renderBatchMetricsSnapshot() {
+    if (!state.batch.results.length) {
+        elements.batchMetrics.textContent = '';
+    }
+}
+
+async function runBatch() {
+    if (state.batch.running) {
+        return;
+    }
+
+    if (!state.batch.rows.length) {
+        showStatus(elements.batchStatus, msg('batch_status_need_file'));
+        return;
+    }
+
+    showStatus(elements.batchStatus, msg('batch_status_running'));
+    state.batch.running = true;
+    state.batch.abort = false;
+    state.batch.results = [];
+
+    const concurrency = Math.max(1, Number(elements.batchConcurrency.value) || 1);
+    const total = state.batch.rows.length;
+    let completed = 0;
+    let success = 0;
+    let failed = 0;
+    let index = 0;
+
+    renderBatchMetrics(total, completed, success, failed);
+    renderBatchResults();
+
+    const worker = async () => {
+        while (!state.batch.abort) {
+            const currentIndex = index;
+            if (currentIndex >= total) {
+                break;
+            }
+            index += 1;
+            const row = state.batch.rows[currentIndex];
+            try {
+                const result = await sendBatchRequest(row, currentIndex);
+                completed += 1;
+                if (result.ok) {
+                    success += 1;
+                } else {
+                    failed += 1;
+                }
+                state.batch.results.unshift({
+                    index: currentIndex,
+                    statusText: result.ok ? msg('batch_result_ok') : msg('batch_result_failed'),
+                    url: applyTemplate(elements.batchUrl.value.trim(), row, currentIndex),
+                    duration: result.duration,
+                    status: result.status,
+                    preview: result.preview
+                });
+            } catch (error) {
+                completed += 1;
+                failed += 1;
+                state.batch.results.unshift({
+                    index: currentIndex,
+                    statusText: msg('batch_result_error'),
+                    url: applyTemplate(elements.batchUrl.value.trim(), row, currentIndex),
+                    duration: 0,
+                    status: 'ERR',
+                    preview: error.message || msg('batch_unknown_error')
+                });
+            }
+            renderBatchMetrics(total, completed, success, failed);
+            renderBatchResults();
+        }
+    };
+
+    await Promise.all(Array.from({ length: concurrency }, worker));
+
+    state.batch.running = false;
+    showStatus(elements.batchStatus, state.batch.abort ? msg('batch_status_stopped') : msg('batch_status_completed'));
+}
+
+async function handleBatchFile(event) {
+    const file = event.target.files[0];
+    if (!file) {
+        return;
+    }
+    try {
+        state.batch.rows = await parseBatchFile(file);
+        showStatus(elements.batchStatus, msg('batch_status_load_rows', { count: state.batch.rows.length }));
+    } catch (error) {
+        showStatus(elements.batchStatus, msg('batch_status_parse_fail'));
+    }
+}
+
+function setActiveSection(sectionId) {
+    document.querySelectorAll('.panel[data-section]').forEach((panel) => {
+        panel.classList.toggle('active', panel.dataset.section === sectionId);
+    });
+    document.querySelectorAll('.nav-btn').forEach((btn) => {
+        btn.classList.toggle('active', btn.dataset.section === sectionId);
+    });
+}
+
+async function initialize() {
+    await loadState();
+    messages = await loadMessages(currentLang);
+    applyI18n();
+    updateGlobalStatus();
+    renderRuleList();
+    renderScriptList();
+    renderLogs();
+    resetRuleEditor();
+    resetScriptEditor();
+    updateRulesForType();
+    setActiveSection('rules');
+
+    elements.ruleList.addEventListener('dragover', (event) => {
+        event.preventDefault();
+        const dragging = elements.ruleList.querySelector('.dragging');
+        if (!dragging) {
+            return;
+        }
+        const afterElement = getDragAfterElement(elements.ruleList, event.clientY);
+        if (!afterElement) {
+            elements.ruleList.appendChild(dragging);
+        } else if (afterElement !== dragging) {
+            elements.ruleList.insertBefore(dragging, afterElement);
+        }
+    });
+
+    document.querySelectorAll('.nav-btn').forEach((btn) => {
+        btn.addEventListener('click', () => setActiveSection(btn.dataset.section));
+    });
+}
+
+document.addEventListener('DOMContentLoaded', initialize);
+
+elements.globalEnabled.addEventListener('change', async () => {
+    state.data.enabled = elements.globalEnabled.checked;
+    await saveState();
+    updateGlobalStatus();
+});
+
+elements.newRuleBtn.addEventListener('click', () => {
+    resetRuleEditor();
+    setActiveSection('editor');
+});
+
+elements.ruleType.addEventListener('change', updateRulesForType);
+
+elements.addRequestHeader.addEventListener('click', () => createHeaderRow(elements.requestHeadersList));
+
+elements.addResponseHeader.addEventListener('click', () => createHeaderRow(elements.responseHeadersList));
+
+elements.resetRule.addEventListener('click', resetRuleEditor);
+
+elements.saveRule.addEventListener('click', handleSaveRule);
+
+elements.runTest.addEventListener('click', runRuleTest);
+
+elements.newScriptBtn.addEventListener('click', () => {
+    resetScriptEditor();
+    setActiveSection('scripts');
+});
+
+elements.resetScript.addEventListener('click', resetScriptEditor);
+
+elements.saveScript.addEventListener('click', handleSaveScript);
+
+elements.batchFile.addEventListener('change', handleBatchFile);
+
+elements.batchStart.addEventListener('click', runBatch);
+
+elements.batchStop.addEventListener('click', () => {
+    state.batch.abort = true;
+    showStatus(elements.batchStatus, msg('batch_status_stopping'));
+});
+
+elements.clearLogs.addEventListener('click', async () => {
+    state.logs = [];
+    await saveLogs([]);
+    renderLogs();
+});
+
+elements.exportBtn.addEventListener('click', handleExport);
+
+elements.importInput.addEventListener('change', handleImport);
+
+elements.langToggle.addEventListener('click', () => {
+    const next = currentLang === 'zh_CN' ? 'en' : 'zh_CN';
+    setLanguage(next);
+});
+
+chrome.storage.onChanged.addListener((changes, area) => {
+    if (area !== 'local') {
+        return;
+    }
+    if (changes[STATE_KEY]) {
+        state.data = changes[STATE_KEY].newValue || DEFAULT_STATE;
+        updateGlobalStatus();
+        renderRuleList();
+        renderScriptList();
+    }
+    if (changes[LOGS_KEY]) {
+        state.logs = changes[LOGS_KEY].newValue || [];
+        renderLogs();
+    }
+    if (changes[LANG_KEY]) {
+        const nextLang = changes[LANG_KEY].newValue || 'zh_CN';
+        if (nextLang !== currentLang) {
+            setLanguage(nextLang);
+        }
+    }
+});

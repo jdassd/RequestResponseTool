@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,313 +13,328 @@
     <div class="page">
         <header class="hero">
             <div>
-                <p class="eyebrow">Request Response Tool</p>
-                <h1>Shape traffic. Bend headers. Mock anything.</h1>
-                <p class="lede">Create layered request rules with precision. Redirect, block, rewrite headers, intercept bodies, and inject scripts without leaving your browser.</p>
+                <p class="eyebrow" data-i18n="app_name">Request Response Tool</p>
+                <h1 data-i18n="hero_title">掌控请求，精准改写。</h1>
+                <p class="lede" data-i18n="hero_lede">重定向、拦截、修改请求/响应与注入脚本，所有能力集中在一个强大的控制面板。</p>
             </div>
             <div class="hero-card">
                 <div>
-                    <p class="label">Extension Status</p>
+                    <p class="label" data-i18n="status_label">扩展状态</p>
                     <div class="toggle-row">
                         <label class="switch">
                             <input type="checkbox" id="globalEnabled">
                             <span class="slider"></span>
                         </label>
-                        <span id="globalStatus">Enabled</span>
+                        <span id="globalStatus">启用</span>
                     </div>
                 </div>
                 <div class="stats">
                     <div>
-                        <p class="label">Rules</p>
+                        <p class="label" data-i18n="stats_rules">规则</p>
                         <p class="stat" id="ruleCount">0</p>
                     </div>
                     <div>
-                        <p class="label">Scripts</p>
+                        <p class="label" data-i18n="stats_scripts">脚本</p>
                         <p class="stat" id="scriptCount">0</p>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="panel" id="rulesPanel">
+        <nav class="nav">
+            <div class="nav-group">
+                <button class="nav-btn active" data-section="rules" data-i18n="nav_rules">规则库</button>
+                <button class="nav-btn" data-section="editor" data-i18n="nav_editor">规则编辑</button>
+                <button class="nav-btn" data-section="tester" data-i18n="nav_tester">规则测试</button>
+                <button class="nav-btn" data-section="scripts" data-i18n="nav_scripts">脚本注入</button>
+                <button class="nav-btn" data-section="batch" data-i18n="nav_batch">批量请求</button>
+                <button class="nav-btn" data-section="logs" data-i18n="nav_logs">命中日志</button>
+                <button class="nav-btn" data-section="import" data-i18n="nav_import">导入导出</button>
+            </div>
+            <div class="nav-actions">
+                <button class="ghost" id="langToggle" data-i18n="nav_lang">中文 / EN</button>
+            </div>
+        </nav>
+
+        <section class="panel" id="rulesPanel" data-section="rules">
             <div class="panel-header">
                 <div>
-                    <h2>Rules Library</h2>
-                    <p>Drag to reprioritize. Toggle to activate. Everything is stored locally.</p>
+                    <h2 data-i18n="rules_title">规则库</h2>
+                    <p data-i18n="rules_desc">拖拽排序、启用/禁用，每条规则都只存本地。</p>
                 </div>
-                <button class="primary" id="newRuleBtn">New Rule</button>
+                <button class="primary" id="newRuleBtn" data-i18n="rules_new">新建规则</button>
             </div>
             <div class="rule-list" id="ruleList"></div>
         </section>
 
-        <section class="panel" id="editorPanel">
+        <section class="panel" id="editorPanel" data-section="editor">
             <div class="panel-header">
                 <div>
-                    <h2>Rule Editor</h2>
-                    <p>Build a request rule. Choose a match strategy and action.</p>
+                    <h2 data-i18n="editor_title">规则编辑</h2>
+                    <p data-i18n="editor_desc">选择匹配方式与动作，构建精确拦截。</p>
                 </div>
-                <div class="chip" id="editingBadge">Creating</div>
+                <div class="chip" id="editingBadge">创建中</div>
             </div>
 
             <div class="editor-grid">
                 <div class="field">
-                    <label for="ruleName">Rule Name</label>
-                    <input type="text" id="ruleName" placeholder="My staging redirect">
+                    <label for="ruleName" data-i18n="rule_name_label">规则名称</label>
+                    <input type="text" id="ruleName" data-placeholder="rule_name_placeholder" placeholder="本地资源替换">
                 </div>
                 <div class="field">
-                    <label for="ruleType">Rule Type</label>
+                    <label for="ruleType" data-i18n="rule_type_label">规则类型</label>
                     <select id="ruleType">
-                        <option value="redirect">Redirect Request</option>
-                        <option value="block">Block Request</option>
-                        <option value="headers">Modify Headers</option>
-                        <option value="mock">Mock Response</option>
-                        <option value="intercept">Intercept Request/Response</option>
+                        <option value="redirect" data-i18n="rule_type_redirect">重定向请求</option>
+                        <option value="block" data-i18n="rule_type_block">拦截请求</option>
+                        <option value="headers" data-i18n="rule_type_headers">修改 Headers</option>
+                        <option value="mock" data-i18n="rule_type_mock">模拟响应</option>
+                        <option value="intercept" data-i18n="rule_type_intercept">拦截并改写请求/响应</option>
                     </select>
                 </div>
                 <div class="field">
-                    <label for="rulePriority">Priority</label>
+                    <label for="rulePriority" data-i18n="rule_priority_label">优先级</label>
                     <input type="number" id="rulePriority" min="1" value="1">
                 </div>
                 <div class="field">
-                    <label for="ruleEnabled">Active</label>
+                    <label for="ruleEnabled" data-i18n="rule_enabled_label">启用</label>
                     <select id="ruleEnabled">
-                        <option value="true">Enabled</option>
-                        <option value="false">Disabled</option>
+                        <option value="true" data-i18n="rule_enabled_true">启用</option>
+                        <option value="false" data-i18n="rule_enabled_false">停用</option>
                     </select>
                 </div>
             </div>
 
             <div class="subpanel">
-                <h3>Match</h3>
+                <h3 data-i18n="match_title">匹配条件</h3>
                 <div class="editor-grid">
                     <div class="field">
-                        <label for="matchType">Match Type</label>
+                        <label for="matchType" data-i18n="match_type_label">匹配类型</label>
                         <select id="matchType">
-                            <option value="string">String Match</option>
-                            <option value="wildcard">Wildcard</option>
-                            <option value="regex">Regex</option>
+                            <option value="string" data-i18n="match_type_string">字符串</option>
+                            <option value="wildcard" data-i18n="match_type_wildcard">通配符</option>
+                            <option value="regex" data-i18n="match_type_regex">正则</option>
                         </select>
                     </div>
                     <div class="field span-3">
-                        <label for="matchValue">Match Value</label>
-                        <input type="text" id="matchValue" placeholder="https://api.example.com/*">
+                        <label for="matchValue" data-i18n="match_value_label">匹配内容</label>
+                        <input type="text" id="matchValue" data-placeholder="match_value_placeholder" placeholder="https://api.example.com/*">
                     </div>
                 </div>
             </div>
 
             <div class="subpanel" id="redirectFields">
-                <h3>Redirect Target</h3>
+                <h3 data-i18n="redirect_title">重定向目标</h3>
                 <div class="field">
-                    <label for="redirectUrl">Destination URL</label>
-                    <input type="text" id="redirectUrl" placeholder="http://localhost:3000/app.js">
+                    <label for="redirectUrl" data-i18n="redirect_url_label">目标 URL</label>
+                    <input type="text" id="redirectUrl" data-placeholder="redirect_url_placeholder" placeholder="http://localhost:3000/app.js">
                 </div>
             </div>
 
             <div class="subpanel" id="blockFields">
-                <h3>Block Options</h3>
-                <p class="hint">Blocked requests will fail with a connection error.</p>
+                <h3 data-i18n="block_title">拦截选项</h3>
+                <p class="hint" data-i18n="block_hint">命中后请求会显示 failed / blocked。</p>
             </div>
 
             <div class="subpanel" id="headersFields">
-                <h3>Header Modifications</h3>
+                <h3 data-i18n="headers_title">Header 修改</h3>
                 <div class="headers-section">
                     <div class="headers-header">
-                        <p>Request Headers</p>
-                        <button class="ghost" id="addRequestHeader">Add</button>
+                        <p data-i18n="headers_request_label">请求 Headers</p>
+                        <button class="ghost" id="addRequestHeader" data-i18n="headers_add">添加</button>
                     </div>
                     <div class="headers-list" id="requestHeadersList"></div>
                 </div>
                 <div class="headers-section">
                     <div class="headers-header">
-                        <p>Response Headers</p>
-                        <button class="ghost" id="addResponseHeader">Add</button>
+                        <p data-i18n="headers_response_label">响应 Headers</p>
+                        <button class="ghost" id="addResponseHeader" data-i18n="headers_add">添加</button>
                     </div>
                     <div class="headers-list" id="responseHeadersList"></div>
                 </div>
             </div>
 
             <div class="subpanel" id="mockFields">
-                <h3>Mock Response</h3>
+                <h3 data-i18n="mock_title">模拟响应</h3>
                 <div class="editor-grid">
                     <div class="field">
-                        <label for="mockStatus">Status Code</label>
+                        <label for="mockStatus" data-i18n="mock_status_label">状态码</label>
                         <input type="number" id="mockStatus" value="200" min="100" max="599">
                     </div>
                     <div class="field span-3">
-                        <label for="mockContentType">Content-Type</label>
-                        <input type="text" id="mockContentType" placeholder="application/json">
+                        <label for="mockContentType" data-i18n="mock_content_type_label">Content-Type</label>
+                        <input type="text" id="mockContentType" data-placeholder="mock_content_type_placeholder" placeholder="application/json">
                     </div>
                 </div>
                 <div class="field">
-                    <label for="mockBody">Body</label>
-                    <textarea id="mockBody" rows="6" placeholder='{"ok": true}'></textarea>
-                    <p class="hint">Mock responses are served as data URLs in MV3, status code is stored for reference.</p>
+                    <label for="mockBody" data-i18n="mock_body_label">响应内容</label>
+                    <textarea id="mockBody" rows="6" data-placeholder="mock_body_placeholder" placeholder='{"ok": true}'></textarea>
+                    <p class="hint" data-i18n="mock_hint">MV3 使用 data URL 返回响应，状态码仅用于记录展示。</p>
                 </div>
             </div>
 
             <div class="subpanel" id="interceptFields">
-                <h3>Intercept Request + Response</h3>
+                <h3 data-i18n="intercept_title">拦截并改写</h3>
                 <div class="split">
                     <div class="subpanel">
-                        <h4>Request</h4>
+                        <h4 data-i18n="intercept_request_title">请求</h4>
                         <div class="editor-grid">
                             <div class="field">
-                                <label for="interceptRequestMode">Mode</label>
+                                <label for="interceptRequestMode" data-i18n="intercept_request_mode_label">模式</label>
                                 <select id="interceptRequestMode">
-                                    <option value="pass">Pass</option>
-                                    <option value="block">Block</option>
-                                    <option value="modify">Modify</option>
+                                    <option value="pass" data-i18n="intercept_request_mode_pass">放行</option>
+                                    <option value="block" data-i18n="intercept_request_mode_block">拦截</option>
+                                    <option value="modify" data-i18n="intercept_request_mode_modify">改写</option>
                                 </select>
                             </div>
                             <div class="field span-3">
-                                <label for="interceptRequestUrl">Override URL (optional)</label>
-                                <input type="text" id="interceptRequestUrl" placeholder="https://api.example.com/v2">
+                                <label for="interceptRequestUrl" data-i18n="intercept_request_url_label">覆盖 URL（可选）</label>
+                                <input type="text" id="interceptRequestUrl" data-placeholder="intercept_request_url_placeholder" placeholder="https://api.example.com/v2">
                             </div>
                         </div>
                         <div class="field">
-                            <label for="interceptRequestHeaders">Headers JSON</label>
-                            <textarea id="interceptRequestHeaders" rows="4" placeholder='{"X-Trace":"on","X-Remove":null}'></textarea>
+                            <label for="interceptRequestHeaders" data-i18n="intercept_request_headers_label">Headers JSON</label>
+                            <textarea id="interceptRequestHeaders" rows="4" data-placeholder="intercept_request_headers_placeholder" placeholder='{"X-Trace":"on","X-Remove":null}'></textarea>
                         </div>
                         <div class="field">
-                            <label for="interceptRequestBody">Body (raw or JSON)</label>
-                            <textarea id="interceptRequestBody" rows="4" placeholder='{"env":"staging"}'></textarea>
+                            <label for="interceptRequestBody" data-i18n="intercept_request_body_label">Body（原始或 JSON）</label>
+                            <textarea id="interceptRequestBody" rows="4" data-placeholder="intercept_request_body_placeholder" placeholder='{"env":"staging"}'></textarea>
                         </div>
                     </div>
                     <div class="subpanel">
-                        <h4>Response</h4>
+                        <h4 data-i18n="intercept_response_title">响应</h4>
                         <div class="editor-grid">
                             <div class="field">
-                                <label for="interceptResponseMode">Mode</label>
+                                <label for="interceptResponseMode" data-i18n="intercept_response_mode_label">模式</label>
                                 <select id="interceptResponseMode">
-                                    <option value="pass">Pass</option>
-                                    <option value="mock">Mock</option>
-                                    <option value="modify">Modify</option>
+                                    <option value="pass" data-i18n="intercept_response_mode_pass">放行</option>
+                                    <option value="mock" data-i18n="intercept_response_mode_mock">模拟</option>
+                                    <option value="modify" data-i18n="intercept_response_mode_modify">改写</option>
                                 </select>
                             </div>
                             <div class="field">
-                                <label for="interceptResponseStatus">Status Code</label>
+                                <label for="interceptResponseStatus" data-i18n="intercept_response_status_label">状态码</label>
                                 <input type="number" id="interceptResponseStatus" value="200" min="100" max="599">
                             </div>
                         </div>
                         <div class="field">
-                            <label for="interceptResponseHeaders">Headers JSON</label>
-                            <textarea id="interceptResponseHeaders" rows="4" placeholder='{"Content-Type":"application/json"}'></textarea>
+                            <label for="interceptResponseHeaders" data-i18n="intercept_response_headers_label">Headers JSON</label>
+                            <textarea id="interceptResponseHeaders" rows="4" data-placeholder="intercept_response_headers_placeholder" placeholder='{"Content-Type":"application/json"}'></textarea>
                         </div>
                         <div class="field">
-                            <label for="interceptResponseBody">Body Template (use {{body}})</label>
-                            <textarea id="interceptResponseBody" rows="4" placeholder='{"data":{{body}}}'></textarea>
-                            <p class="hint">Use {{body}} to inject the original response text.</p>
+                            <label for="interceptResponseBody" data-i18n="intercept_response_body_label">Body 模板（可用 {{body}}）</label>
+                            <textarea id="interceptResponseBody" rows="4" data-placeholder="intercept_response_body_placeholder" placeholder='{"data":{{body}}}'></textarea>
+                            <p class="hint" data-i18n="intercept_response_body_hint">{{body}} 会被原始响应文本替换。</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="actions">
-                <button class="ghost" id="resetRule">Reset</button>
-                <button class="primary" id="saveRule">Save Rule</button>
+                <button class="ghost" id="resetRule" data-i18n="rule_reset">重置</button>
+                <button class="primary" id="saveRule" data-i18n="rule_save">保存规则</button>
                 <span class="status" id="ruleStatus"></span>
             </div>
         </section>
 
-        <section class="panel" id="testerPanel">
+        <section class="panel" id="testerPanel" data-section="tester">
             <div class="panel-header">
                 <div>
-                    <h2>Rule Tester</h2>
-                    <p>Paste a URL and preview which rules would match.</p>
+                    <h2 data-i18n="tester_title">规则测试</h2>
+                    <p data-i18n="tester_desc">输入 URL，查看匹配的规则顺序。</p>
                 </div>
             </div>
             <div class="editor-grid">
                 <div class="field span-3">
-                    <label for="testUrl">Test URL</label>
-                    <input type="text" id="testUrl" placeholder="https://api.example.com/v1/users">
+                    <label for="testUrl" data-i18n="tester_url_label">测试 URL</label>
+                    <input type="text" id="testUrl" data-placeholder="tester_url_placeholder" placeholder="https://api.example.com/v1/users">
                 </div>
                 <div class="field">
                     <label>&nbsp;</label>
-                    <button class="primary" id="runTest">Run Test</button>
+                    <button class="primary" id="runTest" data-i18n="tester_run">开始测试</button>
                 </div>
             </div>
             <div id="testResults" class="test-results"></div>
         </section>
 
-        <section class="panel" id="scriptPanel">
+        <section class="panel" id="scriptPanel" data-section="scripts">
             <div class="panel-header">
                 <div>
-                    <h2>Script Injection</h2>
-                    <p>Inject small JS/CSS snippets at precise timing.</p>
+                    <h2 data-i18n="scripts_title">脚本注入</h2>
+                    <p data-i18n="scripts_desc">在指定时机注入 JS/CSS。</p>
                 </div>
-                <button class="primary" id="newScriptBtn">New Script</button>
+                <button class="primary" id="newScriptBtn" data-i18n="scripts_new">新建脚本</button>
             </div>
             <div class="rule-list" id="scriptList"></div>
 
             <div class="subpanel">
-                <h3>Script Editor</h3>
+                <h3 data-i18n="script_editor_title">脚本编辑</h3>
                 <div class="editor-grid">
                     <div class="field">
-                        <label for="scriptName">Script Name</label>
-                        <input type="text" id="scriptName" placeholder="Add debug overlay">
+                        <label for="scriptName" data-i18n="script_name_label">脚本名称</label>
+                        <input type="text" id="scriptName" data-placeholder="script_name_placeholder" placeholder="高亮调试">
                     </div>
                     <div class="field">
-                        <label for="scriptRunAt">Run At</label>
+                        <label for="scriptRunAt" data-i18n="script_runat_label">注入时机</label>
                         <select id="scriptRunAt">
-                            <option value="document_start">Document Start</option>
-                            <option value="document_end">DOM Ready</option>
-                            <option value="document_idle">Document Idle</option>
+                            <option value="document_start" data-i18n="script_runat_start">文档开始</option>
+                            <option value="document_end" data-i18n="script_runat_ready">DOM 就绪</option>
+                            <option value="document_idle" data-i18n="script_runat_idle">空闲阶段</option>
                         </select>
                     </div>
                     <div class="field">
-                        <label for="scriptEnabled">Active</label>
+                        <label for="scriptEnabled" data-i18n="script_enabled_label">启用</label>
                         <select id="scriptEnabled">
-                            <option value="true">Enabled</option>
-                            <option value="false">Disabled</option>
+                            <option value="true" data-i18n="script_enabled_true">启用</option>
+                            <option value="false" data-i18n="script_enabled_false">停用</option>
                         </select>
                     </div>
                 </div>
                 <div class="subpanel">
-                    <h3>Match</h3>
+                    <h3 data-i18n="script_match_title">匹配条件</h3>
                     <div class="editor-grid">
                         <div class="field">
-                            <label for="scriptMatchType">Match Type</label>
+                            <label for="scriptMatchType" data-i18n="script_match_type_label">匹配类型</label>
                             <select id="scriptMatchType">
-                                <option value="string">String Match</option>
-                                <option value="wildcard">Wildcard</option>
-                                <option value="regex">Regex</option>
+                                <option value="string" data-i18n="match_type_string">字符串</option>
+                                <option value="wildcard" data-i18n="match_type_wildcard">通配符</option>
+                                <option value="regex" data-i18n="match_type_regex">正则</option>
                             </select>
                         </div>
                         <div class="field span-3">
-                            <label for="scriptMatchValue">Match Value</label>
-                            <input type="text" id="scriptMatchValue" placeholder="*://*.example.com/*">
+                            <label for="scriptMatchValue" data-i18n="script_match_value_label">匹配内容</label>
+                            <input type="text" id="scriptMatchValue" data-placeholder="script_match_value_placeholder" placeholder="*://*.example.com/*">
                         </div>
                     </div>
                 </div>
                 <div class="field">
-                    <label for="scriptJs">JavaScript</label>
-                    <textarea id="scriptJs" rows="6" placeholder="console.log('Injected!');"></textarea>
+                    <label for="scriptJs" data-i18n="script_js_label">JavaScript</label>
+                    <textarea id="scriptJs" rows="6" data-placeholder="script_js_placeholder" placeholder="console.log('Injected!');"></textarea>
                 </div>
                 <div class="field">
-                    <label for="scriptCss">CSS</label>
-                    <textarea id="scriptCss" rows="5" placeholder="body { outline: 4px solid hotpink; }"></textarea>
+                    <label for="scriptCss" data-i18n="script_css_label">CSS</label>
+                    <textarea id="scriptCss" rows="5" data-placeholder="script_css_placeholder" placeholder="body { outline: 4px solid hotpink; }"></textarea>
                 </div>
                 <div class="actions">
-                    <button class="ghost" id="resetScript">Reset</button>
-                    <button class="primary" id="saveScript">Save Script</button>
+                    <button class="ghost" id="resetScript" data-i18n="script_reset">重置</button>
+                    <button class="primary" id="saveScript" data-i18n="script_save">保存脚本</button>
                 </div>
             </div>
         </section>
 
-        <section class="panel" id="batchPanel">
+        <section class="panel" id="batchPanel" data-section="batch">
             <div class="panel-header">
                 <div>
-                    <h2>Batch Request Runner</h2>
-                    <p>Send multi-threaded requests with CSV/XLSX data.</p>
+                    <h2 data-i18n="batch_title">批量请求</h2>
+                    <p data-i18n="batch_desc">读取 CSV/XLSX/JSON 数据并并发发送请求。</p>
                 </div>
             </div>
             <div class="editor-grid">
                 <div class="field span-3">
-                    <label for="batchUrl">Request URL Template</label>
-                    <input type="text" id="batchUrl" placeholder="https://api.example.com/users/{{id}}">
+                    <label for="batchUrl" data-i18n="batch_url_label">请求 URL 模板</label>
+                    <input type="text" id="batchUrl" data-placeholder="batch_url_placeholder" placeholder="https://api.example.com/users/{{id}}">
                 </div>
                 <div class="field">
-                    <label for="batchMethod">Method</label>
+                    <label for="batchMethod" data-i18n="batch_method_label">请求方法</label>
                     <select id="batchMethod">
                         <option value="GET">GET</option>
                         <option value="POST">POST</option>
@@ -329,57 +344,57 @@
                     </select>
                 </div>
                 <div class="field span-3">
-                    <label for="batchHeaders">Headers JSON Template</label>
-                    <textarea id="batchHeaders" rows="3" placeholder='{"Authorization":"Bearer {{token}}"}'></textarea>
+                    <label for="batchHeaders" data-i18n="batch_headers_label">Headers 模板</label>
+                    <textarea id="batchHeaders" rows="3" data-placeholder="batch_headers_placeholder" placeholder='{"Authorization":"Bearer {{token}}"}'></textarea>
                 </div>
                 <div class="field span-3">
-                    <label for="batchBody">Body Template</label>
-                    <textarea id="batchBody" rows="4" placeholder='{"email":"{{email}}"}'></textarea>
+                    <label for="batchBody" data-i18n="batch_body_label">Body 模板</label>
+                    <textarea id="batchBody" rows="4" data-placeholder="batch_body_placeholder" placeholder='{"email":"{{email}}"}'></textarea>
                 </div>
                 <div class="field">
-                    <label for="batchConcurrency">Concurrency</label>
+                    <label for="batchConcurrency" data-i18n="batch_concurrency_label">并发数</label>
                     <input type="number" id="batchConcurrency" value="4" min="1" max="50">
                 </div>
                 <div class="field">
-                    <label for="batchTimeout">Timeout (ms)</label>
+                    <label for="batchTimeout" data-i18n="batch_timeout_label">超时时间（ms）</label>
                     <input type="number" id="batchTimeout" value="15000" min="1000">
                 </div>
             </div>
             <div class="actions">
-                <label class="ghost file-btn">
-                    Load CSV / XLSX / JSON
+                <label class="ghost file-btn" data-i18n="batch_load_button">
+                    导入 CSV / XLSX / JSON
                     <input type="file" id="batchFile" accept=".csv,.xlsx,.xls,.json">
                 </label>
-                <button class="primary" id="batchStart">Start</button>
-                <button class="ghost" id="batchStop">Stop</button>
+                <button class="primary" id="batchStart" data-i18n="batch_start_button">开始</button>
+                <button class="ghost" id="batchStop" data-i18n="batch_stop_button">停止</button>
                 <span class="status" id="batchStatus"></span>
             </div>
             <div class="batch-metrics" id="batchMetrics"></div>
             <div class="batch-results" id="batchResults"></div>
         </section>
 
-        <section class="panel" id="logsPanel">
+        <section class="panel" id="logsPanel" data-section="logs">
             <div class="panel-header">
                 <div>
-                    <h2>Match Logs</h2>
-                    <p>Recent rule hits from declarative rules.</p>
+                    <h2 data-i18n="logs_title">命中日志</h2>
+                    <p data-i18n="logs_desc">记录 declarative 规则命中情况。</p>
                 </div>
-                <button class="ghost" id="clearLogs">Clear Logs</button>
+                <button class="ghost" id="clearLogs" data-i18n="logs_clear">清空日志</button>
             </div>
             <div class="log-list" id="logList"></div>
         </section>
 
-        <section class="panel" id="importExport">
+        <section class="panel" id="importExport" data-section="import">
             <div class="panel-header">
                 <div>
-                    <h2>Import / Export</h2>
-                    <p>Move rules between machines or share with your team.</p>
+                    <h2 data-i18n="import_title">导入 / 导出</h2>
+                    <p data-i18n="import_desc">用 JSON 共享规则配置。</p>
                 </div>
             </div>
             <div class="actions">
-                <button class="ghost" id="exportBtn">Export JSON</button>
-                <label class="ghost file-btn">
-                    Import JSON
+                <button class="ghost" id="exportBtn" data-i18n="export_button">导出 JSON</button>
+                <label class="ghost file-btn" data-i18n="import_button">
+                    导入 JSON
                     <input type="file" id="importInput" accept="application/json">
                 </label>
                 <span id="importStatus" class="hint"></span>
