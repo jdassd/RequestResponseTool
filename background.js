@@ -110,9 +110,6 @@ function getInterceptRules(state) {
       if (!rule.enabled) return false;
       if (rule.groupId && !enabledGroupIds.has(rule.groupId)) return false;
 
-      // Rules that must be handled by JS interceptor:
-      // 1. Type is 'intercept'
-      // 2. Type is 'mock' AND has a delay (DNR cannot delay)
       if (rule.type === 'intercept') return true;
       if (rule.type === 'mock' && rule.action?.mock?.delay > 0) return true;
       return false;
@@ -137,7 +134,6 @@ async function applyDynamicRules(state) {
     if (!rule.enabled) continue;
     if (rule.groupId && !enabledGroupIds.has(rule.groupId)) continue;
     
-    // Skip rules handled by JS interceptor
     if (rule.type === 'intercept') continue;
     if (rule.type === 'mock' && rule.action?.mock?.delay > 0) continue;
 
@@ -172,17 +168,9 @@ async function applyDynamicRules(state) {
       if (!rule.action) continue;
 
       if (rule.action.redirectMode === 'replace') {
-         // String replacement mode
-         // We must use regexFilter to support this via DNR
-         // Transform "substring" match to regex: .*substring.*
-         // And substitution to: \1newstring\2
          const find = rule.action.redirectFind || '';
          const replace = rule.action.redirectReplace || '';
-         
          if (!find) continue;
-
-         // We need to capture the part before and after the 'find' string
-         // Regex: ^(.*)(find)(.*)$
          const escapedFind = escapeRegex(find);
          const matchFragment = matchToRegexFragment(rule.match);
          if (matchFragment) {
@@ -190,13 +178,11 @@ async function applyDynamicRules(state) {
          } else {
            condition.regexFilter = `^((?:.|\\n)*?)${escapedFind}((?:.|\\n)*)$`;
          }
-         delete condition.urlFilter; // regexFilter takes precedence/exclusive
-
+         delete condition.urlFilter;
          action = {
             type: 'redirect',
             redirect: { regexSubstitution: `\\1${replace}\\2` }
          };
-
       } else if (rule.action.redirectUrl) {
          action = {
            type: 'redirect',
@@ -363,15 +349,28 @@ function installInterceptors(rules) {
     return next;
   };
 
-  const applyBodyTemplate = (template, body) => {
+  const applyBodyTemplate = (template, context) => {
     if (template === undefined || template === null) {
-      return body;
+      return context.body;
     }
-    const templateText = String(template);
-    if (templateText.includes('{{body}}')) {
-      return templateText.replace(/\{\{body\}\}/g, body || '');
+    let text = String(template);
+    
+    text = text.replace(/\{\{body\}\}/g, context.body || '');
+    text = text.replace(/\{\{request\.method\}\}/g, context.method || '');
+    text = text.replace(/\{\{request\.url\}\}/g, context.url || '');
+    text = text.replace(/\{\{time\.now\}\}/g, Date.now());
+    text = text.replace(/\{\{random\.uuid\}\}/g, () => self.crypto?.randomUUID ? self.crypto.randomUUID() : Math.random().toString(36).slice(2));
+    text = text.replace(/\{\{random\.int\}\}/g, () => Math.floor(Math.random() * 1000000));
+
+    if (text.includes('{{query.')) {
+        try {
+            const urlObj = new URL(context.url);
+            text = text.replace(/\{\{query\.([^}]+)\}\}/g, (match, key) => {
+                return urlObj.searchParams.get(key) || '';
+            });
+        } catch (error) {}
     }
-    return templateText;
+    return text;
   };
 
   const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -400,7 +399,6 @@ function installInterceptors(rules) {
       return Promise.reject(new Error('Blocked by Request Response Tool'));
     }
 
-    // Determine Delay
     let delay = 0;
     if (rule.type === 'mock') {
         delay = rule.action?.mock?.delay || 0;
@@ -428,7 +426,6 @@ function installInterceptors(rules) {
       }
     }
 
-    // Prepare Request
     const nextRequest = new Request(nextUrl, {
       method: request.method,
       headers,
@@ -444,11 +441,10 @@ function installInterceptors(rules) {
       signal: request.signal
     });
 
-    // Check for Mock Rule (Intercept type or Mock type)
     if (rule.type === 'mock') {
-         // This is a delayed mock rule handled by JS
          const mockData = rule.action?.mock || {};
-         return new Response(mockData.body || '', {
+         const nextBody = applyBodyTemplate(mockData.body, { url, method, body: '' });
+         return new Response(nextBody, {
             status: Number(mockData.statusCode) || 200,
             headers: { 'Content-Type': mockData.contentType || 'application/json' }
          });
@@ -457,7 +453,8 @@ function installInterceptors(rules) {
     const responseAction = rule.action?.response || { mode: 'pass' };
 
     if (responseAction.mode === 'mock') {
-      return new Response(responseAction.body || '', {
+      const nextBody = applyBodyTemplate(responseAction.body, { url, method, body: '' });
+      return new Response(nextBody, {
         status: Number(responseAction.statusCode) || 200,
         headers: responseAction.headers || {}
       });
@@ -467,7 +464,7 @@ function installInterceptors(rules) {
 
     if (responseAction.mode === 'modify') {
       const originalText = await response.text();
-      const nextBody = applyBodyTemplate(responseAction.body, originalText);
+      const nextBody = applyBodyTemplate(responseAction.body, { url, method, body: originalText });
       const nextHeaders = applyHeaders(response.headers, responseAction.headers);
       const status = Number(responseAction.statusCode) || response.status;
       return new Response(nextBody, { status, headers: nextHeaders });
@@ -507,7 +504,6 @@ function installInterceptors(rules) {
       return undefined;
     }
 
-    // Delay Logic for XHR
     let delay = 0;
     if (rule.type === 'mock') {
         delay = rule.action?.mock?.delay || 0;
@@ -545,10 +541,9 @@ function installInterceptors(rules) {
           });
         }
         
-        // Mock Handling
         if (rule.type === 'mock') {
           const mockData = rule.action?.mock || {};
-          const mockBody = mockData.body || '';
+          const mockBody = applyBodyTemplate(mockData.body, { url: meta.url, method: meta.method, body: '' });
           const mockStatus = Number(mockData.statusCode) || 200;
           const mockContentType = mockData.contentType || 'application/json';
           try {
@@ -578,8 +573,8 @@ function installInterceptors(rules) {
             }
             const originalText = this.responseText || '';
             const nextBody = responseAction.mode === 'mock'
-              ? (responseAction.body || '')
-              : applyBodyTemplate(responseAction.body, originalText);
+              ? applyBodyTemplate(responseAction.body, { url: meta.url, method: meta.method, body: '' })
+              : applyBodyTemplate(responseAction.body, { url: meta.url, method: meta.method, body: originalText });
             try {
               Object.defineProperty(this, 'responseText', { get: () => nextBody });
               Object.defineProperty(this, 'response', { get: () => nextBody });

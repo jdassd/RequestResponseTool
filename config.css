@@ -466,6 +466,14 @@ textarea {
     align-items: center;
 }
 
+.header-row.ua-mode {
+    grid-template-columns: 140px 140px minmax(0, 1fr) minmax(0, 220px) auto;
+}
+
+.ua-select {
+    width: 100%;
+}
+
 .file-btn input {
     display: none;
 }

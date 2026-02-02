@@ -81,8 +81,8 @@
   "mock_content_type_label": {"message": "Content-Type"},
   "mock_content_type_placeholder": {"message": "application/json"},
   "mock_body_label": {"message": "响应内容"},
-  "mock_body_placeholder": {"message": "{\"ok\": true}"},
-  "mock_hint": {"message": "MV3 使用 data URL 返回响应，状态码仅用于记录展示。"},
+  "mock_body_placeholder": {"message": "{\"ok\": true, \"id\": \"{{query.id}}\"}"},
+  "mock_hint": {"message": "支持变量: {{body}}, {{query.键名}}, {{request.url}}, {{request.method}}, {{time.now}}, {{random.uuid}}, {{random.int}}。"},
 
   "intercept_title": {"message": "拦截并改写"},
   "intercept_request_title": {"message": "请求"},
@@ -105,9 +105,9 @@
   "intercept_response_status_label": {"message": "状态码"},
   "intercept_response_headers_label": {"message": "Headers JSON"},
   "intercept_response_headers_placeholder": {"message": "{\"Content-Type\":\"application/json\"}"},
-  "intercept_response_body_label": {"message": "Body 模板（可用 {{body}}）"},
-  "intercept_response_body_placeholder": {"message": "{\"data\":{{body}}}"},
-  "intercept_response_body_hint": {"message": "{{body}} 会被原始响应文本替换。"},
+  "intercept_response_body_label": {"message": "Body 模板"},
+  "intercept_response_body_placeholder": {"message": "{\"data\":{{body}}, \"id\":\"{{query.id}}\"}"},
+  "intercept_response_body_hint": {"message": "支持变量如 {{query.id}}, {{time.now}}, {{random.int}}。"},
 
   "rule_reset": {"message": "重置"},
   "rule_save": {"message": "保存规则"},

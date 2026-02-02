@@ -221,6 +221,7 @@ function createHeaderRow(targetList, data = {}) {
     const headerInput = document.createElement('input');
     headerInput.placeholder = msg('header_placeholder');
     headerInput.value = data.header || '';
+    headerInput.setAttribute('list', 'commonHeaders'); // Add list attribute
 
     const operationSelect = document.createElement('select');
     ['set', 'remove', 'append'].forEach((operation) => {
@@ -237,6 +238,50 @@ function createHeaderRow(targetList, data = {}) {
     valueInput.placeholder = msg('value_placeholder');
     valueInput.value = data.value || '';
 
+    // --- UA Preset Logic ---
+    const uaPresets = {
+        'iPhone': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1',
+        'Android': 'Mozilla/5.0 (Linux; Android 13; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36',
+        'iPad': 'Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1',
+        'Desktop': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    };
+
+    const uaSelect = document.createElement('select');
+    uaSelect.className = 'ua-select';
+    uaSelect.style.display = 'none';
+    const defOpt = document.createElement('option');
+    defOpt.textContent = 'Select UA...';
+    defOpt.value = '';
+    uaSelect.appendChild(defOpt);
+    Object.keys(uaPresets).forEach(key => {
+        const opt = document.createElement('option');
+        opt.value = uaPresets[key];
+        opt.textContent = key;
+        uaSelect.appendChild(opt);
+    });
+
+    uaSelect.addEventListener('change', () => {
+        if (uaSelect.value) {
+            valueInput.value = uaSelect.value;
+        }
+    });
+
+    // Show UA select only if header is User-Agent
+    const checkHeader = () => {
+        if (headerInput.value.toLowerCase() === 'user-agent') {
+            row.classList.add('ua-mode');
+            uaSelect.style.display = 'block';
+        } else {
+            row.classList.remove('ua-mode');
+            uaSelect.style.display = 'none';
+        }
+    };
+    
+    headerInput.addEventListener('input', checkHeader);
+    // Initial check
+    setTimeout(checkHeader, 0); 
+    // --- End UA Logic ---
+
     const removeBtn = document.createElement('button');
     removeBtn.className = 'ghost';
     removeBtn.textContent = msg('action_remove');
@@ -245,6 +290,7 @@ function createHeaderRow(targetList, data = {}) {
     row.appendChild(headerInput);
     row.appendChild(operationSelect);
     row.appendChild(valueInput);
+    row.appendChild(uaSelect); // Add to row
     row.appendChild(removeBtn);
 
     targetList.appendChild(row);
