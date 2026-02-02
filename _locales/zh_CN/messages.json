@@ -1,4 +1,4 @@
-﻿{
+{
   "app_name": {"message": "Request Response Tool"},
   "hero_title": {"message": "掌控请求，精准改写。"},
   "hero_lede": {"message": "重定向、拦截、修改请求/响应与注入脚本，所有能力集中在一个强大的控制面板。"},
@@ -20,6 +20,10 @@
   "rules_title": {"message": "规则库"},
   "rules_desc": {"message": "拖拽排序、启用/禁用，每条规则都只存本地。"},
   "rules_new": {"message": "新建规则"},
+  "rules_new_group": {"message": "新建分组"},
+  "rules_ungrouped": {"message": "未分组"},
+  "group_empty": {"message": "空分组"},
+  "group_toggle": {"message": "折叠/展开分组"},
 
   "editor_title": {"message": "规则编辑"},
   "editor_desc": {"message": "选择匹配方式与动作，构建精确拦截。"},
@@ -28,6 +32,8 @@
 
   "rule_name_label": {"message": "规则名称"},
   "rule_name_placeholder": {"message": "本地资源替换"},
+  "rule_group_label": {"message": "分组"},
+  "rule_group_placeholder": {"message": "选择分组"},
   "rule_type_label": {"message": "规则类型"},
   "rule_priority_label": {"message": "优先级"},
   "rule_enabled_label": {"message": "启用"},
@@ -52,8 +58,15 @@
   "match_value_placeholder": {"message": "https://api.example.com/*"},
 
   "redirect_title": {"message": "重定向目标"},
+  "redirect_mode_label": {"message": "模式"},
+  "redirect_mode_url": {"message": "完全重定向"},
+  "redirect_mode_replace": {"message": "字符串替换"},
   "redirect_url_label": {"message": "目标 URL"},
   "redirect_url_placeholder": {"message": "http://localhost:3000/app.js"},
+  "redirect_find_label": {"message": "查找字符串"},
+  "redirect_find_placeholder": {"message": "prod"},
+  "redirect_replace_label": {"message": "替换为"},
+  "redirect_replace_placeholder": {"message": "stage"},
 
   "block_title": {"message": "拦截选项"},
   "block_hint": {"message": "命中后请求会显示 failed / blocked。"},
@@ -162,6 +175,7 @@
   "rule_status_missing_url": {"message": "匹配内容不能为空。"},
   "rule_status_regex_invalid": {"message": "正则表达式无效。"},
   "rule_status_redirect_required": {"message": "需要填写重定向 URL。"},
+  "rule_status_redirect_find_required": {"message": "请填写查找字符串。"},
   "intercept_headers_invalid": {"message": "Headers JSON 无效。"},
   "import_success": {"message": "导入成功。"},
   "import_fail": {"message": "导入失败，JSON 无效。"},

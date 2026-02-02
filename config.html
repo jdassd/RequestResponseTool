@@ -62,7 +62,10 @@
                     <h2 data-i18n="rules_title">规则库</h2>
                     <p data-i18n="rules_desc">拖拽排序、启用/禁用，每条规则都只存本地。</p>
                 </div>
-                <button class="primary" id="newRuleBtn" data-i18n="rules_new">新建规则</button>
+                <div class="actions">
+                    <button class="ghost" id="newGroupBtn" data-i18n="rules_new_group">新建分组</button>
+                    <button class="primary" id="newRuleBtn" data-i18n="rules_new">新建规则</button>
+                </div>
             </div>
             <div class="rule-list" id="ruleList"></div>
         </section>
@@ -77,9 +80,15 @@
             </div>
 
             <div class="editor-grid">
-                <div class="field">
+                <div class="field span-2">
                     <label for="ruleName" data-i18n="rule_name_label">规则名称</label>
                     <input type="text" id="ruleName" data-placeholder="rule_name_placeholder" placeholder="本地资源替换">
+                </div>
+                <div class="field">
+                    <label for="ruleGroup" data-i18n="rule_group_label">分组</label>
+                    <select id="ruleGroup">
+                        <option value="" data-i18n="rule_group_placeholder">选择分组</option>
+                    </select>
                 </div>
                 <div class="field">
                     <label for="ruleType" data-i18n="rule_type_label">规则类型</label>
@@ -135,9 +144,26 @@
 
             <div class="subpanel" id="redirectFields">
                 <h3 data-i18n="redirect_title">重定向目标</h3>
-                <div class="field">
-                    <label for="redirectUrl" data-i18n="redirect_url_label">目标 URL</label>
-                    <input type="text" id="redirectUrl" data-placeholder="redirect_url_placeholder" placeholder="http://localhost:3000/app.js">
+                <div class="editor-grid">
+                    <div class="field">
+                        <label for="redirectMode" data-i18n="redirect_mode_label">模式</label>
+                        <select id="redirectMode">
+                            <option value="url" data-i18n="redirect_mode_url">完全重定向</option>
+                            <option value="replace" data-i18n="redirect_mode_replace">字符串替换</option>
+                        </select>
+                    </div>
+                    <div class="field span-3" id="redirectUrlField">
+                        <label for="redirectUrl" data-i18n="redirect_url_label">目标 URL</label>
+                        <input type="text" id="redirectUrl" data-placeholder="redirect_url_placeholder" placeholder="http://localhost:3000/app.js">
+                    </div>
+                    <div class="field" id="redirectFindField" style="display:none;">
+                        <label for="redirectFind" data-i18n="redirect_find_label">查找字符串</label>
+                        <input type="text" id="redirectFind" data-placeholder="redirect_find_placeholder" placeholder="prod">
+                    </div>
+                    <div class="field span-2" id="redirectReplaceField" style="display:none;">
+                        <label for="redirectReplace" data-i18n="redirect_replace_label">替换为</label>
+                        <input type="text" id="redirectReplace" data-placeholder="redirect_replace_placeholder" placeholder="stage">
+                    </div>
                 </div>
             </div>
 

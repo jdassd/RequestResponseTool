@@ -1,4 +1,4 @@
-﻿{
+{
   "app_name": {"message": "Request Response Tool"},
   "hero_title": {"message": "Shape traffic, rewrite with precision."},
   "hero_lede": {"message": "Redirect, block, rewrite requests/responses, and inject scripts from one powerful control surface."},
@@ -20,6 +20,10 @@
   "rules_title": {"message": "Rules Library"},
   "rules_desc": {"message": "Drag to reorder, toggle to activate. Everything stays local."},
   "rules_new": {"message": "New Rule"},
+  "rules_new_group": {"message": "New Group"},
+  "rules_ungrouped": {"message": "Ungrouped"},
+  "group_empty": {"message": "Empty Group"},
+  "group_toggle": {"message": "Toggle group"},
 
   "editor_title": {"message": "Rule Editor"},
   "editor_desc": {"message": "Choose match strategy and action to build precise intercepts."},
@@ -28,6 +32,8 @@
 
   "rule_name_label": {"message": "Rule Name"},
   "rule_name_placeholder": {"message": "Local asset swap"},
+  "rule_group_label": {"message": "Group"},
+  "rule_group_placeholder": {"message": "Select Group"},
   "rule_type_label": {"message": "Rule Type"},
   "rule_priority_label": {"message": "Priority"},
   "rule_enabled_label": {"message": "Enabled"},
@@ -52,8 +58,15 @@
   "match_value_placeholder": {"message": "https://api.example.com/*"},
 
   "redirect_title": {"message": "Redirect Target"},
+  "redirect_mode_label": {"message": "Mode"},
+  "redirect_mode_url": {"message": "Full Redirect"},
+  "redirect_mode_replace": {"message": "Replace String"},
   "redirect_url_label": {"message": "Destination URL"},
   "redirect_url_placeholder": {"message": "http://localhost:3000/app.js"},
+  "redirect_find_label": {"message": "Find String"},
+  "redirect_find_placeholder": {"message": "prod"},
+  "redirect_replace_label": {"message": "Replace With"},
+  "redirect_replace_placeholder": {"message": "stage"},
 
   "block_title": {"message": "Block Options"},
   "block_hint": {"message": "Blocked requests will show failed / blocked."},
@@ -162,6 +175,7 @@
   "rule_status_missing_url": {"message": "Match value is required."},
   "rule_status_regex_invalid": {"message": "Regex pattern is invalid."},
   "rule_status_redirect_required": {"message": "Redirect URL is required."},
+  "rule_status_redirect_find_required": {"message": "Find string is required."},
   "intercept_headers_invalid": {"message": "Headers JSON is invalid."},
   "import_success": {"message": "Import successful."},
   "import_fail": {"message": "Import failed. Invalid JSON."},

@@ -4,6 +4,7 @@ const LOGS_KEY = 'rrt_logs';
 const DEFAULT_STATE = {
   enabled: true,
   rules: [],
+  groups: [],
   scripts: []
 };
 
@@ -19,6 +20,68 @@ function setState(state) {
   return new Promise((resolve) => {
     chrome.storage.local.set({ [STATE_KEY]: state }, resolve);
   });
+}
+
+function escapeRegex(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function toNonCapturingGroups(pattern) {
+  let result = '';
+  let inClass = false;
+  for (let i = 0; i < pattern.length; i++) {
+    const char = pattern[i];
+    if (char === '\\') {
+      result += char;
+      i += 1;
+      if (i < pattern.length) {
+        result += pattern[i];
+      }
+      continue;
+    }
+    if (char === '[') {
+      inClass = true;
+      result += char;
+      continue;
+    }
+    if (char === ']' && inClass) {
+      inClass = false;
+      result += char;
+      continue;
+    }
+    if (char === '(' && !inClass) {
+      const nextChar = pattern[i + 1];
+      if (nextChar !== '?') {
+        result += '(?:';
+        continue;
+      }
+    }
+    result += char;
+  }
+  return result;
+}
+
+function matchToRegexFragment(match) {
+  if (!match || !match.value) {
+    return null;
+  }
+
+  if (match.type === 'regex') {
+    let fragment = match.value;
+    if (fragment.startsWith('^')) {
+      fragment = fragment.slice(1);
+    }
+    if (fragment.endsWith('$')) {
+      fragment = fragment.slice(0, -1);
+    }
+    return toNonCapturingGroups(fragment);
+  }
+
+  const escaped = escapeRegex(match.value);
+  if (match.type === 'wildcard') {
+    return escaped.replace(/\\\*/g, '.*');
+  }
+  return escaped;
 }
 
 function toUrlFilter(match) {
@@ -39,9 +102,14 @@ function buildDataUrl(mock) {
 }
 
 function getInterceptRules(state) {
+  const groups = state.groups || [];
+  const enabledGroupIds = new Set(groups.filter(g => g.enabled).map(g => g.id));
+
   return (state.rules || [])
     .filter((rule) => {
       if (!rule.enabled) return false;
+      if (rule.groupId && !enabledGroupIds.has(rule.groupId)) return false;
+
       // Rules that must be handled by JS interceptor:
       // 1. Type is 'intercept'
       // 2. Type is 'mock' AND has a delay (DNR cannot delay)
@@ -61,10 +129,15 @@ async function applyDynamicRules(state) {
     return;
   }
 
+  const groups = state.groups || [];
+  const enabledGroupIds = new Set(groups.filter(g => g.enabled).map(g => g.id));
   const addRules = [];
+
   for (const rule of state.rules || []) {
-    // Skip rules handled by JS interceptor
     if (!rule.enabled) continue;
+    if (rule.groupId && !enabledGroupIds.has(rule.groupId)) continue;
+    
+    // Skip rules handled by JS interceptor
     if (rule.type === 'intercept') continue;
     if (rule.type === 'mock' && rule.action?.mock?.delay > 0) continue;
 
@@ -96,13 +169,40 @@ async function applyDynamicRules(state) {
 
     let action = null;
     if (rule.type === 'redirect') {
-      if (!rule.action || !rule.action.redirectUrl) {
-        continue;
+      if (!rule.action) continue;
+
+      if (rule.action.redirectMode === 'replace') {
+         // String replacement mode
+         // We must use regexFilter to support this via DNR
+         // Transform "substring" match to regex: .*substring.*
+         // And substitution to: \1newstring\2
+         const find = rule.action.redirectFind || '';
+         const replace = rule.action.redirectReplace || '';
+         
+         if (!find) continue;
+
+         // We need to capture the part before and after the 'find' string
+         // Regex: ^(.*)(find)(.*)$
+         const escapedFind = escapeRegex(find);
+         const matchFragment = matchToRegexFragment(rule.match);
+         if (matchFragment) {
+           condition.regexFilter = `^((?:.|\\n)*?(?:${matchFragment})(?:.|\\n)*?)${escapedFind}((?:.|\\n)*)$`;
+         } else {
+           condition.regexFilter = `^((?:.|\\n)*?)${escapedFind}((?:.|\\n)*)$`;
+         }
+         delete condition.urlFilter; // regexFilter takes precedence/exclusive
+
+         action = {
+            type: 'redirect',
+            redirect: { regexSubstitution: `\\1${replace}\\2` }
+         };
+
+      } else if (rule.action.redirectUrl) {
+         action = {
+           type: 'redirect',
+           redirect: { url: rule.action.redirectUrl }
+         };
       }
-      action = {
-        type: 'redirect',
-        redirect: { url: rule.action.redirectUrl }
-      };
     } else if (rule.type === 'block') {
       action = { type: 'block' };
     } else if (rule.type === 'headers') {

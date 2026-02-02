@@ -1,4 +1,3 @@
-﻿
 const STATE_KEY = 'rrt_state';
 const LOGS_KEY = 'rrt_logs';
 const LANG_KEY = 'rrt_lang';
@@ -6,6 +5,7 @@ const LANG_KEY = 'rrt_lang';
 const DEFAULT_STATE = {
     enabled: true,
     rules: [],
+    groups: [],
     scripts: []
 };
 
@@ -32,8 +32,10 @@ const elements = {
     scriptCount: document.getElementById('scriptCount'),
     ruleList: document.getElementById('ruleList'),
     newRuleBtn: document.getElementById('newRuleBtn'),
+    newGroupBtn: document.getElementById('newGroupBtn'),
     editingBadge: document.getElementById('editingBadge'),
     ruleName: document.getElementById('ruleName'),
+    ruleGroup: document.getElementById('ruleGroup'),
     ruleType: document.getElementById('ruleType'),
     rulePriority: document.getElementById('rulePriority'),
     ruleEnabled: document.getElementById('ruleEnabled'),
@@ -45,7 +47,13 @@ const elements = {
     headersFields: document.getElementById('headersFields'),
     mockFields: document.getElementById('mockFields'),
     interceptFields: document.getElementById('interceptFields'),
+    redirectMode: document.getElementById('redirectMode'),
     redirectUrl: document.getElementById('redirectUrl'),
+    redirectFind: document.getElementById('redirectFind'),
+    redirectReplace: document.getElementById('redirectReplace'),
+    redirectUrlField: document.getElementById('redirectUrlField'),
+    redirectFindField: document.getElementById('redirectFindField'),
+    redirectReplaceField: document.getElementById('redirectReplaceField'),
     requestHeadersList: document.getElementById('requestHeadersList'),
     responseHeadersList: document.getElementById('responseHeadersList'),
     addRequestHeader: document.getElementById('addRequestHeader'),
@@ -122,6 +130,7 @@ async function setLanguage(lang) {
     await chrome.storage.local.set({ [LANG_KEY]: lang });
     messages = await loadMessages(lang);
     applyI18n();
+    refreshGroupOptions();
     updateGlobalStatus();
     renderRuleList();
     renderScriptList();
@@ -156,6 +165,7 @@ function loadState() {
     return new Promise((resolve) => {
         chrome.storage.local.get([STATE_KEY, LOGS_KEY, LANG_KEY], (result) => {
             state.data = result[STATE_KEY] || DEFAULT_STATE;
+            if (!state.data.groups) { state.data.groups = []; }
             state.logs = result[LOGS_KEY] || [];
             currentLang = result[LANG_KEY] || 'zh_CN';
             resolve();
@@ -189,6 +199,19 @@ function showFieldsForType(type) {
     elements.headersFields.style.display = type === 'headers' ? 'block' : 'none';
     elements.mockFields.style.display = type === 'mock' ? 'block' : 'none';
     elements.interceptFields.style.display = type === 'intercept' ? 'block' : 'none';
+}
+
+function showRedirectFields() {
+    const mode = elements.redirectMode.value;
+    if (mode === 'replace') {
+        elements.redirectUrlField.style.display = 'none';
+        elements.redirectFindField.style.display = 'block';
+        elements.redirectReplaceField.style.display = 'block';
+    } else {
+        elements.redirectUrlField.style.display = 'block';
+        elements.redirectFindField.style.display = 'none';
+        elements.redirectReplaceField.style.display = 'none';
+    }
 }
 
 function createHeaderRow(targetList, data = {}) {
@@ -262,24 +285,48 @@ function matchesUrl(url, match) {
         }
     }
     if (match.type === 'wildcard') {
-        const escaped = match.value.replace(/[.+^${}()|[\\]\\?]/g, '\\$&');
+        const escaped = match.value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
         return regex.test(url);
     }
     return url.includes(match.value);
 }
 
+function refreshGroupOptions() {
+    elements.ruleGroup.innerHTML = '';
+    const def = document.createElement('option');
+    def.value = '';
+    def.textContent = msg('rule_group_placeholder');
+    elements.ruleGroup.appendChild(def);
+    
+    (state.data.groups || []).forEach(g => {
+        const opt = document.createElement('option');
+        opt.value = g.id;
+        opt.textContent = g.name;
+        elements.ruleGroup.appendChild(opt);
+    });
+}
+
 function resetRuleEditor() {
     state.editingRuleId = null;
     updateEditingBadge();
+    refreshGroupOptions();
+    
     elements.ruleName.value = '';
+    elements.ruleGroup.value = '';
     elements.ruleType.value = 'redirect';
     elements.rulePriority.value = 1;
     elements.ruleEnabled.value = 'true';
     elements.ruleMethod.value = '*';
     elements.matchType.value = 'string';
     elements.matchValue.value = '';
+    
+    // Redirect
+    elements.redirectMode.value = 'url';
     elements.redirectUrl.value = '';
+    elements.redirectFind.value = '';
+    elements.redirectReplace.value = '';
+
     elements.mockStatus.value = 200;
     elements.mockDelay.value = 0;
     elements.mockContentType.value = 'application/json';
@@ -297,6 +344,7 @@ function resetRuleEditor() {
     elements.responseHeadersList.innerHTML = '';
     showStatus(elements.ruleStatus, '');
     showFieldsForType('redirect');
+    showRedirectFields();
 }
 
 function resetScriptEditor() {
@@ -338,9 +386,84 @@ function runAtLabel(value) {
     return msg(map[value] || value);
 }
 
+function createRuleCard(rule) {
+    const card = document.createElement('div');
+    card.className = 'rule-card';
+    card.draggable = true;
+    card.dataset.ruleId = rule.id;
+    card.dataset.groupId = rule.groupId ? String(rule.groupId) : 'ungrouped';
+
+    const info = document.createElement('div');
+    const title = document.createElement('h3');
+    title.textContent = rule.name || msg('rule_name_label');
+    const meta = document.createElement('div');
+    meta.className = 'rule-meta';
+    
+    let methodBadge = rule.method && rule.method !== '*' ? `[${rule.method}] ` : '';
+    
+    meta.innerHTML = `
+        <span>${methodBadge}${ruleTypeLabel(rule.type)}</span>
+        <span>${msg('label_priority')} ${rule.priority || 1}</span>
+        <span>${matchTypeLabel(rule.match?.type || 'string')}</span>
+        <span>${rule.match?.value || ''}</span>
+    `;
+    info.appendChild(title);
+    info.appendChild(meta);
+
+    const actions = document.createElement('div');
+    actions.className = 'card-actions';
+
+    const toggle = document.createElement('label');
+    toggle.className = 'switch';
+    const toggleInput = document.createElement('input');
+    toggleInput.type = 'checkbox';
+    toggleInput.checked = !!rule.enabled;
+    const slider = document.createElement('span');
+    slider.className = 'slider';
+    toggle.appendChild(toggleInput);
+    toggle.appendChild(slider);
+    toggleInput.addEventListener('change', async () => {
+        rule.enabled = toggleInput.checked;
+        await saveState();
+        renderRuleList();
+        updateGlobalStatus();
+    });
+
+    const editBtn = document.createElement('button');
+    editBtn.className = 'ghost';
+    editBtn.textContent = msg('action_edit');
+    editBtn.addEventListener('click', () => {
+        loadRuleIntoEditor(rule);
+        setActiveSection('editor');
+    });
+
+    const deleteBtn = document.createElement('button');
+    deleteBtn.className = 'ghost';
+    deleteBtn.textContent = msg('action_delete');
+    deleteBtn.addEventListener('click', async () => {
+        state.data.rules = state.data.rules.filter((item) => item.id !== rule.id);
+        await saveState();
+        renderRuleList();
+        updateGlobalStatus();
+    });
+
+    actions.appendChild(toggle);
+    actions.appendChild(editBtn);
+    actions.appendChild(deleteBtn);
+
+    card.appendChild(info);
+    card.appendChild(actions);
+    
+    attachDragHandlers(card);
+    return card;
+}
+
 function renderRuleList() {
     elements.ruleList.innerHTML = '';
-    if (!state.data.rules.length) {
+    const rules = state.data.rules || [];
+    const groups = state.data.groups || [];
+
+    if (!rules.length && !groups.length) {
         const empty = document.createElement('p');
         empty.className = 'hint';
         empty.textContent = msg('empty_rules');
@@ -348,73 +471,122 @@ function renderRuleList() {
         return;
     }
 
-    state.data.rules.forEach((rule) => {
-        const card = document.createElement('div');
-        card.className = 'rule-card';
-        card.draggable = true;
-        card.dataset.ruleId = rule.id;
+    // Render Groups
+    groups.forEach(group => {
+        const groupEl = document.createElement('div');
+        groupEl.className = 'group-container';
+        if (group.collapsed) {
+            groupEl.classList.add('group-collapsed');
+        }
+        
+        const header = document.createElement('div');
+        header.className = 'group-header';
+        
+        const titleArea = document.createElement('div');
+        titleArea.className = 'group-title';
 
-        const info = document.createElement('div');
+        const toggleBtn = document.createElement('button');
+        toggleBtn.type = 'button';
+        toggleBtn.className = 'group-toggle';
+        toggleBtn.setAttribute('aria-label', msg('group_toggle'));
+        toggleBtn.title = msg('group_toggle');
+        toggleBtn.addEventListener('click', async (event) => {
+            event.stopPropagation();
+            group.collapsed = !group.collapsed;
+            await saveState();
+            renderRuleList();
+        });
+        
         const title = document.createElement('h3');
-        title.textContent = rule.name || msg('rule_name_label');
-        const meta = document.createElement('div');
-        meta.className = 'rule-meta';
-        meta.innerHTML = `
-            <span>${ruleTypeLabel(rule.type)}</span>
-            <span>${msg('label_priority')} ${rule.priority || 1}</span>
-            <span>${matchTypeLabel(rule.match?.type || 'string')}</span>
-            <span>${rule.match?.value || ''}</span>
-        `;
-        info.appendChild(title);
-        info.appendChild(meta);
+        title.textContent = group.name;
 
+        const count = document.createElement('span');
+        count.className = 'group-count';
+        const groupRules = rules.filter(r => r.groupId === group.id);
+        count.textContent = String(groupRules.length);
+        
+        titleArea.appendChild(toggleBtn);
+        titleArea.appendChild(title);
+        titleArea.appendChild(count);
+        
         const actions = document.createElement('div');
         actions.className = 'card-actions';
-
+        
         const toggle = document.createElement('label');
         toggle.className = 'switch';
         const toggleInput = document.createElement('input');
         toggleInput.type = 'checkbox';
-        toggleInput.checked = !!rule.enabled;
+        toggleInput.checked = !!group.enabled;
         const slider = document.createElement('span');
         slider.className = 'slider';
         toggle.appendChild(toggleInput);
         toggle.appendChild(slider);
         toggleInput.addEventListener('change', async () => {
-            rule.enabled = toggleInput.checked;
+            group.enabled = toggleInput.checked;
             await saveState();
-            renderRuleList();
-            updateGlobalStatus();
+            renderRuleList(); // Re-render to show visual state? Maybe just update logic.
         });
-
-        const editBtn = document.createElement('button');
-        editBtn.className = 'ghost';
-        editBtn.textContent = msg('action_edit');
-        editBtn.addEventListener('click', () => {
-            loadRuleIntoEditor(rule);
-            setActiveSection('editor');
+        
+        const delBtn = document.createElement('button');
+        delBtn.className = 'ghost';
+        delBtn.textContent = msg('action_delete');
+        delBtn.addEventListener('click', async () => {
+             // Ungroup rules
+             state.data.rules.forEach(r => {
+                 if (r.groupId === group.id) r.groupId = null;
+             });
+             state.data.groups = state.data.groups.filter(g => g.id !== group.id);
+             await saveState();
+             renderRuleList();
+             refreshGroupOptions();
         });
-
-        const deleteBtn = document.createElement('button');
-        deleteBtn.className = 'ghost';
-        deleteBtn.textContent = msg('action_delete');
-        deleteBtn.addEventListener('click', async () => {
-            state.data.rules = state.data.rules.filter((item) => item.id !== rule.id);
-            await saveState();
-            renderRuleList();
-            updateGlobalStatus();
-        });
-
+        
         actions.appendChild(toggle);
-        actions.appendChild(editBtn);
-        actions.appendChild(deleteBtn);
+        actions.appendChild(delBtn);
+        
+        header.appendChild(titleArea);
+        header.appendChild(actions);
+        groupEl.appendChild(header);
+        
+        const groupList = document.createElement('div');
+        groupList.className = 'group-list';
+        groupList.dataset.groupId = String(group.id);
 
-        card.appendChild(info);
-        card.appendChild(actions);
+        if (groupRules.length) {
+            groupRules.forEach(rule => {
+                groupList.appendChild(createRuleCard(rule));
+            });
+        } else {
+            const emptyHint = document.createElement('p');
+            emptyHint.className = 'hint';
+            emptyHint.style.padding = '10px';
+            emptyHint.textContent = msg('group_empty');
+            groupList.appendChild(emptyHint);
+        }
 
-        attachDragHandlers(card);
-        elements.ruleList.appendChild(card);
+        groupEl.appendChild(groupList);
+        
+        elements.ruleList.appendChild(groupEl);
     });
+
+    // Ungrouped Rules
+    const ungrouped = rules.filter(r => !r.groupId);
+    if (ungrouped.length) {
+        const header = document.createElement('h4');
+        header.textContent = msg('rules_ungrouped');
+        header.className = 'ungrouped-title';
+        elements.ruleList.appendChild(header);
+
+        const ungroupedList = document.createElement('div');
+        ungroupedList.className = 'group-list ungrouped-list';
+        ungroupedList.dataset.groupId = 'ungrouped';
+
+        ungrouped.forEach(rule => {
+            ungroupedList.appendChild(createRuleCard(rule));
+        });
+
+        elements.ruleList.appendChild(ungroupedList);
+    }
 }
 
 function attachDragHandlers(card) {
@@ -426,12 +598,14 @@ function attachDragHandlers(card) {
         const ids = Array.from(elements.ruleList.querySelectorAll('.rule-card'))
             .map((item) => Number(item.dataset.ruleId))
             .filter((id) => !Number.isNaN(id));
+        
+        // Re-sort state.data.rules based on visual order
         state.data.rules.sort((a, b) => ids.indexOf(a.id) - ids.indexOf(b.id));
         state.data.rules.forEach((rule, index) => {
             rule.priority = index + 1;
         });
         await saveState();
-        renderRuleList();
+        // renderRuleList(); // Keep DOM order as source of truth
     });
 }
 
@@ -451,14 +625,30 @@ function getDragAfterElement(container, y) {
 function loadRuleIntoEditor(rule) {
     state.editingRuleId = rule.id;
     updateEditingBadge();
+    refreshGroupOptions();
+    
     elements.ruleName.value = rule.name || '';
+    elements.ruleGroup.value = rule.groupId || '';
     elements.ruleType.value = rule.type;
     elements.rulePriority.value = rule.priority || 1;
     elements.ruleEnabled.value = rule.enabled ? 'true' : 'false';
     elements.ruleMethod.value = rule.method || '*';
     elements.matchType.value = rule.match?.type || 'string';
     elements.matchValue.value = rule.match?.value || '';
-    elements.redirectUrl.value = rule.action?.redirectUrl || '';
+    
+    // Redirect
+    if (rule.type === 'redirect' && rule.action?.redirectMode === 'replace') {
+        elements.redirectMode.value = 'replace';
+        elements.redirectFind.value = rule.action?.redirectFind || '';
+        elements.redirectReplace.value = rule.action?.redirectReplace || '';
+        elements.redirectUrl.value = '';
+    } else {
+        elements.redirectMode.value = 'url';
+        elements.redirectUrl.value = rule.action?.redirectUrl || '';
+        elements.redirectFind.value = '';
+        elements.redirectReplace.value = '';
+    }
+    
     elements.mockStatus.value = rule.action?.mock?.statusCode || 200;
     elements.mockDelay.value = rule.action?.mock?.delay || 0;
     elements.mockContentType.value = rule.action?.mock?.contentType || 'application/json';
@@ -485,6 +675,7 @@ function loadRuleIntoEditor(rule) {
     (rule.action?.responseHeaders || []).forEach((header) => createHeaderRow(elements.responseHeadersList, header));
 
     showFieldsForType(rule.type);
+    showRedirectFields();
 }
 
 function renderScriptList() {
@@ -636,6 +827,9 @@ function getNextScriptId() {
 
 function updateRulesForType() {
     showFieldsForType(elements.ruleType.value);
+    if (elements.ruleType.value === 'redirect') {
+        showRedirectFields();
+    }
 }
 
 function validateRule(rule) {
@@ -649,8 +843,14 @@ function validateRule(rule) {
             return msg('rule_status_regex_invalid');
         }
     }
-    if (rule.type === 'redirect' && !rule.action.redirectUrl) {
-        return msg('rule_status_redirect_required');
+    if (rule.type === 'redirect') {
+        if (rule.action.redirectMode === 'replace') {
+            if (!rule.action.redirectFind || !rule.action.redirectFind.trim()) {
+                return msg('rule_status_redirect_find_required');
+            }
+        } else if (!rule.action.redirectUrl) {
+            return msg('rule_status_redirect_required');
+        }
     }
     return '';
 }
@@ -661,6 +861,7 @@ async function handleSaveRule() {
     const rule = {
         id: state.editingRuleId || getNextRuleId(),
         name: elements.ruleName.value.trim() || msg('rule_name_label'),
+        groupId: Number(elements.ruleGroup.value) || null,
         type: elements.ruleType.value,
         priority: Number(elements.rulePriority.value) || 1,
         enabled: elements.ruleEnabled.value === 'true',
@@ -673,7 +874,10 @@ async function handleSaveRule() {
     };
 
     if (rule.type === 'redirect') {
+        rule.action.redirectMode = elements.redirectMode.value;
         rule.action.redirectUrl = elements.redirectUrl.value.trim();
+        rule.action.redirectFind = elements.redirectFind.value.trim();
+        rule.action.redirectReplace = elements.redirectReplace.value;
     }
 
     if (rule.type === 'headers') {
@@ -790,11 +994,13 @@ async function handleImport(event) {
         state.data = {
             enabled: parsed.enabled !== false,
             rules: Array.isArray(parsed.rules) ? parsed.rules : [],
-            scripts: Array.isArray(parsed.scripts) ? parsed.scripts : []
+            scripts: Array.isArray(parsed.scripts) ? parsed.scripts : [],
+            groups: Array.isArray(parsed.groups) ? parsed.groups : []
         };
         await saveState();
         renderRuleList();
         renderScriptList();
+        refreshGroupOptions();
         updateGlobalStatus();
         showStatus(elements.importStatus, msg('import_success'));
     } catch (error) {
@@ -1080,11 +1286,18 @@ async function initialize() {
         if (!dragging) {
             return;
         }
-        const afterElement = getDragAfterElement(elements.ruleList, event.clientY);
+        const container = event.target.closest('.group-list');
+        if (!container || !elements.ruleList.contains(container)) {
+            return;
+        }
+        if (container.dataset.groupId !== dragging.dataset.groupId) {
+            return;
+        }
+        const afterElement = getDragAfterElement(container, event.clientY);
         if (!afterElement) {
-            elements.ruleList.appendChild(dragging);
+            container.appendChild(dragging);
         } else if (afterElement !== dragging) {
-            elements.ruleList.insertBefore(dragging, afterElement);
+            container.insertBefore(dragging, afterElement);
         }
     });
 
@@ -1101,12 +1314,28 @@ elements.globalEnabled.addEventListener('change', async () => {
     updateGlobalStatus();
 });
 
+elements.newGroupBtn.addEventListener('click', async () => {
+    const name = prompt(msg('rules_new_group'));
+    const trimmed = name ? name.trim() : '';
+    if (trimmed) {
+        state.data.groups.push({
+            id: Date.now(),
+            name: trimmed,
+            enabled: true
+        });
+        await saveState();
+        renderRuleList();
+        refreshGroupOptions();
+    }
+});
+
 elements.newRuleBtn.addEventListener('click', () => {
     resetRuleEditor();
     setActiveSection('editor');
 });
 
 elements.ruleType.addEventListener('change', updateRulesForType);
+elements.redirectMode.addEventListener('change', showRedirectFields);
 
 elements.addRequestHeader.addEventListener('click', () => createHeaderRow(elements.requestHeadersList));
 
