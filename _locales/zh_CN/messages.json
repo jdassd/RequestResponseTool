@@ -39,6 +39,10 @@
   "rule_type_mock": {"message": "模拟响应"},
   "rule_type_intercept": {"message": "拦截并改写请求/响应"},
 
+  "label_method": {"message": "请求方法"},
+  "label_delay": {"message": "延时 (毫秒)"},
+  "method_any": {"message": "任意"},
+
   "match_title": {"message": "匹配条件"},
   "match_type_label": {"message": "匹配类型"},
   "match_value_label": {"message": "匹配内容"},

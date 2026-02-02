@@ -39,6 +39,10 @@
   "rule_type_mock": {"message": "Mock Response"},
   "rule_type_intercept": {"message": "Intercept Request/Response"},
 
+  "label_method": {"message": "Method"},
+  "label_delay": {"message": "Delay (ms)"},
+  "method_any": {"message": "Any"},
+
   "match_title": {"message": "Match"},
   "match_type_label": {"message": "Match Type"},
   "match_value_label": {"message": "Match Value"},

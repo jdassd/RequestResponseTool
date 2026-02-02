@@ -108,6 +108,17 @@
                 <h3 data-i18n="match_title">匹配条件</h3>
                 <div class="editor-grid">
                     <div class="field">
+                        <label for="ruleMethod" data-i18n="label_method">请求方法</label>
+                        <select id="ruleMethod">
+                            <option value="*" data-i18n="method_any">任意</option>
+                            <option value="get">GET</option>
+                            <option value="post">POST</option>
+                            <option value="put">PUT</option>
+                            <option value="delete">DELETE</option>
+                            <option value="patch">PATCH</option>
+                        </select>
+                    </div>
+                    <div class="field">
                         <label for="matchType" data-i18n="match_type_label">匹配类型</label>
                         <select id="matchType">
                             <option value="string" data-i18n="match_type_string">字符串</option>
@@ -115,7 +126,7 @@
                             <option value="regex" data-i18n="match_type_regex">正则</option>
                         </select>
                     </div>
-                    <div class="field span-3">
+                    <div class="field span-2">
                         <label for="matchValue" data-i18n="match_value_label">匹配内容</label>
                         <input type="text" id="matchValue" data-placeholder="match_value_placeholder" placeholder="https://api.example.com/*">
                     </div>
@@ -160,7 +171,11 @@
                         <label for="mockStatus" data-i18n="mock_status_label">状态码</label>
                         <input type="number" id="mockStatus" value="200" min="100" max="599">
                     </div>
-                    <div class="field span-3">
+                    <div class="field">
+                        <label for="mockDelay" data-i18n="label_delay">延时 (毫秒)</label>
+                        <input type="number" id="mockDelay" value="0" min="0">
+                    </div>
+                    <div class="field span-2">
                         <label for="mockContentType" data-i18n="mock_content_type_label">Content-Type</label>
                         <input type="text" id="mockContentType" data-placeholder="mock_content_type_placeholder" placeholder="application/json">
                     </div>
@@ -215,6 +230,10 @@
                                 <label for="interceptResponseStatus" data-i18n="intercept_response_status_label">状态码</label>
                                 <input type="number" id="interceptResponseStatus" value="200" min="100" max="599">
                             </div>
+                        </div>
+                        <div class="field">
+                            <label for="interceptDelay" data-i18n="label_delay">延时 (毫秒)</label>
+                            <input type="number" id="interceptDelay" value="0" min="0">
                         </div>
                         <div class="field">
                             <label for="interceptResponseHeaders" data-i18n="intercept_response_headers_label">Headers JSON</label>

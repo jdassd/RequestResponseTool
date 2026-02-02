@@ -37,6 +37,7 @@ const elements = {
     ruleType: document.getElementById('ruleType'),
     rulePriority: document.getElementById('rulePriority'),
     ruleEnabled: document.getElementById('ruleEnabled'),
+    ruleMethod: document.getElementById('ruleMethod'),
     matchType: document.getElementById('matchType'),
     matchValue: document.getElementById('matchValue'),
     redirectFields: document.getElementById('redirectFields'),
@@ -50,6 +51,7 @@ const elements = {
     addRequestHeader: document.getElementById('addRequestHeader'),
     addResponseHeader: document.getElementById('addResponseHeader'),
     mockStatus: document.getElementById('mockStatus'),
+    mockDelay: document.getElementById('mockDelay'),
     mockContentType: document.getElementById('mockContentType'),
     mockBody: document.getElementById('mockBody'),
     interceptRequestMode: document.getElementById('interceptRequestMode'),
@@ -58,6 +60,7 @@ const elements = {
     interceptRequestBody: document.getElementById('interceptRequestBody'),
     interceptResponseMode: document.getElementById('interceptResponseMode'),
     interceptResponseStatus: document.getElementById('interceptResponseStatus'),
+    interceptDelay: document.getElementById('interceptDelay'),
     interceptResponseHeaders: document.getElementById('interceptResponseHeaders'),
     interceptResponseBody: document.getElementById('interceptResponseBody'),
     resetRule: document.getElementById('resetRule'),
@@ -273,10 +276,12 @@ function resetRuleEditor() {
     elements.ruleType.value = 'redirect';
     elements.rulePriority.value = 1;
     elements.ruleEnabled.value = 'true';
+    elements.ruleMethod.value = '*';
     elements.matchType.value = 'string';
     elements.matchValue.value = '';
     elements.redirectUrl.value = '';
     elements.mockStatus.value = 200;
+    elements.mockDelay.value = 0;
     elements.mockContentType.value = 'application/json';
     elements.mockBody.value = '';
     elements.interceptRequestMode.value = 'pass';
@@ -285,6 +290,7 @@ function resetRuleEditor() {
     elements.interceptRequestBody.value = '';
     elements.interceptResponseMode.value = 'pass';
     elements.interceptResponseStatus.value = 200;
+    elements.interceptDelay.value = 0;
     elements.interceptResponseHeaders.value = '';
     elements.interceptResponseBody.value = '';
     elements.requestHeadersList.innerHTML = '';
@@ -449,10 +455,12 @@ function loadRuleIntoEditor(rule) {
     elements.ruleType.value = rule.type;
     elements.rulePriority.value = rule.priority || 1;
     elements.ruleEnabled.value = rule.enabled ? 'true' : 'false';
+    elements.ruleMethod.value = rule.method || '*';
     elements.matchType.value = rule.match?.type || 'string';
     elements.matchValue.value = rule.match?.value || '';
     elements.redirectUrl.value = rule.action?.redirectUrl || '';
     elements.mockStatus.value = rule.action?.mock?.statusCode || 200;
+    elements.mockDelay.value = rule.action?.mock?.delay || 0;
     elements.mockContentType.value = rule.action?.mock?.contentType || 'application/json';
     elements.mockBody.value = rule.action?.mock?.body || '';
 
@@ -464,6 +472,7 @@ function loadRuleIntoEditor(rule) {
     elements.interceptRequestBody.value = rule.action?.request?.body || '';
     elements.interceptResponseMode.value = rule.action?.response?.mode || 'pass';
     elements.interceptResponseStatus.value = rule.action?.response?.statusCode || 200;
+    elements.interceptDelay.value = rule.action?.response?.delay || 0;
     elements.interceptResponseHeaders.value = rule.action?.response?.headers
         ? JSON.stringify(rule.action.response.headers, null, 2)
         : '';
@@ -655,6 +664,7 @@ async function handleSaveRule() {
         type: elements.ruleType.value,
         priority: Number(elements.rulePriority.value) || 1,
         enabled: elements.ruleEnabled.value === 'true',
+        method: elements.ruleMethod.value,
         match: {
             type: elements.matchType.value,
             value: elements.matchValue.value.trim()
@@ -675,7 +685,8 @@ async function handleSaveRule() {
         rule.action.mock = {
             statusCode: Number(elements.mockStatus.value) || 200,
             contentType: elements.mockContentType.value.trim() || 'application/json',
-            body: elements.mockBody.value
+            body: elements.mockBody.value,
+            delay: Number(elements.mockDelay.value) || 0
         };
     }
 
@@ -700,7 +711,8 @@ async function handleSaveRule() {
             mode: elements.interceptResponseMode.value,
             statusCode: Number(elements.interceptResponseStatus.value) || 200,
             headers: responseHeaders || undefined,
-            body: elements.interceptResponseBody.value || undefined
+            body: elements.interceptResponseBody.value || undefined,
+            delay: Number(elements.interceptDelay.value) || 0
         };
     }
 

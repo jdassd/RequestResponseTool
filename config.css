@@ -326,6 +326,10 @@ textarea {
     grid-column: span 3;
 }
 
+.span-2 {
+    grid-column: span 2;
+}
+
 .subpanel {
     margin-top: 20px;
     padding-top: 16px;

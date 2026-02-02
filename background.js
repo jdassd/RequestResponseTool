@@ -40,7 +40,15 @@ function buildDataUrl(mock) {
 
 function getInterceptRules(state) {
   return (state.rules || [])
-    .filter((rule) => rule.enabled && rule.type === 'intercept')
+    .filter((rule) => {
+      if (!rule.enabled) return false;
+      // Rules that must be handled by JS interceptor:
+      // 1. Type is 'intercept'
+      // 2. Type is 'mock' AND has a delay (DNR cannot delay)
+      if (rule.type === 'intercept') return true;
+      if (rule.type === 'mock' && rule.action?.mock?.delay > 0) return true;
+      return false;
+    })
     .sort((a, b) => (a.priority || 1) - (b.priority || 1));
 }
 
@@ -55,9 +63,10 @@ async function applyDynamicRules(state) {
 
   const addRules = [];
   for (const rule of state.rules || []) {
-    if (!rule.enabled || rule.type === 'intercept') {
-      continue;
-    }
+    // Skip rules handled by JS interceptor
+    if (!rule.enabled) continue;
+    if (rule.type === 'intercept') continue;
+    if (rule.type === 'mock' && rule.action?.mock?.delay > 0) continue;
 
     const match = toUrlFilter(rule.match);
     if (!match) {
@@ -80,6 +89,10 @@ async function applyDynamicRules(state) {
         'other'
       ]
     };
+
+    if (rule.method && rule.method !== '*') {
+      condition.requestMethods = [rule.method.toUpperCase()];
+    }
 
     let action = null;
     if (rule.type === 'redirect') {
@@ -144,7 +157,7 @@ function matchesUrl(url, match) {
     }
   }
   if (match.type === 'wildcard') {
-    const escaped = match.value.replace(/[.+^${}()|[\\]/g, '\\$&');
+    const escaped = match.value.replace(/[.+^${}()|[\]\\?]/g, '\\$&');
     const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
     return regex.test(url);
   }
@@ -210,17 +223,24 @@ function installInterceptors(rules) {
       }
     }
     if (match.type === 'wildcard') {
-      const escaped = match.value.replace(/[.+^${}()|[\\]/g, '\\$&');
+      const escaped = match.value.replace(/[.+^${}()|[\]\\?]/g, '\\$&');
       const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
       return regex.test(url);
     }
     return url.includes(match.value);
   };
 
-  const pickRule = (url) => {
+  const matchMethod = (method, ruleMethod) => {
+    if (!ruleMethod || ruleMethod === '*') {
+      return true;
+    }
+    return (method || 'GET').toUpperCase() === ruleMethod.toUpperCase();
+  };
+
+  const pickRule = (url, method) => {
     const candidates = getRules();
     for (const rule of candidates) {
-      if (matchUrl(url, rule.match)) {
+      if (matchUrl(url, rule.match) && matchMethod(method, rule.method)) {
         return rule;
       }
     }
@@ -254,6 +274,8 @@ function installInterceptors(rules) {
     return templateText;
   };
 
+  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
   if (window.__rrtInterceptorInstalled) {
     window.__rrtInterceptors = rules || [];
     return;
@@ -266,7 +288,9 @@ function installInterceptors(rules) {
   window.fetch = async (input, init) => {
     const request = input instanceof Request ? input : new Request(input, init || {});
     const url = request.url;
-    const rule = pickRule(url);
+    const method = request.method;
+    const rule = pickRule(url, method);
+    
     if (!rule) {
       return originalFetch(input, init);
     }
@@ -274,6 +298,18 @@ function installInterceptors(rules) {
     const requestAction = rule.action?.request || { mode: 'pass' };
     if (requestAction.mode === 'block') {
       return Promise.reject(new Error('Blocked by Request Response Tool'));
+    }
+
+    // Determine Delay
+    let delay = 0;
+    if (rule.type === 'mock') {
+        delay = rule.action?.mock?.delay || 0;
+    } else if (rule.type === 'intercept') {
+        delay = rule.action?.response?.delay || 0;
+    }
+
+    if (delay > 0) {
+        await sleep(delay);
     }
 
     let nextUrl = url;
@@ -292,6 +328,7 @@ function installInterceptors(rules) {
       }
     }
 
+    // Prepare Request
     const nextRequest = new Request(nextUrl, {
       method: request.method,
       headers,
@@ -307,7 +344,16 @@ function installInterceptors(rules) {
       signal: request.signal
     });
 
-    const response = await originalFetch(nextRequest);
+    // Check for Mock Rule (Intercept type or Mock type)
+    if (rule.type === 'mock') {
+         // This is a delayed mock rule handled by JS
+         const mockData = rule.action?.mock || {};
+         return new Response(mockData.body || '', {
+            status: Number(mockData.statusCode) || 200,
+            headers: { 'Content-Type': mockData.contentType || 'application/json' }
+         });
+    }
+
     const responseAction = rule.action?.response || { mode: 'pass' };
 
     if (responseAction.mode === 'mock') {
@@ -316,6 +362,8 @@ function installInterceptors(rules) {
         headers: responseAction.headers || {}
       });
     }
+
+    const response = await originalFetch(nextRequest);
 
     if (responseAction.mode === 'modify') {
       const originalText = await response.text();
@@ -346,7 +394,7 @@ function installInterceptors(rules) {
 
   XMLHttpRequest.prototype.send = function(body) {
     const meta = this.__rrt || {};
-    const rule = meta.url ? pickRule(meta.url) : null;
+    const rule = meta.url ? pickRule(meta.url, meta.method) : null;
 
     if (!rule) {
       return originalSend.call(this, body);
@@ -359,58 +407,99 @@ function installInterceptors(rules) {
       return undefined;
     }
 
-    let nextUrl = meta.url;
-    let nextBody = body;
-    if (requestAction.mode === 'modify') {
-      if (requestAction.url) {
-        nextUrl = requestAction.url;
-      }
-      if (requestAction.body !== undefined) {
-        nextBody = requestAction.body;
-      }
+    // Delay Logic for XHR
+    let delay = 0;
+    if (rule.type === 'mock') {
+        delay = rule.action?.mock?.delay || 0;
+    } else if (rule.type === 'intercept') {
+        delay = rule.action?.response?.delay || 0;
     }
 
-    if (nextUrl !== meta.url) {
-      originalOpen.call(this, meta.method, nextUrl, meta.async, meta.user, meta.password);
-      if (meta.headers) {
-        Object.keys(meta.headers).forEach((key) => {
-          originalSetRequestHeader.call(this, key, meta.headers[key]);
-        });
-      }
-    }
-
-    if (requestAction.mode === 'modify' && requestAction.headers && typeof requestAction.headers === 'object') {
-      Object.keys(requestAction.headers).forEach((key) => {
-        const value = requestAction.headers[key];
-        if (value !== null && value !== undefined) {
-          originalSetRequestHeader.call(this, key, String(value));
-        }
-      });
-    }
-
-    const responseAction = rule.action?.response || { mode: 'pass' };
-    if (responseAction.mode === 'mock' || responseAction.mode === 'modify') {
-      this.addEventListener('readystatechange', () => {
-        if (this.readyState !== 4) {
-          return;
-        }
-        const originalText = this.responseText || '';
-        const nextBody = responseAction.mode === 'mock'
-          ? (responseAction.body || '')
-          : applyBodyTemplate(responseAction.body, originalText);
-        try {
-          Object.defineProperty(this, 'responseText', { get: () => nextBody });
-          Object.defineProperty(this, 'response', { get: () => nextBody });
-          if (responseAction.statusCode) {
-            Object.defineProperty(this, 'status', { get: () => Number(responseAction.statusCode) || 200 });
+    const proceed = () => {
+        let nextUrl = meta.url;
+        let nextBody = body;
+        if (requestAction.mode === 'modify') {
+          if (requestAction.url) {
+            nextUrl = requestAction.url;
           }
-        } catch (error) {
+          if (requestAction.body !== undefined) {
+            nextBody = requestAction.body;
+          }
+        }
+    
+        if (nextUrl !== meta.url) {
+          originalOpen.call(this, meta.method, nextUrl, meta.async, meta.user, meta.password);
+          if (meta.headers) {
+            Object.keys(meta.headers).forEach((key) => {
+              originalSetRequestHeader.call(this, key, meta.headers[key]);
+            });
+          }
+        }
+    
+        if (requestAction.mode === 'modify' && requestAction.headers && typeof requestAction.headers === 'object') {
+          Object.keys(requestAction.headers).forEach((key) => {
+            const value = requestAction.headers[key];
+            if (value !== null && value !== undefined) {
+              originalSetRequestHeader.call(this, key, String(value));
+            }
+          });
+        }
+        
+        // Mock Handling
+        if (rule.type === 'mock') {
+          const mockData = rule.action?.mock || {};
+          const mockBody = mockData.body || '';
+          const mockStatus = Number(mockData.statusCode) || 200;
+          const mockContentType = mockData.contentType || 'application/json';
+          try {
+            Object.defineProperty(this, 'readyState', { get: () => 4 });
+            Object.defineProperty(this, 'status', { get: () => mockStatus });
+            Object.defineProperty(this, 'responseText', { get: () => mockBody });
+            Object.defineProperty(this, 'response', { get: () => mockBody });
+            Object.defineProperty(this, 'getResponseHeader', {
+              value: (name) => (name && name.toLowerCase() === 'content-type' ? mockContentType : null)
+            });
+          } catch (error) {
+            return originalSend.call(this, nextBody);
+          }
+
+          setTimeout(() => {
+            this.dispatchEvent(new Event('readystatechange'));
+            this.dispatchEvent(new Event('load'));
+          }, 10);
           return;
         }
-      });
-    }
+    
+        const responseAction = rule.action?.response || { mode: 'pass' };
+        if (responseAction.mode === 'mock' || responseAction.mode === 'modify') {
+          this.addEventListener('readystatechange', () => {
+            if (this.readyState !== 4) {
+              return;
+            }
+            const originalText = this.responseText || '';
+            const nextBody = responseAction.mode === 'mock'
+              ? (responseAction.body || '')
+              : applyBodyTemplate(responseAction.body, originalText);
+            try {
+              Object.defineProperty(this, 'responseText', { get: () => nextBody });
+              Object.defineProperty(this, 'response', { get: () => nextBody });
+              if (responseAction.statusCode) {
+                Object.defineProperty(this, 'status', { get: () => Number(responseAction.statusCode) || 200 });
+              }
+            } catch (error) {
+              return;
+            }
+          });
+        }
+    
+        return originalSend.call(this, nextBody);
+    };
 
-    return originalSend.call(this, nextBody);
+    if (delay > 0) {
+        sleep(delay).then(proceed);
+    } else {
+        proceed();
+    }
   };
 }
 
