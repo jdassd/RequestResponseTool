@@ -259,7 +259,7 @@ function matchesUrl(url, match) {
         }
     }
     if (match.type === 'wildcard') {
-        const escaped = match.value.replace(/[.+^${}()|[\\]\\]/g, '\\$&');
+        const escaped = match.value.replace(/[.+^${}()|[\\]\\?]/g, '\\$&');
         const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
         return regex.test(url);
     }

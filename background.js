@@ -144,7 +144,7 @@ function matchesUrl(url, match) {
     }
   }
   if (match.type === 'wildcard') {
-    const escaped = match.value.replace(/[.+^${}()|[\]\\]/g, '\\$&');
+    const escaped = match.value.replace(/[.+^${}()|[\\]/g, '\\$&');
     const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
     return regex.test(url);
   }
@@ -210,7 +210,7 @@ function installInterceptors(rules) {
       }
     }
     if (match.type === 'wildcard') {
-      const escaped = match.value.replace(/[.+^${}()|[\]\\]/g, '\\$&');
+      const escaped = match.value.replace(/[.+^${}()|[\\]/g, '\\$&');
       const regex = new RegExp('^' + escaped.replace(/\*/g, '.*') + '$');
       return regex.test(url);
     }
@@ -333,8 +333,15 @@ function installInterceptors(rules) {
   const originalSetRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
 
   XMLHttpRequest.prototype.open = function(method, url, async, user, password) {
-    this.__rrt = { method, url, async, user, password };
+    this.__rrt = { method, url, async, user, password, headers: {} };
     return originalOpen.apply(this, arguments);
+  };
+
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    if (this.__rrt && this.__rrt.headers) {
+      this.__rrt.headers[header] = value;
+    }
+    return originalSetRequestHeader.apply(this, arguments);
   };
 
   XMLHttpRequest.prototype.send = function(body) {
@@ -361,18 +368,24 @@ function installInterceptors(rules) {
       if (requestAction.body !== undefined) {
         nextBody = requestAction.body;
       }
-      if (requestAction.headers && typeof requestAction.headers === 'object') {
-        Object.keys(requestAction.headers).forEach((key) => {
-          const value = requestAction.headers[key];
-          if (value !== null && value !== undefined) {
-            originalSetRequestHeader.call(this, key, String(value));
-          }
-        });
-      }
     }
 
     if (nextUrl !== meta.url) {
       originalOpen.call(this, meta.method, nextUrl, meta.async, meta.user, meta.password);
+      if (meta.headers) {
+        Object.keys(meta.headers).forEach((key) => {
+          originalSetRequestHeader.call(this, key, meta.headers[key]);
+        });
+      }
+    }
+
+    if (requestAction.mode === 'modify' && requestAction.headers && typeof requestAction.headers === 'object') {
+      Object.keys(requestAction.headers).forEach((key) => {
+        const value = requestAction.headers[key];
+        if (value !== null && value !== undefined) {
+          originalSetRequestHeader.call(this, key, String(value));
+        }
+      });
     }
 
     const responseAction = rule.action?.response || { mode: 'pass' };
